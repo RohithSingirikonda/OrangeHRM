@@ -1,7 +1,6 @@
 package com.HRM.util;
 
 
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -23,7 +22,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Xls_Reader {
-	public static String filename = System.getProperty("user.dir")+"/src/main/java/com/qa/testdata/NewToursTestData.xlsx";
+	//public static String filename = System.getProperty("user.dir")+"\\src\\com\\qtpselenium\\xlsx\\Suite.xlsx";
 	public  String path;
 	public  FileInputStream fis = null;
 	public  FileOutputStream fileOut =null;
@@ -227,7 +226,8 @@ public Xls_Reader(String path) {
 		    //cs.setWrapText(true);
 		    //cell.setCellStyle(cs);
 		    cell.setCellValue(data);
-
+		    
+		    Thread.sleep(100);								//By Rohith Singirikonda
 		    fileOut = new FileOutputStream(path);
 
 			workbook.write(fileOut);
@@ -373,7 +373,6 @@ public Xls_Reader(String path) {
 		        
 		        cell.setCellValue(colName);
 		        cell.setCellStyle(style);
-		        
 		        fileOut = new FileOutputStream(path);
 				workbook.write(fileOut);
 			    fileOut.close();		    

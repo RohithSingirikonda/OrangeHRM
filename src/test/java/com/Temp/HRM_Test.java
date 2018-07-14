@@ -7,7 +7,7 @@ import com.HRM.util.Xls_Reader;
 
 public class HRM_Test {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		String Sheet_Name ="logins";
 			
@@ -18,10 +18,11 @@ public class HRM_Test {
 		
 		for (int rowNum = 2; rowNum <=rowCount; rowNum++) {
 	
-			System.setProperty("webdriver.chrome.driver","C:\\Softwares\\Extracted Files\\chromedriver_win32 new\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/drivers/chromedriver.exe");
 			ChromeDriver driver = new ChromeDriver();
-		
+			driver.manage().window().maximize();
 			driver.get("https://rohith-trials641.orangehrmlive.com/");
+			
 		
 			String email = reader.getCellData(Sheet_Name, "username", rowNum);	
 			String pass = reader.getCellData(Sheet_Name, "password", rowNum);
@@ -34,16 +35,18 @@ public class HRM_Test {
 			String urlB = driver.getCurrentUrl();
 			
 			if (!urlB.equals(urlA)) {
-					System.out.println(driver.getTitle());
+					System.out.println("Login Successfull");
 					reader.setCellData(Sheet_Name, "Actual", rowNum, driver.getTitle());
 			} else {
+				System.out.println("Login Failed");
 				String alert = driver.findElement(By.xpath("//span[@id='spanMessage']")).getText();
 				reader.setCellData(Sheet_Name, "Actual", rowNum, alert);
-				System.out.println("Login Failed");
 			}
 			
 			String expected = reader.getCellData(Sheet_Name, "Expected", rowNum);
 			String actual = reader.getCellData(Sheet_Name, "Actual", rowNum);
+			
+			Thread.sleep(1000);
 			
 			if (actual.equals(expected)) {
 				reader.setCellData(Sheet_Name, "Status", rowNum, "Pass");
