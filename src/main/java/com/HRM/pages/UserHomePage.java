@@ -6,8 +6,7 @@ public class UserHomePage extends TestBase{
 
 	
 	
-	
-	
+
 	public String UserHomePageTitle(){
 		return driver.getTitle();
 	}

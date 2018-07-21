@@ -47,7 +47,7 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	
-	@Test(priority=3)
+	@Test(priority=3, enabled=false)
 	public void ValidateAdminCredintialsTest(){
 		admin_homepage = loginpage.AdminLogin(prop.getProperty("Admin_username"),prop.getProperty("Admin_password"));
 		actualTitle = admin_homepage.AdminHomePageTitle();

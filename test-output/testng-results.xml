@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Orange HRM Test Suite" duration-ms="159664" started-at="2018-07-13T07:20:32Z" finished-at="2018-07-13T07:23:11Z">
+  <suite name="Orange HRM Test Suite" duration-ms="60066" started-at="2018-07-21T10:52:37Z" finished-at="2018-07-21T10:53:37Z">
     <groups>
     </groups>
-    <test name="Orange HRM Test Cases" duration-ms="159664" started-at="2018-07-13T07:20:32Z" finished-at="2018-07-13T07:23:11Z">
+    <test name="Orange HRM Test Cases" duration-ms="60066" started-at="2018-07-21T10:52:37Z" finished-at="2018-07-21T10:53:37Z">
       <class name="com.HRM.testcases.LoginPageTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="SetUp" is-config="true" duration-ms="36158" started-at="2018-07-13T12:50:32Z" finished-at="2018-07-13T12:51:08Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="SetUp" is-config="true" duration-ms="16869" started-at="2018-07-21T16:22:37Z" finished-at="2018-07-21T16:22:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="ValidateLoginPageTitleTest()[pri:1, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="ValidateLoginPageTitleTest" duration-ms="23" started-at="2018-07-13T12:51:08Z" finished-at="2018-07-13T12:51:08Z">
+        <test-method status="PASS" signature="ValidateLoginPageTitleTest()[pri:1, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="ValidateLoginPageTitleTest" duration-ms="17" started-at="2018-07-21T16:22:54Z" finished-at="2018-07-21T16:22:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLoginPageTitleTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="TearDown" is-config="true" duration-ms="2037" started-at="2018-07-13T12:51:08Z" finished-at="2018-07-13T12:51:10Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="TearDown" is-config="true" duration-ms="2361" started-at="2018-07-21T16:22:54Z" finished-at="2018-07-21T16:22:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="SetUp" is-config="true" duration-ms="33307" started-at="2018-07-13T12:51:10Z" finished-at="2018-07-13T12:51:43Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="SetUp" is-config="true" duration-ms="7009" started-at="2018-07-21T16:22:56Z" finished-at="2018-07-21T16:23:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="ValidateLoginPageLogoTest()[pri:2, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="ValidateLoginPageLogoTest" duration-ms="63" started-at="2018-07-13T12:51:43Z" finished-at="2018-07-13T12:51:43Z">
+        <test-method status="PASS" signature="ValidateLoginPageLogoTest()[pri:2, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="ValidateLoginPageLogoTest" duration-ms="165" started-at="2018-07-21T16:23:03Z" finished-at="2018-07-21T16:23:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLoginPageLogoTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="TearDown" is-config="true" duration-ms="117" started-at="2018-07-13T12:51:43Z" finished-at="2018-07-13T12:51:44Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="TearDown" is-config="true" duration-ms="2085" started-at="2018-07-21T16:23:03Z" finished-at="2018-07-21T16:23:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="SetUp" is-config="true" duration-ms="32920" started-at="2018-07-13T12:51:44Z" finished-at="2018-07-13T12:52:16Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="SetUp" is-config="true" duration-ms="7172" started-at="2018-07-21T16:23:05Z" finished-at="2018-07-21T16:23:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="FAIL" signature="ValidateAdminCredintialsTest()[pri:3, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="ValidateAdminCredintialsTest" duration-ms="13447" started-at="2018-07-13T12:52:16Z" finished-at="2018-07-13T12:52:30Z">
+        <test-method status="FAIL" signature="ValidateAdminCredintialsTest()[pri:3, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="ValidateAdminCredintialsTest" duration-ms="1732" started-at="2018-07-21T16:23:13Z" finished-at="2018-07-21T16:23:14Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Test Fail expected [OrangeHrm] but found [Leave Period]]]>
+              <![CDATA[Test Fail expected [OrangeHrm] but found [OrangeHRM]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Test Fail expected [OrangeHrm] but found [Leave Period]
+              <![CDATA[java.lang.AssertionError: Test Fail expected [OrangeHrm] but found [OrangeHRM]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
@@ -79,19 +79,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateAdminCredintialsTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="TearDown" is-config="true" duration-ms="198" started-at="2018-07-13T12:52:30Z" finished-at="2018-07-13T12:52:30Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="TearDown" is-config="true" duration-ms="2090" started-at="2018-07-21T16:23:14Z" finished-at="2018-07-21T16:23:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="SetUp" is-config="true" duration-ms="30862" started-at="2018-07-13T12:52:30Z" finished-at="2018-07-13T12:53:01Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="SetUp" is-config="true" duration-ms="11281" started-at="2018-07-21T16:23:16Z" finished-at="2018-07-21T16:23:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="ValidateUserCredintialsTest()[pri:4, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="ValidateUserCredintialsTest" duration-ms="8157" started-at="2018-07-13T12:53:01Z" finished-at="2018-07-13T12:53:09Z">
+        <test-method status="PASS" signature="ValidateUserCredintialsTest()[pri:4, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="ValidateUserCredintialsTest" duration-ms="9035" started-at="2018-07-21T16:23:28Z" finished-at="2018-07-21T16:23:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateUserCredintialsTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="TearDown" is-config="true" duration-ms="2313" started-at="2018-07-13T12:53:09Z" finished-at="2018-07-13T12:53:11Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@2a079c]" name="TearDown" is-config="true" duration-ms="124" started-at="2018-07-21T16:23:37Z" finished-at="2018-07-21T16:23:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
