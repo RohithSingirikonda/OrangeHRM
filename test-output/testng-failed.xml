@@ -6,13 +6,14 @@
   </listeners>
   <test name="Orange HRM Test Cases(failed)">
     <classes>
-      <class name="com.HRM.testcases.LoginPageTest">
+      <class name="com.HRM.testcases.AdminHomePageTest">
         <methods>
-          <include name="TearDown"/>
-          <include name="SetUp"/>
-          <include name="ValidateAdminCredintialsTest"/>
+          <include name="setUp"/>
+          <include name="verifyHomeLogoTest"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitleTest"/>
         </methods>
-      </class> <!-- com.HRM.testcases.LoginPageTest -->
+      </class> <!-- com.HRM.testcases.AdminHomePageTest -->
     </classes>
   </test> <!-- Orange HRM Test Cases(failed) -->
 </suite> <!-- Failed suite [Orange HRM Test Suite] -->

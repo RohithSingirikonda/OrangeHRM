@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Orange_HRM_Test_Suite">
-                    <span>C:\Users\ramya\Desktop\Rohith\OrangeHRM_Project\src\main\resources\testng_sanity.xml</span>
+                    <span>E:\Testing\Rohith\OrangeHRM_Project\src\main\resources\testng_sanity.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content failed suite-Orange_HRM_Test_Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Test_Suite" title="com.HRM.testcases.LoginPageTest" hash-for-method="ValidateAdminCredintialsTest">ValidateAdminCredintialsTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Test_Suite" title="com.HRM.testcases.AdminHomePageTest" hash-for-method="verifyHomeLogoTest">verifyHomeLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Test_Suite" title="com.HRM.testcases.AdminHomePageTest" hash-for-method="verifyHomePageTitleTest">verifyHomePageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Orange_HRM_Test_Suite -->
@@ -116,17 +121,17 @@
                     <div class="method-list-content passed suite-Orange_HRM_Test_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Test_Suite" title="com.HRM.testcases.LoginPageTest" hash-for-method="ValidateLoginPageLogoTest">ValidateLoginPageLogoTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Test_Suite" title="com.HRM.testcases.LoginPageTest" hash-for-method="verifyAdminCredintialsTest">verifyAdminCredintialsTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Test_Suite" title="com.HRM.testcases.LoginPageTest" hash-for-method="ValidateLoginPageTitleTest">ValidateLoginPageTitleTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Test_Suite" title="com.HRM.testcases.LoginPageTest" hash-for-method="verifyLoginPageLogoTest">verifyLoginPageLogoTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Test_Suite" title="com.HRM.testcases.LoginPageTest" hash-for-method="ValidateUserCredintialsTest">ValidateUserCredintialsTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Orange_HRM_Test_Suite" title="com.HRM.testcases.LoginPageTest" hash-for-method="verifyeLoginPageTitleTest">verifyeLoginPageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Orange_HRM_Test_Suite -->
@@ -144,16 +149,57 @@
           <div class="suite-Orange_HRM_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.HRM.testcases.LoginPageTest</span>
+              <span class="class-name">com.HRM.testcases.AdminHomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidateAdminCredintialsTest">
-                  </a> <!-- ValidateAdminCredintialsTest -->
-                  <span class="method-name">ValidateAdminCredintialsTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: Test Fail expected [OrangeHrm] but found [OrangeHRM]
-	at com.HRM.testcases.LoginPageTest.ValidateAdminCredintialsTest(LoginPageTest.java:54)
+                  <a name="verifyHomeLogoTest">
+                  </a> <!-- verifyHomeLogoTest -->
+                  <span class="method-name">verifyHomeLogoTest</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //img[contails(@alt=&apos;OrangeHRM&apos;)] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//img[contails(@alt=&apos;OrangeHRM&apos;)]&apos; is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;HICWW7NA512SG3W&apos;, ip: &apos;145.17.112.23&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ROHITH~1.SIN\AppData\Local\Temp\scoped_dir15328_29015}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=67.0.3396.99, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1eaa2295096a6789965f7109ac9cb1a
+*** Element info: {Using=xpath, value=//img[contails(@alt=&apos;OrangeHRM&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:189)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at com.HRM.pages.AdminHomePage.AdminHomePageLogo(AdminHomePage.java:64)
+	at com.HRM.testcases.AdminHomePageTest.verifyHomeLogoTest(AdminHomePageTest.java:40)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitleTest">
+                  </a> <!-- verifyHomePageTitleTest -->
+                  <span class="method-name">verifyHomePageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Home page title not matched expected [OrangeH4M] but found [OrangeHRM]
+	at com.HRM.testcases.AdminHomePageTest.verifyHomePageTitleTest(AdminHomePageTest.java:34)
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -168,23 +214,23 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidateLoginPageLogoTest">
-                  </a> <!-- ValidateLoginPageLogoTest -->
-                  <span class="method-name">ValidateLoginPageLogoTest</span>
+                  <a name="verifyAdminCredintialsTest">
+                  </a> <!-- verifyAdminCredintialsTest -->
+                  <span class="method-name">verifyAdminCredintialsTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidateLoginPageTitleTest">
-                  </a> <!-- ValidateLoginPageTitleTest -->
-                  <span class="method-name">ValidateLoginPageTitleTest</span>
+                  <a name="verifyLoginPageLogoTest">
+                  </a> <!-- verifyLoginPageLogoTest -->
+                  <span class="method-name">verifyLoginPageLogoTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidateUserCredintialsTest">
-                  </a> <!-- ValidateUserCredintialsTest -->
-                  <span class="method-name">ValidateUserCredintialsTest</span>
+                  <a name="verifyeLoginPageTitleTest">
+                  </a> <!-- verifyeLoginPageTitleTest -->
+                  <span class="method-name">verifyeLoginPageTitleTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,7 +238,7 @@
         </div> <!-- panel Orange_HRM_Test_Suite -->
         <div panel-name="test-xml-Orange_HRM_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ramya\Desktop\Rohith\OrangeHRM_Project\src\main\resources\testng_sanity.xml</span>
+            <span class="header-content">E:\Testing\Rohith\OrangeHRM_Project\src\main\resources\testng_sanity.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -202,9 +248,10 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.HRM.ExtentReportListener.ExtentReporterNG&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;Orange HRM Test Cases&quot;&gt;
+  &lt;test name=&quot;Orange HRM Test Cases&quot; preserve-order=&quot;false&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.HRM.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.HRM.testcases.AdminHomePageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Orange HRM Test Cases --&gt;
 &lt;/suite&gt; &lt;!-- Orange HRM Test Suite --&gt;
@@ -218,7 +265,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Orange HRM Test Cases (1 class)</span>
+                <span class="test-name">Orange HRM Test Cases (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -244,28 +291,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ValidateUserCredintialsTest')
+data.setCell(0, 1, 'verifyAdminCredintialsTest')
 data.setCell(0, 2, 'com.HRM.testcases.LoginPageTest')
-data.setCell(0, 3, 9035);
+data.setCell(0, 3, 4251);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ValidateAdminCredintialsTest')
-data.setCell(1, 2, 'com.HRM.testcases.LoginPageTest')
-data.setCell(1, 3, 1732);
+data.setCell(1, 1, 'verifyHomeLogoTest')
+data.setCell(1, 2, 'com.HRM.testcases.AdminHomePageTest')
+data.setCell(1, 3, 401);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ValidateLoginPageLogoTest')
+data.setCell(2, 1, 'verifyLoginPageLogoTest')
 data.setCell(2, 2, 'com.HRM.testcases.LoginPageTest')
-data.setCell(2, 3, 165);
+data.setCell(2, 3, 38);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'ValidateLoginPageTitleTest')
-data.setCell(3, 2, 'com.HRM.testcases.LoginPageTest')
-data.setCell(3, 3, 17);
+data.setCell(3, 1, 'verifyHomePageTitleTest')
+data.setCell(3, 2, 'com.HRM.testcases.AdminHomePageTest')
+data.setCell(3, 3, 21);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyeLoginPageTitleTest')
+data.setCell(4, 2, 'com.HRM.testcases.LoginPageTest')
+data.setCell(4, 3, 11);
 window.suiteTableData['Orange_HRM_Test_Suite']= { tableData: data, tableDiv: 'times-div-Orange_HRM_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Orange_HRM_Test_Suite">
               </div> <!-- times-div-Orange_HRM_Test_Suite -->
             </div> <!-- times-div -->
@@ -280,9 +331,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Orange_HRM_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.HRM.testcases.LoginPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyUserCredintialsTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Orange_HRM_Test_Suite" class="panel">
@@ -291,56 +349,79 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.HRM.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.HRM.testcases.AdminHomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">SetUp</span>
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">ValidateLoginPageTitleTest</span>
-                <span class="method-start">16869 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">16888 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">SetUp</span>
-                <span class="method-start">19249 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">ValidateLoginPageLogoTest</span>
-                <span class="method-start">26258 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">26426 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">SetUp</span>
-                <span class="method-start">28511 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">ValidateAdminCredintialsTest</span>
-                <span class="method-start">35683 ms</span>
+                <span class="method-name">verifyHomePageTitleTest</span>
+                <span class="method-start">4817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4842 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HRM.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">4946 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyeLoginPageTitleTest</span>
+                <span class="method-start">8358 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">37452 ms</span>
+                <span class="method-start">8370 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HRM.testcases.AdminHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8466 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyHomeLogoTest</span>
+                <span class="method-start">12814 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13215 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HRM.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">13279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPageLogoTest</span>
+                <span class="method-start">17133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">17172 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUp</span>
-                <span class="method-start">39542 ms</span>
+                <span class="method-start">17252 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">ValidateUserCredintialsTest</span>
-                <span class="method-start">50823 ms</span>
+                <span class="method-name">verifyAdminCredintialsTest</span>
+                <span class="method-start">21079 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">59860 ms</span>
+                <span class="method-start">25331 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

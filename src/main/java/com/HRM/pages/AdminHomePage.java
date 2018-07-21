@@ -11,7 +11,7 @@ public class AdminHomePage extends TestBase {
 
 	
 	
-	@FindBy(xpath="//div[@id='branding']//img")
+	@FindBy(xpath="//img[contails(@alt='OrangeHRM')]")
 	WebElement homePageLogo;
 	
 	@FindBy(id="welcome")

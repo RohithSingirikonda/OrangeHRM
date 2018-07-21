@@ -8,9 +8,10 @@
 	</listeners>
 
 
-	<test name="Orange HRM Test Cases">
+	<test name="Orange HRM Test Cases" preserve-order="false">
 		<classes>
 			<class name="com.HRM.testcases.LoginPageTest"></class>
+			<class name="com.HRM.testcases.AdminHomePageTest"></class>
 		</classes>
 	</test>
 </suite>

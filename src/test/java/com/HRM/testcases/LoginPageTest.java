@@ -35,29 +35,29 @@ public class LoginPageTest extends TestBase{
 	
 	
 	@Test(priority=1)
-	public void ValidateLoginPageTitleTest(){
+	public void verifyeLoginPageTitleTest(){
 		actualTitle = loginpage.ValidateLoginPageTitle();
 		assertEquals(actualTitle, "OrangeHRM");
 	}
   
 	@Test(priority=2)
-	public void ValidateLoginPageLogoTest(){
+	public void verifyLoginPageLogoTest(){
 		boolean flag = loginpage.ValidateHRMLogo();
 		assertTrue(flag);
 	}
 	
 	
 	@Test(priority=3)
-	public void ValidateAdminCredintialsTest(){
-		admin_homepage = loginpage.AdminLogin(prop.getProperty("Admin_username"),prop.getProperty("Admin_password"));
+	public void verifyAdminCredintialsTest(){
+		admin_homepage = loginpage.AdminLogin(prop.getProperty("admin_username"),prop.getProperty("admin_password"));
 		actualTitle = admin_homepage.AdminHomePageTitle();
-		assertEquals(actualTitle, "OrangeHrm","Test Fail");
+		assertEquals(actualTitle, "OrangeHRM","Test Fail");
 	}
 	
 	
 	@Test(priority=4, enabled=false)
-	public void ValidateUserCredintialsTest(){
-		user_homepage = loginpage.UserLogin(prop.getProperty("username"),prop.getProperty("password"));
+	public void verifyUserCredintialsTest(){
+		user_homepage = loginpage.UserLogin(prop.getProperty("emp_username"),prop.getProperty("emp_password"));
 		actualTitle = user_homepage.UserHomePageTitle();
 		assertEquals(actualTitle, "OrangeHRM", "Test Fail");
 		

@@ -6,9 +6,8 @@
       <class name="com.HRM.testcases.LoginPageTest">
         <methods>
           <include name="TearDown"/>
-          <include name="ValidateUserCredintialsTest"/>
+          <include name="verifyAdminCredintialsTest"/>
           <include name="SetUp"/>
-          <include name="ValidateAdminCredintialsTest"/>
         </methods>
       </class> <!-- com.HRM.testcases.LoginPageTest -->
     </classes>
