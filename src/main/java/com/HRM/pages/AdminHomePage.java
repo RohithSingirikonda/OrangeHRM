@@ -1,6 +1,10 @@
 package com.HRM.pages;
 
+import java.util.Iterator;
+import java.util.List;
+
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -71,11 +75,14 @@ public class AdminHomePage extends TestBase {
 	
 	
 	
-	public String clickOnAdminHomeUserAboutLink() {
+	public void clickOnAdminHomeUserAboutLink() {
 		username_login.click();
-		Alert alert = driver.switchTo().alert();
-		String alertMsg = alert.getText();
-		return alertMsg;
+		aboutLink.click();
+		List<WebElement> text =  driver.findElements(By.xpath("//div[@class='modal-body']//div[@id='companyInfo']//li"));
+		Iterator<WebElement> itr = text.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next().getText());
+		}
 		
 	}
 	
@@ -91,9 +98,7 @@ public class AdminHomePage extends TestBase {
 		
 	}
 	
-	
-	
-	
+
 	public AdminPage clickOnAdminPageLink() {
 		username_login.click();
 		return new AdminPage();

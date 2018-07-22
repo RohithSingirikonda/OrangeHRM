@@ -1,139 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="1" total="6" passed="3">
+<testng-results skipped="0" failed="2" ignored="0" total="10" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Orange HRM Test Suite" duration-ms="25447" started-at="2018-07-21T16:24:52Z" finished-at="2018-07-21T16:25:17Z">
+  <suite name="Orange HRM Test Suite" duration-ms="176318" started-at="2018-07-22T04:12:42Z" finished-at="2018-07-22T04:15:38Z">
     <groups>
     </groups>
-    <test name="Orange HRM Test Cases" duration-ms="25447" started-at="2018-07-21T16:24:52Z" finished-at="2018-07-21T16:25:17Z">
+    <test name="Orange HRM Test Cases" duration-ms="176318" started-at="2018-07-22T04:12:42Z" finished-at="2018-07-22T04:15:38Z">
       <class name="com.HRM.testcases.LoginPageTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@589838eb]" name="SetUp" is-config="true" duration-ms="3412" started-at="2018-07-21T21:54:57Z" finished-at="2018-07-21T21:55:00Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="SetUp" is-config="true" duration-ms="10311" started-at="2018-07-22T09:42:42Z" finished-at="2018-07-22T09:42:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="verifyeLoginPageTitleTest()[pri:1, instance:com.HRM.testcases.LoginPageTest@589838eb]" name="verifyeLoginPageTitleTest" duration-ms="11" started-at="2018-07-21T21:55:00Z" finished-at="2018-07-21T21:55:00Z">
+        <test-method status="PASS" signature="verifyeLoginPageTitleTest()[pri:1, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="verifyeLoginPageTitleTest" duration-ms="17" started-at="2018-07-22T09:42:52Z" finished-at="2018-07-22T09:42:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyeLoginPageTitleTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@589838eb]" name="TearDown" is-config="true" duration-ms="96" started-at="2018-07-21T21:55:00Z" finished-at="2018-07-21T21:55:00Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="TearDown" is-config="true" duration-ms="247" started-at="2018-07-22T09:42:52Z" finished-at="2018-07-22T09:42:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@589838eb]" name="SetUp" is-config="true" duration-ms="3854" started-at="2018-07-21T21:55:05Z" finished-at="2018-07-21T21:55:09Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="SetUp" is-config="true" duration-ms="10363" started-at="2018-07-22T09:43:14Z" finished-at="2018-07-22T09:43:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="verifyLoginPageLogoTest()[pri:2, instance:com.HRM.testcases.LoginPageTest@589838eb]" name="verifyLoginPageLogoTest" duration-ms="38" started-at="2018-07-21T21:55:09Z" finished-at="2018-07-21T21:55:09Z">
+        <test-method status="PASS" signature="verifyLoginPageLogoTest()[pri:2, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="verifyLoginPageLogoTest" duration-ms="72" started-at="2018-07-22T09:43:25Z" finished-at="2018-07-22T09:43:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageLogoTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@589838eb]" name="TearDown" is-config="true" duration-ms="80" started-at="2018-07-21T21:55:09Z" finished-at="2018-07-21T21:55:09Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="TearDown" is-config="true" duration-ms="2047" started-at="2018-07-22T09:43:25Z" finished-at="2018-07-22T09:43:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@589838eb]" name="SetUp" is-config="true" duration-ms="3827" started-at="2018-07-21T21:55:09Z" finished-at="2018-07-21T21:55:13Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="SetUp" is-config="true" duration-ms="11461" started-at="2018-07-22T09:43:56Z" finished-at="2018-07-22T09:44:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="verifyAdminCredintialsTest()[pri:3, instance:com.HRM.testcases.LoginPageTest@589838eb]" name="verifyAdminCredintialsTest" duration-ms="4251" started-at="2018-07-21T21:55:13Z" finished-at="2018-07-21T21:55:17Z">
+        <test-method status="PASS" signature="verifyAdminCredintialsTest()[pri:3, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="verifyAdminCredintialsTest" duration-ms="5186" started-at="2018-07-22T09:44:07Z" finished-at="2018-07-22T09:44:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminCredintialsTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@589838eb]" name="TearDown" is-config="true" duration-ms="101" started-at="2018-07-21T21:55:17Z" finished-at="2018-07-21T21:55:17Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="TearDown" is-config="true" duration-ms="2157" started-at="2018-07-22T09:44:12Z" finished-at="2018-07-22T09:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="SetUp" is-config="true" duration-ms="10684" started-at="2018-07-22T09:44:31Z" finished-at="2018-07-22T09:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifyUserCredintialsTest()[pri:4, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="verifyUserCredintialsTest" duration-ms="1450" started-at="2018-07-22T09:44:42Z" finished-at="2018-07-22T09:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCredintialsTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="TearDown" is-config="true" duration-ms="142" started-at="2018-07-22T09:44:43Z" finished-at="2018-07-22T09:44:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.HRM.testcases.LoginPageTest -->
       <class name="com.HRM.testcases.AdminHomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@42dafa95]" name="setUp" is-config="true" duration-ms="4817" started-at="2018-07-21T21:54:52Z" finished-at="2018-07-21T21:54:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="19364" started-at="2018-07-22T09:42:53Z" finished-at="2018-07-22T09:43:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyHomePageTitleTest()[pri:1, instance:com.HRM.testcases.AdminHomePageTest@42dafa95]" name="verifyHomePageTitleTest" duration-ms="21" started-at="2018-07-21T21:54:57Z" finished-at="2018-07-21T21:54:57Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Home page title not matched expected [OrangeH4M] but found [OrangeHRM]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Home page title not matched expected [OrangeH4M] but found [OrangeHRM]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at com.HRM.testcases.AdminHomePageTest.verifyHomePageTitleTest(AdminHomePageTest.java:34)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyHomePageTitleTest" duration-ms="13" started-at="2018-07-22T09:43:12Z" finished-at="2018-07-22T09:43:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@42dafa95]" name="tearDown" is-config="true" duration-ms="104" started-at="2018-07-21T21:54:57Z" finished-at="2018-07-21T21:54:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2120" started-at="2018-07-22T09:43:12Z" finished-at="2018-07-22T09:43:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@42dafa95]" name="setUp" is-config="true" duration-ms="4348" started-at="2018-07-21T21:55:00Z" finished-at="2018-07-21T21:55:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="23832" started-at="2018-07-22T09:43:27Z" finished-at="2018-07-22T09:43:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyHomeLogoTest()[pri:2, instance:com.HRM.testcases.AdminHomePageTest@42dafa95]" name="verifyHomeLogoTest" duration-ms="401" started-at="2018-07-21T21:55:05Z" finished-at="2018-07-21T21:55:05Z">
+        <test-method status="FAIL" signature="verifyHomeLogoTest()[pri:2, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyHomeLogoTest" duration-ms="2680" started-at="2018-07-22T09:43:51Z" finished-at="2018-07-22T09:43:53Z">
           <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
               <![CDATA[invalid selector: Unable to locate an element with the xpath expression //img[contails(@alt='OrangeHRM')] because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//img[contails(@alt='OrangeHRM')]' is not a valid XPath expression.
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'HICWW7NA512SG3W', ip: '145.17.112.23', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+System info: host: 'VEERANTI', ip: '192.168.43.185', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ROHITH~1.SIN\AppData\Local\Temp\scoped_dir15328_29015}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=67.0.3396.99, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d1eaa2295096a6789965f7109ac9cb1a
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir4664_16979}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cc7afe8a140ecfe7310a6075c2560bc8
 *** Element info: {Using=xpath, value=//img[contails(@alt='OrangeHRM')]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //img[contails(@alt='OrangeHRM')] because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//img[contails(@alt='OrangeHRM')]' is not a valid XPath expression.
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'HICWW7NA512SG3W', ip: '145.17.112.23', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+System info: host: 'VEERANTI', ip: '192.168.43.185', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ROHITH~1.SIN\AppData\Local\Temp\scoped_dir15328_29015}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=67.0.3396.99, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d1eaa2295096a6789965f7109ac9cb1a
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir4664_16979}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cc7afe8a140ecfe7310a6075c2560bc8
 *** Element info: {Using=xpath, value=//img[contails(@alt='OrangeHRM')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -147,21 +119,21 @@ Session ID: d1eaa2295096a6789965f7109ac9cb1a
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:105)
 	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:189)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
-	at com.HRM.pages.AdminHomePage.AdminHomePageLogo(AdminHomePage.java:64)
-	at com.HRM.testcases.AdminHomePageTest.verifyHomeLogoTest(AdminHomePageTest.java:40)
+	at com.HRM.pages.AdminHomePage.AdminHomePageLogo(AdminHomePage.java:68)
+	at com.HRM.testcases.AdminHomePageTest.verifyHomeLogoTest(AdminHomePageTest.java:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
@@ -189,7 +161,132 @@ Session ID: d1eaa2295096a6789965f7109ac9cb1a
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@42dafa95]" name="tearDown" is-config="true" duration-ms="64" started-at="2018-07-21T21:55:05Z" finished-at="2018-07-21T21:55:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2307" started-at="2018-07-22T09:43:53Z" finished-at="2018-07-22T09:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="14748" started-at="2018-07-22T09:44:14Z" finished-at="2018-07-22T09:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAdminHomePageUserTest()[pri:3, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyAdminHomePageUserTest" duration-ms="70" started-at="2018-07-22T09:44:29Z" finished-at="2018-07-22T09:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminHomePageUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2056" started-at="2018-07-22T09:44:29Z" finished-at="2018-07-22T09:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="13840" started-at="2018-07-22T09:44:44Z" finished-at="2018-07-22T09:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAdminAboutLinkTest()[pri:4, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyAdminAboutLinkTest" duration-ms="3218" started-at="2018-07-22T09:44:57Z" finished-at="2018-07-22T09:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminAboutLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2063" started-at="2018-07-22T09:45:01Z" finished-at="2018-07-22T09:45:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="13655" started-at="2018-07-22T09:45:03Z" finished-at="2018-07-22T09:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAdminChangePasswordLinkTest()[pri:5, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyAdminChangePasswordLinkTest" duration-ms="205" started-at="2018-07-22T09:45:16Z" finished-at="2018-07-22T09:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminChangePasswordLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2044" started-at="2018-07-22T09:45:16Z" finished-at="2018-07-22T09:45:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="14563" started-at="2018-07-22T09:45:19Z" finished-at="2018-07-22T09:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyAdminLogoutLinkTest()[pri:6, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyAdminLogoutLinkTest" duration-ms="3266" started-at="2018-07-22T09:45:33Z" finished-at="2018-07-22T09:45:36Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'VEERANTI', ip: '192.168.43.185', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir8776_25519}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b11756c2723da7d84bde2751491b782a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'VEERANTI', ip: '192.168.43.185', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir8776_25519}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b11756c2723da7d84bde2751491b782a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:350)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:363)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.HRM.pages.AdminHomePage.clickOnLogoutLink(AdminHomePage.java:96)
+	at com.HRM.testcases.AdminHomePageTest.verifyAdminLogoutLinkTest(AdminHomePageTest.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminLogoutLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2065" started-at="2018-07-22T09:45:36Z" finished-at="2018-07-22T09:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,5 +1,7 @@
 package com.HRM.testcases;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -25,23 +27,52 @@ public class AdminHomePageTest extends TestBase{
 			init();
 			loginPage = new LoginPage();
 			admin_HomePage = new AdminHomePage();
-			admin_HomePage = loginPage.AdminLogin(prop.getProperty("admin_username"), prop.getProperty("admin_username"));
+			admin_HomePage = loginPage.AdminLogin(prop.getProperty("admin_username"), prop.getProperty("admin_password"));
 		}
 		
-		@Test(priority=1)
+		@Test(priority=1, enabled=true)
 		public void verifyHomePageTitleTest(){
 			String homePageTitle = admin_HomePage.AdminHomePageTitle();
-			Assert.assertEquals(homePageTitle, "OrangeH4M","Home page title not matched");
+			Assert.assertEquals(homePageTitle, "OrangeHRM","Home page title not matched");
 			
 		}
 		 
-		@Test(priority=2)
+		@Test(priority=2, enabled=true)
 		public void verifyHomeLogoTest(){
 			boolean flag = admin_HomePage.AdminHomePageLogo();
 			Assert.assertTrue(flag);
 			
 		}
-		  
+		 
+		
+		@Test(priority=3, enabled=true)
+		public void verifyAdminHomePageUserTest(){
+			String actual_name = admin_HomePage.AdminHomePageUser();
+			Assert.assertEquals(actual_name, "Welcome Admin", "Test Failed: Not Admin User");
+		}
+		
+		@Test(priority=4, enabled=true)
+		public void verifyAdminAboutLinkTest(){
+			admin_HomePage.clickOnAdminHomeUserAboutLink();
+			//Assert.assertEquals(actual_name, "Welcome Admin", "Not Admin User");
+		}
+		
+		@Test(priority=5, enabled=true)
+		public void verifyAdminChangePasswordLinkTest(){
+			admin_HomePage.clickOnChangePasswordLink();
+			WebElement actual_heading = driver.findElement(By.xpath("//div[@class='head']//h1"));
+			actual_heading.getText();
+			System.out.println(actual_heading.getText());
+			//Assert.assertEquals(actual_heading, "Change Password", "Not Change Password Page");
+		}
+		
+		@Test(priority=6, enabled=true)
+		public void verifyAdminLogoutLinkTest(){
+			admin_HomePage.clickOnLogoutLink();
+			WebElement actual_heading = driver.findElement(By.id("logInPanelHeading"));
+			actual_heading.getText();
+			Assert.assertEquals(actual_heading, "LOGIN Panel", "Not in Login Page");
+		}
 		  
 			  
 		@AfterMethod

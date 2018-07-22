@@ -55,7 +55,7 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	
-	@Test(priority=4, enabled=false)
+	@Test(priority=4, enabled=true)
 	public void verifyUserCredintialsTest(){
 		user_homepage = loginpage.UserLogin(prop.getProperty("emp_username"),prop.getProperty("emp_password"));
 		actualTitle = user_homepage.UserHomePageTitle();

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.HRM.testcases.LoginPageTest">
+      <class name="com.HRM.testcases.AdminHomePageTest">
         <methods>
-          <include name="TearDown"/>
-          <include name="verifyAdminCredintialsTest"/>
-          <include name="SetUp"/>
+          <include name="setUp"/>
+          <include name="verifyAdminChangePasswordLinkTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.HRM.testcases.LoginPageTest -->
+      </class> <!-- com.HRM.testcases.AdminHomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

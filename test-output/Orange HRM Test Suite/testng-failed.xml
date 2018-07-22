@@ -11,7 +11,7 @@
           <include name="setUp"/>
           <include name="verifyHomeLogoTest"/>
           <include name="tearDown"/>
-          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyAdminLogoutLinkTest"/>
         </methods>
       </class> <!-- com.HRM.testcases.AdminHomePageTest -->
     </classes>
