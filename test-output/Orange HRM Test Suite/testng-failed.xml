@@ -9,7 +9,6 @@
       <class name="com.HRM.testcases.AdminHomePageTest">
         <methods>
           <include name="setUp"/>
-          <include name="verifyHomeLogoTest"/>
           <include name="tearDown"/>
           <include name="verifyAdminLogoutLinkTest"/>
         </methods>

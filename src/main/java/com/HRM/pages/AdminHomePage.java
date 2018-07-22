@@ -3,7 +3,6 @@ package com.HRM.pages;
 import java.util.Iterator;
 import java.util.List;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,7 +14,7 @@ public class AdminHomePage extends TestBase {
 
 	
 	
-	@FindBy(xpath="//img[contails(@alt='OrangeHRM')]")
+	@FindBy(xpath="//div[@id='branding']//img")
 	WebElement homePageLogo;
 	
 	@FindBy(id="welcome")

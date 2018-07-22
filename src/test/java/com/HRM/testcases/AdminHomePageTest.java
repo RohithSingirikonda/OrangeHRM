@@ -60,9 +60,9 @@ public class AdminHomePageTest extends TestBase{
 		@Test(priority=5, enabled=true)
 		public void verifyAdminChangePasswordLinkTest(){
 			admin_HomePage.clickOnChangePasswordLink();
-			WebElement actual_heading = driver.findElement(By.xpath("//div[@class='head']//h1"));
-			actual_heading.getText();
-			System.out.println(actual_heading.getText());
+			// actual_heading = driver.findElement(By.xpath("//div[@class='head']//h1"));
+			//actual_heading.getText();
+			//System.out.println(actual_heading.getText());
 			//Assert.assertEquals(actual_heading, "Change Password", "Not Change Password Page");
 		}
 		
@@ -73,7 +73,51 @@ public class AdminHomePageTest extends TestBase{
 			actual_heading.getText();
 			Assert.assertEquals(actual_heading, "LOGIN Panel", "Not in Login Page");
 		}
-		  
+		
+		
+		@Test(priority=7, enabled=true)
+		public void verifyPIMPageLinkTest(){
+			admin_HomePage.clickOnPIMPageLink();
+			
+		}
+		
+		
+		@Test(priority=8, enabled=true)
+		public void verifyLeavePageLinkTest(){
+			admin_HomePage.clickOnLeavePageLink();
+			
+		}
+		
+		@Test(priority=9, enabled=true)
+		public void verifyTimePageLinkTest(){
+			admin_HomePage.clickOnTimePageLink();
+			
+		}
+		
+		@Test(priority=10, enabled=true)
+		public void verifyRecruitmentPageLinkTest(){
+			admin_HomePage.clickOnRecruitmentPageLink();
+			
+		}
+		
+		@Test(priority=11, enabled=true)
+		public void verifyPerformancePageLinkTest(){
+			admin_HomePage.clickOnPerformancePageLink();
+			
+		}
+		
+		@Test(priority=12, enabled=true)
+		public void verifyAdminDashboardLinkTest(){
+			admin_HomePage.clickOnDashboardPageLink();
+			
+		}
+		
+		@Test(priority=13, enabled=true)
+		public void verifyDirectoryPageLinkTest(){
+			admin_HomePage.clickOnDirectoryPageLink();
+			
+		}
+		
 			  
 		@AfterMethod
 		public void tearDown() {

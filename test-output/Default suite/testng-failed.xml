@@ -6,7 +6,7 @@
       <class name="com.HRM.testcases.AdminHomePageTest">
         <methods>
           <include name="setUp"/>
-          <include name="verifyAdminChangePasswordLinkTest"/>
+          <include name="verifyHomeLogoTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.HRM.testcases.AdminHomePageTest -->
