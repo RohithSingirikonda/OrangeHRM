@@ -12,16 +12,24 @@ public class UsersPage extends TestBase {
 
 	@FindBy(id="btnAdd")
 	WebElement addBtn;
+	
+	
+	@FindBy(id="btnDelete")
+	WebElement deleteBtn;
+	
+	
+	@FindBy(xpath="//input[@type='checkbox' and @name='chkSelectRow[]']")
+	WebElement chkBox; 
+	
+	
 	public AddUserPage ClickOnAddRole(){
 		addBtn.click();
 		return new AddUserPage();
 	}
 	
 	public boolean ClickOnDeleteRole(){
-		
 		deleteBtn.click();
 		return chkBox.isSelected();
-		
 	}
 	
 	
@@ -34,15 +42,7 @@ public class UsersPage extends TestBase {
 	        }
 		
 	}
-	
-	@FindBy(id="btnDelete")
-	WebElement deleteBtn;
-	
-	
-	@FindBy(xpath="//input[@type='checkbox' and @name='chkSelectRow[]']")
-	WebElement chkBox; 
-	
-	
-	
+
+
 	
 }

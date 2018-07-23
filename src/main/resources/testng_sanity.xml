@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Orange HRM Test Suite">
+<suite name="Orange HRM Test Suite" parallel="none">
 
 
 	<listeners>
@@ -8,10 +8,12 @@
 	</listeners>
 
 
-	<test name="Orange HRM Test Cases">
+	<test name="Orange HRM Test Cases" 	preserve-order="false">
 		<classes>
 			<class name="com.HRM.testcases.LoginPageTest"></class>
 			<class name="com.HRM.testcases.AdminHomePageTest"></class>
+			<class name="com.HRM.testcases.AdminModulePageTest"></class>
+			<class name="com.HRM.testcases.UsersPageTest"></class>
 		</classes>
 	</test>
 </suite>

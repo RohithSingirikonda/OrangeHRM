@@ -6,6 +6,14 @@
   </listeners>
   <test name="Orange HRM Test Cases(failed)">
     <classes>
+      <class name="com.HRM.testcases.UsersPageTest">
+        <methods>
+          <include name="verifyDeleteRoleTest"/>
+          <include name="verifyAddRoleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HRM.testcases.UsersPageTest -->
       <class name="com.HRM.testcases.AdminHomePageTest">
         <methods>
           <include name="setUp"/>

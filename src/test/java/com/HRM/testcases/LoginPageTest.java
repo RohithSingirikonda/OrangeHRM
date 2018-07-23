@@ -35,7 +35,7 @@ public class LoginPageTest extends TestBase{
 	
 	
 	@Test(priority=1)
-	public void verifyeLoginPageTitleTest(){
+	public void verifyLoginPageTitleTest(){
 		actualTitle = loginpage.ValidateLoginPageTitle();
 		assertEquals(actualTitle, "OrangeHRM");
 	}

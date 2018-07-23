@@ -32,8 +32,19 @@ public class AdminModulePageTest extends TestBase{
 	}
 	
 	
+	@Test(priority=1, enabled=true)
+	public void verifyAdminPageHeaderTest(){
+		String expected_heading = admin_ModulePage.AdminPageHeader();
+		Assert.assertEquals(expected_heading, "System Users", "Admin Page Header not matched");
+	}
 	
 	
+	@Test(priority=2, enabled=true)
+	public void verifyClickonUsersMenuTest(){
+		admin_ModulePage.ClickonUsersMenu();
+		String expected_heading = driver.findElement(By.xpath("//div[@class='head']//h1")).getText();
+		Assert.assertEquals(expected_heading, "System Users","Users Page Header not matched");
+	}
 	
 	
 	

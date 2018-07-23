@@ -31,8 +31,9 @@ public class UsersPageTest extends TestBase{
 		loginPage = new LoginPage();
 		admin_ModulePage = new AdminModulePage();
 		admin_HomePage = new AdminHomePage();
+		usersPage = new UsersPage();
 		admin_HomePage = loginPage.AdminLogin(prop.getProperty("admin_username"), prop.getProperty("admin_password"));
-		admin_ModulePage = admin_HomePage.clickOnAdminPageLink();
+		usersPage = admin_ModulePage.ClickonUsersMenu();
 	}
 	
 	
@@ -56,10 +57,7 @@ public class UsersPageTest extends TestBase{
 		usersPage.getUsersRoleData();
 	}
 	
-	
-	
-	
-	
+
 	  
 	@AfterMethod
 	public void tearDown() {
