@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Orange HRM Test Cases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>16/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>17/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jul 22 23:17:40 IST 2018</td>
+<td>Started on:</td><td>Mon Jul 23 08:42:55 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>366 seconds (366849 ms)</td>
+<tr><td>Total time:</td><td>681 seconds (681932 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,69 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.HRM.testcases.AdminHomePageTest.verifyAdminLogoutLinkTest()'><b>verifyAdminLogoutLinkTest</b><br>Test class: com.HRM.testcases.AdminHomePageTest</td>
-<td><div><pre>java.lang.AssertionError: Not in Login Page expected [LOGIN Panel] but found [[[ChromeDriver: chrome on WIN8 (d31e5e7c02fe1174e6603e7e1605c783)] -&gt; id: logInPanelHeading]]
-	at com.HRM.testcases.AdminHomePageTest.verifyAdminLogoutLinkTest(AdminHomePageTest.java:74)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace12422117", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace12422117'><pre>java.lang.AssertionError: Not in Login Page expected [LOGIN Panel] but found [[[ChromeDriver: chrome on WIN8 (d31e5e7c02fe1174e6603e7e1605c783)] -&gt; id: logInPanelHeading]]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at com.HRM.testcases.AdminHomePageTest.verifyAdminLogoutLinkTest(AdminHomePageTest.java:74)
+<td><div><pre>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;VEERANTI&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir6432_18550}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 05b81d4f41b9be75fc96fe95bec9f6b9
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:350)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:363)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.HRM.pages.AdminHomePage.clickOnLogoutLink(AdminHomePage.java:97)
+	at com.HRM.testcases.AdminHomePageTest.verifyAdminLogoutLinkTest(AdminHomePageTest.java:71)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace7630626", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace7630626'><pre>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;VEERANTI&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir6432_18550}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 05b81d4f41b9be75fc96fe95bec9f6b9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:350)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:363)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.HRM.pages.AdminHomePage.clickOnLogoutLink(AdminHomePage.java:97)
+	at com.HRM.testcases.AdminHomePageTest.verifyAdminLogoutLinkTest(AdminHomePageTest.java:71)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -111,7 +165,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>4</td>
+<td>3</td>
 <td>com.HRM.testcases.AdminHomePageTest@1686d1f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -124,7 +178,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.HRM.testcases.AdminHomePageTest.verifyAdminAboutLinkTest()'><b>verifyAdminAboutLinkTest</b><br>Test class: com.HRM.testcases.AdminHomePageTest</td>
 <td></td>
-<td>4</td>
+<td>2</td>
 <td>com.HRM.testcases.AdminHomePageTest@1686d1f</td></tr>
 <tr>
 <td title='com.HRM.testcases.AdminHomePageTest.verifyAdminChangePasswordLinkTest()'><b>verifyAdminChangePasswordLinkTest</b><br>Test class: com.HRM.testcases.AdminHomePageTest</td>
@@ -134,12 +188,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.HRM.testcases.LoginPageTest.verifyAdminCredintialsTest()'><b>verifyAdminCredintialsTest</b><br>Test class: com.HRM.testcases.LoginPageTest</td>
 <td></td>
-<td>7</td>
+<td>2</td>
 <td>com.HRM.testcases.LoginPageTest@f777e8</td></tr>
 <tr>
 <td title='com.HRM.testcases.AdminHomePageTest.verifyAdminDashboardLinkTest()'><b>verifyAdminDashboardLinkTest</b><br>Test class: com.HRM.testcases.AdminHomePageTest</td>
 <td></td>
-<td>5</td>
+<td>2</td>
 <td>com.HRM.testcases.AdminHomePageTest@1686d1f</td></tr>
 <tr>
 <td title='com.HRM.testcases.AdminHomePageTest.verifyAdminHomePageUserTest()'><b>verifyAdminHomePageUserTest</b><br>Test class: com.HRM.testcases.AdminHomePageTest</td>
@@ -147,9 +201,14 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.HRM.testcases.AdminHomePageTest@1686d1f</td></tr>
 <tr>
+<td title='com.HRM.testcases.AdminHomePageTest.verifyAdminPageLinkTest()'><b>verifyAdminPageLinkTest</b><br>Test class: com.HRM.testcases.AdminHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.HRM.testcases.AdminHomePageTest@1686d1f</td></tr>
+<tr>
 <td title='com.HRM.testcases.AdminHomePageTest.verifyDirectoryPageLinkTest()'><b>verifyDirectoryPageLinkTest</b><br>Test class: com.HRM.testcases.AdminHomePageTest</td>
 <td></td>
-<td>5</td>
+<td>3</td>
 <td>com.HRM.testcases.AdminHomePageTest@1686d1f</td></tr>
 <tr>
 <td title='com.HRM.testcases.AdminHomePageTest.verifyHomeLogoTest()'><b>verifyHomeLogoTest</b><br>Test class: com.HRM.testcases.AdminHomePageTest</td>
@@ -174,7 +233,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.HRM.testcases.AdminHomePageTest.verifyPIMPageLinkTest()'><b>verifyPIMPageLinkTest</b><br>Test class: com.HRM.testcases.AdminHomePageTest</td>
 <td></td>
-<td>4</td>
+<td>1</td>
 <td>com.HRM.testcases.AdminHomePageTest@1686d1f</td></tr>
 <tr>
 <td title='com.HRM.testcases.AdminHomePageTest.verifyPerformancePageLinkTest()'><b>verifyPerformancePageLinkTest</b><br>Test class: com.HRM.testcases.AdminHomePageTest</td>
@@ -184,17 +243,17 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.HRM.testcases.AdminHomePageTest.verifyRecruitmentPageLinkTest()'><b>verifyRecruitmentPageLinkTest</b><br>Test class: com.HRM.testcases.AdminHomePageTest</td>
 <td></td>
-<td>2</td>
+<td>4</td>
 <td>com.HRM.testcases.AdminHomePageTest@1686d1f</td></tr>
 <tr>
 <td title='com.HRM.testcases.AdminHomePageTest.verifyTimePageLinkTest()'><b>verifyTimePageLinkTest</b><br>Test class: com.HRM.testcases.AdminHomePageTest</td>
 <td></td>
-<td>5</td>
+<td>2</td>
 <td>com.HRM.testcases.AdminHomePageTest@1686d1f</td></tr>
 <tr>
 <td title='com.HRM.testcases.LoginPageTest.verifyUserCredintialsTest()'><b>verifyUserCredintialsTest</b><br>Test class: com.HRM.testcases.LoginPageTest</td>
 <td></td>
-<td>2</td>
+<td>1</td>
 <td>com.HRM.testcases.LoginPageTest@f777e8</td></tr>
 <tr>
 <td title='com.HRM.testcases.LoginPageTest.verifyeLoginPageTitleTest()'><b>verifyeLoginPageTitleTest</b><br>Test class: com.HRM.testcases.LoginPageTest</td>

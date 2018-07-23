@@ -76,43 +76,49 @@ public class AdminHomePageTest extends TestBase{
 		
 		
 		@Test(priority=7, enabled=true)
+		public void verifyAdminPageLinkTest(){
+			admin_HomePage.clickOnAdminPageLink();
+			
+		}
+		
+		@Test(priority=8, enabled=true)
 		public void verifyPIMPageLinkTest(){
 			admin_HomePage.clickOnPIMPageLink();
 			
 		}
 		
 		
-		@Test(priority=8, enabled=true)
+		@Test(priority=9, enabled=true)
 		public void verifyLeavePageLinkTest(){
 			admin_HomePage.clickOnLeavePageLink();
 			
 		}
 		
-		@Test(priority=9, enabled=true)
+		@Test(priority=10, enabled=true)
 		public void verifyTimePageLinkTest(){
 			admin_HomePage.clickOnTimePageLink();
 			
 		}
 		
-		@Test(priority=10, enabled=true)
+		@Test(priority=11, enabled=true)
 		public void verifyRecruitmentPageLinkTest(){
 			admin_HomePage.clickOnRecruitmentPageLink();
 			
 		}
 		
-		@Test(priority=11, enabled=true)
+		@Test(priority=12, enabled=true)
 		public void verifyPerformancePageLinkTest(){
 			admin_HomePage.clickOnPerformancePageLink();
 			
 		}
 		
-		@Test(priority=12, enabled=true)
+		@Test(priority=13, enabled=true)
 		public void verifyAdminDashboardLinkTest(){
 			admin_HomePage.clickOnDashboardPageLink();
 			
 		}
 		
-		@Test(priority=13, enabled=true)
+		@Test(priority=14, enabled=true)
 		public void verifyDirectoryPageLinkTest(){
 			admin_HomePage.clickOnDirectoryPageLink();
 			

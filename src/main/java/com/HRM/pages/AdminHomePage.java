@@ -2,6 +2,7 @@ package com.HRM.pages;
 
 import java.util.Iterator;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -91,16 +92,17 @@ public class AdminHomePage extends TestBase {
 	}
 	
 	public LoginPage clickOnLogoutLink() {
-		username_login.click();
+		//driver.findElement(By.id("//div[@id='welcome-menu']")).click();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		logoutLink.click();
 		return new LoginPage();
 		
 	}
 	
 
-	public AdminPage clickOnAdminPageLink() {
-		username_login.click();
-		return new AdminPage();
+	public AdminModulePage clickOnAdminPageLink() {
+		adminBtn.click();
+		return new AdminModulePage();
 	}
 	
 	public PIMPage clickOnPIMPageLink() {

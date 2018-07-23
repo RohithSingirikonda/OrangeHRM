@@ -1,258 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="17" passed="16">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Orange HRM Test Suite" duration-ms="366849" started-at="2018-07-22T17:47:40Z" finished-at="2018-07-22T17:53:47Z">
+  <suite name="Default suite" duration-ms="61384" started-at="2018-07-23T06:24:31Z" finished-at="2018-07-23T06:25:33Z">
     <groups>
     </groups>
-    <test name="Orange HRM Test Cases" duration-ms="366849" started-at="2018-07-22T17:47:40Z" finished-at="2018-07-22T17:53:47Z">
-      <class name="com.HRM.testcases.LoginPageTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="SetUp" is-config="true" duration-ms="14402" started-at="2018-07-22T23:17:40Z" finished-at="2018-07-22T23:17:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="verifyeLoginPageTitleTest()[pri:1, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="verifyeLoginPageTitleTest" duration-ms="28" started-at="2018-07-22T23:17:55Z" finished-at="2018-07-22T23:17:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyeLoginPageTitleTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="TearDown" is-config="true" duration-ms="2064" started-at="2018-07-22T23:17:55Z" finished-at="2018-07-22T23:17:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="SetUp" is-config="true" duration-ms="16132" started-at="2018-07-22T23:18:15Z" finished-at="2018-07-22T23:18:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="verifyLoginPageLogoTest()[pri:2, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="verifyLoginPageLogoTest" duration-ms="100" started-at="2018-07-22T23:18:31Z" finished-at="2018-07-22T23:18:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageLogoTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="TearDown" is-config="true" duration-ms="187" started-at="2018-07-22T23:18:31Z" finished-at="2018-07-22T23:18:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="SetUp" is-config="true" duration-ms="16601" started-at="2018-07-22T23:18:50Z" finished-at="2018-07-22T23:19:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="verifyAdminCredintialsTest()[pri:3, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="verifyAdminCredintialsTest" duration-ms="7647" started-at="2018-07-22T23:19:07Z" finished-at="2018-07-22T23:19:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAdminCredintialsTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="TearDown" is-config="true" duration-ms="226" started-at="2018-07-22T23:19:15Z" finished-at="2018-07-22T23:19:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="SetUp" is-config="true" duration-ms="12377" started-at="2018-07-22T23:19:33Z" finished-at="2018-07-22T23:19:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="verifyUserCredintialsTest()[pri:4, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="verifyUserCredintialsTest" duration-ms="2449" started-at="2018-07-22T23:19:45Z" finished-at="2018-07-22T23:19:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserCredintialsTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@f777e8]" name="TearDown" is-config="true" duration-ms="139" started-at="2018-07-22T23:19:47Z" finished-at="2018-07-22T23:19:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.HRM.testcases.LoginPageTest -->
-      <class name="com.HRM.testcases.AdminHomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="18253" started-at="2018-07-22T23:17:57Z" finished-at="2018-07-22T23:18:15Z">
+    <test name="Default test" duration-ms="61384" started-at="2018-07-23T06:24:31Z" finished-at="2018-07-23T06:25:33Z">
+      <class name="com.HRM.testcases.AdminModulePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@100df86]" name="setUp" is-config="true" duration-ms="21336" started-at="2018-07-23T11:54:31Z" finished-at="2018-07-23T11:54:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyHomePageTitleTest" duration-ms="22" started-at="2018-07-22T23:18:15Z" finished-at="2018-07-22T23:18:15Z">
+        <test-method status="PASS" signature="verifyAddRoleTest()[pri:1, instance:com.HRM.testcases.AdminModulePageTest@100df86]" name="verifyAddRoleTest" duration-ms="2174" started-at="2018-07-23T11:54:53Z" finished-at="2018-07-23T11:54:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="144" started-at="2018-07-22T23:18:15Z" finished-at="2018-07-22T23:18:15Z">
+        </test-method> <!-- verifyAddRoleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@100df86]" name="tearDown" is-config="true" duration-ms="155" started-at="2018-07-23T11:54:55Z" finished-at="2018-07-23T11:54:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="16531" started-at="2018-07-22T23:18:32Z" finished-at="2018-07-22T23:18:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@100df86]" name="setUp" is-config="true" duration-ms="16119" started-at="2018-07-23T11:54:55Z" finished-at="2018-07-23T11:55:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomeLogoTest()[pri:2, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyHomeLogoTest" duration-ms="57" started-at="2018-07-22T23:18:48Z" finished-at="2018-07-22T23:18:48Z">
+        <test-method status="PASS" signature="verifyDeleteRoleTest()[pri:2, instance:com.HRM.testcases.AdminModulePageTest@100df86]" name="verifyDeleteRoleTest" duration-ms="155" started-at="2018-07-23T11:55:11Z" finished-at="2018-07-23T11:55:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomeLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2115" started-at="2018-07-22T23:18:48Z" finished-at="2018-07-22T23:18:50Z">
+        </test-method> <!-- verifyDeleteRoleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@100df86]" name="tearDown" is-config="true" duration-ms="2059" started-at="2018-07-23T11:55:11Z" finished-at="2018-07-23T11:55:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="15718" started-at="2018-07-22T23:19:15Z" finished-at="2018-07-22T23:19:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@100df86]" name="setUp" is-config="true" duration-ms="16668" started-at="2018-07-23T11:55:13Z" finished-at="2018-07-23T11:55:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAdminHomePageUserTest()[pri:3, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyAdminHomePageUserTest" duration-ms="67" started-at="2018-07-22T23:19:31Z" finished-at="2018-07-22T23:19:31Z">
+        <test-method status="PASS" signature="verifyUserRoleDataTest()[pri:3, instance:com.HRM.testcases.AdminModulePageTest@100df86]" name="verifyUserRoleDataTest" duration-ms="357" started-at="2018-07-23T11:55:30Z" finished-at="2018-07-23T11:55:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAdminHomePageUserTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2054" started-at="2018-07-22T23:19:31Z" finished-at="2018-07-22T23:19:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="18087" started-at="2018-07-22T23:19:48Z" finished-at="2018-07-22T23:20:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAdminAboutLinkTest()[pri:4, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyAdminAboutLinkTest" duration-ms="4200" started-at="2018-07-22T23:20:06Z" finished-at="2018-07-22T23:20:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAdminAboutLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="57" started-at="2018-07-22T23:20:10Z" finished-at="2018-07-22T23:20:10Z">
+        </test-method> <!-- verifyUserRoleDataTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@100df86]" name="tearDown" is-config="true" duration-ms="2316" started-at="2018-07-23T11:55:30Z" finished-at="2018-07-23T11:55:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="16893" started-at="2018-07-22T23:20:10Z" finished-at="2018-07-22T23:20:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAdminChangePasswordLinkTest()[pri:5, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyAdminChangePasswordLinkTest" duration-ms="134" started-at="2018-07-22T23:20:27Z" finished-at="2018-07-22T23:20:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAdminChangePasswordLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2047" started-at="2018-07-22T23:20:27Z" finished-at="2018-07-22T23:20:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="18649" started-at="2018-07-22T23:20:29Z" finished-at="2018-07-22T23:20:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyAdminLogoutLinkTest()[pri:6, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyAdminLogoutLinkTest" duration-ms="4683" started-at="2018-07-22T23:20:48Z" finished-at="2018-07-22T23:20:52Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Not in Login Page expected [LOGIN Panel] but found [[[ChromeDriver: chrome on WIN8 (d31e5e7c02fe1174e6603e7e1605c783)] -> id: logInPanelHeading]]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Not in Login Page expected [LOGIN Panel] but found [[[ChromeDriver: chrome on WIN8 (d31e5e7c02fe1174e6603e7e1605c783)] -> id: logInPanelHeading]]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at com.HRM.testcases.AdminHomePageTest.verifyAdminLogoutLinkTest(AdminHomePageTest.java:74)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAdminLogoutLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="131" started-at="2018-07-22T23:20:52Z" finished-at="2018-07-22T23:20:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="15629" started-at="2018-07-22T23:20:53Z" finished-at="2018-07-22T23:21:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyPIMPageLinkTest()[pri:7, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyPIMPageLinkTest" duration-ms="4493" started-at="2018-07-22T23:21:08Z" finished-at="2018-07-22T23:21:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPIMPageLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="79" started-at="2018-07-22T23:21:13Z" finished-at="2018-07-22T23:21:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="17946" started-at="2018-07-22T23:21:13Z" finished-at="2018-07-22T23:21:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLeavePageLinkTest()[pri:8, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyLeavePageLinkTest" duration-ms="4975" started-at="2018-07-22T23:21:31Z" finished-at="2018-07-22T23:21:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLeavePageLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="305" started-at="2018-07-22T23:21:36Z" finished-at="2018-07-22T23:21:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="17636" started-at="2018-07-22T23:21:36Z" finished-at="2018-07-22T23:21:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTimePageLinkTest()[pri:9, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyTimePageLinkTest" duration-ms="5501" started-at="2018-07-22T23:21:54Z" finished-at="2018-07-22T23:21:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTimePageLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="217" started-at="2018-07-22T23:21:59Z" finished-at="2018-07-22T23:21:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="18613" started-at="2018-07-22T23:21:59Z" finished-at="2018-07-22T23:22:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyRecruitmentPageLinkTest()[pri:10, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyRecruitmentPageLinkTest" duration-ms="2952" started-at="2018-07-22T23:22:18Z" finished-at="2018-07-22T23:22:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRecruitmentPageLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2050" started-at="2018-07-22T23:22:21Z" finished-at="2018-07-22T23:22:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="22828" started-at="2018-07-22T23:22:23Z" finished-at="2018-07-22T23:22:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyPerformancePageLinkTest()[pri:11, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyPerformancePageLinkTest" duration-ms="281" started-at="2018-07-22T23:22:46Z" finished-at="2018-07-22T23:22:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPerformancePageLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2128" started-at="2018-07-22T23:22:46Z" finished-at="2018-07-22T23:22:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="21142" started-at="2018-07-22T23:22:48Z" finished-at="2018-07-22T23:23:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAdminDashboardLinkTest()[pri:12, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyAdminDashboardLinkTest" duration-ms="5725" started-at="2018-07-22T23:23:09Z" finished-at="2018-07-22T23:23:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAdminDashboardLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2131" started-at="2018-07-22T23:23:15Z" finished-at="2018-07-22T23:23:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="setUp" is-config="true" duration-ms="21679" started-at="2018-07-22T23:23:17Z" finished-at="2018-07-22T23:23:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyDirectoryPageLinkTest()[pri:13, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="verifyDirectoryPageLinkTest" duration-ms="5825" started-at="2018-07-22T23:23:39Z" finished-at="2018-07-22T23:23:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDirectoryPageLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2367" started-at="2018-07-22T23:23:45Z" finished-at="2018-07-22T23:23:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.HRM.testcases.AdminHomePageTest -->
-    </test> <!-- Orange HRM Test Cases -->
-  </suite> <!-- Orange HRM Test Suite -->
+      </class> <!-- com.HRM.testcases.AdminModulePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

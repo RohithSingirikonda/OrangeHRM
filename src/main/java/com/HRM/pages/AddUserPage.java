@@ -2,6 +2,6 @@ package com.HRM.pages;
 
 import com.HRM.base.TestBase;
 
-public class AdminPage extends TestBase{
+public class AddUserPage extends TestBase{
 
 }
