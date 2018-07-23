@@ -3,6 +3,7 @@ package com.HRM.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import com.HRM.base.TestBase;
 
@@ -20,6 +21,10 @@ public class UsersPage extends TestBase {
 	
 	@FindBy(xpath="//input[@type='checkbox' and @name='chkSelectRow[]']")
 	WebElement chkBox; 
+	
+	public UsersPage() {
+		PageFactory.initElements(driver, this);
+	}
 	
 	
 	public AddUserPage ClickOnAddRole(){

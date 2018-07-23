@@ -16,8 +16,8 @@ public class UsersPageTest extends TestBase{
 
 	
 	LoginPage loginPage;
-	AdminModulePage admin_ModulePage;
 	AdminHomePage admin_HomePage;
+	AdminModulePage admin_ModulePage;
 	UsersPage usersPage;
 	
 	

@@ -19,10 +19,22 @@ public class AdminModulePage extends TestBase{
 	WebElement AdminBtn;
 	
 	@FindBy(id="menu_admin_UserManagement")
-	WebElement UserMgmtBtn;
+	WebElement UserMgmt_Option;
 	
-	@FindBy(id="menu_admin_viewSystemUsers")
-	WebElement UsersBtn;
+	@FindBy(id="menu_admin_Job")
+	WebElement job_Option;
+	
+	@FindBy(id="menu_admin_Organization")
+	WebElement organization_Option;
+	
+	@FindBy(id="menu_admin_Qualifications")
+	WebElement qualofications_Option;
+	
+	@FindBy(id="menu_admin_nationality")
+	WebElement nationality_Option;
+	
+	@FindBy(id="menu_admin_Configuration")
+	WebElement configuration_Option;
 	
 	
 	public AdminModulePage(){
@@ -30,13 +42,56 @@ public class AdminModulePage extends TestBase{
 	}
 	
 	public String AdminPageHeader(){
-		return driver.findElement(By.xpath("//div[@class='head']//h1")).getText();
+		String header = driver.findElement(By.xpath("//div[@class='head']//h1")).getText();
+		return header;
 	}
 	
 		
 	public UsersPage ClickonUsersMenu(){
-		action.moveToElement(AdminBtn).moveToElement(UserMgmtBtn).moveToElement(UsersBtn).click().build().perform();
+		action.moveToElement(AdminBtn).
+		moveToElement(UserMgmt_Option).
+		moveToElement(driver.findElement(By.id("menu_admin_viewSystemUsers"))).click().build().perform();
 		return new UsersPage();
+	}
+	
+	
+	public JobTitlesPage ClickonJobTitlesMenu(){
+		action.moveToElement(AdminBtn).
+		moveToElement(job_Option).
+		moveToElement(driver.findElement(By.id("menu_admin_viewJobTitleList"))).click().build().perform();
+		return new JobTitlesPage();
+	}
+	
+	
+	public PayGradesPage ClickonPayGradesMenu(){
+		action.moveToElement(AdminBtn).
+		moveToElement(job_Option).
+		moveToElement(driver.findElement(By.id("menu_admin_viewPayGrades"))).click().build().perform();
+		return new PayGradesPage();
+	}
+	
+	
+	public EmploymentStatusPage ClickonEmploymentStatusMenu(){
+		action.moveToElement(AdminBtn).
+		moveToElement(job_Option).
+		moveToElement(driver.findElement(By.id("menu_admin_employmentStatus"))).click().build().perform();
+		return new EmploymentStatusPage();
+	}
+	
+	
+	public JobCategoriesPage ClickonJobCategoriesMenu(){
+		action.moveToElement(AdminBtn).
+		moveToElement(job_Option).
+		moveToElement(driver.findElement(By.id("menu_admin_jobCategory"))).click().build().perform();
+		return new JobCategoriesPage();
+	}
+	
+	
+	public WorkShiftsPage ClickonWorkShiftsMenu(){
+		action.moveToElement(AdminBtn).
+		moveToElement(job_Option).
+		moveToElement(driver.findElement(By.id("menu_admin_workShift"))).click().build().perform();
+		return new WorkShiftsPage();
 	}
 	
 
