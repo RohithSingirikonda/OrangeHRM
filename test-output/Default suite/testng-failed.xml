@@ -5,7 +5,10 @@
     <classes>
       <class name="com.HRM.testcases.AdminModulePageTest">
         <methods>
-          <include name="verifyWorkShiftsMenuTest"/>
+          <include name="verifySocialMediaMenuTest"/>
+          <include name="verifyLanguagesMenuTest"/>
+          <include name="verifyEducationMenuTest"/>
+          <include name="verifyOAuthClientMenuTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
