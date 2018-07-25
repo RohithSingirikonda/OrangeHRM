@@ -67,6 +67,8 @@ public class TestBase {
 		
 		
 		driver.manage().window().maximize();
+		//driver.manage().deleteAllCookies();
+		//driver.manage().window().fullscreen();
 		driver.manage().timeouts().implicitlyWait(TestUtil.Implicit_wait, TimeUnit.MILLISECONDS);
 		driver.get(prop.getProperty("url"));
 

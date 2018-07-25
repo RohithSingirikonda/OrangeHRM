@@ -3,16 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.HRM.testcases.AdminModulePageTest">
+      <class name="com.HRM.testcases.LeavePageTest">
         <methods>
-          <include name="verifySocialMediaMenuTest"/>
-          <include name="verifyLanguagesMenuTest"/>
-          <include name="verifyEducationMenuTest"/>
-          <include name="verifyOAuthClientMenuTest"/>
+          <include name="verifyAssignLeaveMenuTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.HRM.testcases.AdminModulePageTest -->
+      </class> <!-- com.HRM.testcases.LeavePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

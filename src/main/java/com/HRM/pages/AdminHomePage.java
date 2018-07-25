@@ -92,8 +92,7 @@ public class AdminHomePage extends TestBase {
 	}
 	
 	public LoginPage clickOnLogoutLink() {
-		//driver.findElement(By.id("//div[@id='welcome-menu']")).click();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		username_login.click();
 		logoutLink.click();
 		return new LoginPage();
 		
@@ -105,9 +104,9 @@ public class AdminHomePage extends TestBase {
 		return new AdminModulePage();
 	}
 	
-	public PIMPage clickOnPIMPageLink() {
+	public PIMModulePage clickOnPIMPageLink() {
 		pimBtn.click();
-		return new PIMPage();
+		return new PIMModulePage();
 		
 	}
 	
