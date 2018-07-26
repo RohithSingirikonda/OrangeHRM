@@ -121,9 +121,9 @@ public class AdminHomePage extends TestBase {
 		return new TimePage();
 	}
 	
-	public TimePage clickOnRecruitmentPageLink() {
+	public RecruitmentPage clickOnRecruitmentPageLink() {
 		recruitmentBtn.click();
-		return new TimePage();
+		return new RecruitmentPage();
 	}
 	
 	public PerformancePage clickOnPerformancePageLink() {

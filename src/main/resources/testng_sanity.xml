@@ -15,6 +15,9 @@
 			<class name="com.HRM.testcases.AdminModulePageTest"></class>
 			<class name="com.HRM.testcases.PIMPageTest"></class>
 			<class name="com.HRM.testcases.LeavePageTest"></class>
+			<class name="com.HRM.testcases.TimePageTest"></class>
+			<class name="com.HRM.testcases.RecruitmentPageTest"></class>
+			<class name="com.HRM.testcases.PerformancePageTest"></class>
 			<class name="com.HRM.testcases.UsersPageTest"></class>
 		</classes>
 	</test>

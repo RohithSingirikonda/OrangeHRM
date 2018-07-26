@@ -1,165 +1,431 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="62" passed="61">
+<testng-results skipped="0" failed="1" ignored="0" total="78" passed="77">
   <reporter-output>
   </reporter-output>
-  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="2344673" started-at="2018-07-25T07:21:53Z" finished-at="2018-07-25T08:00:58Z">
+  <suite name="Orange HRM Test Suite" duration-ms="1457938" started-at="2018-07-26T07:13:38Z" finished-at="2018-07-26T07:37:56Z">
     <groups>
     </groups>
-    <test name="Free CRM App Test Cases" duration-ms="2344673" started-at="2018-07-25T07:21:53Z" finished-at="2018-07-25T08:00:58Z">
+    <test name="Orange HRM Test Cases" duration-ms="1457938" started-at="2018-07-26T07:13:38Z" finished-at="2018-07-26T07:37:56Z">
       <class name="com.HRM.testcases.LoginPageTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@13ad2d6]" name="SetUp" is-config="true" duration-ms="38720" started-at="2018-07-25T12:51:53Z" finished-at="2018-07-25T12:52:32Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@45f292]" name="SetUp" is-config="true" duration-ms="7806" started-at="2018-07-26T12:46:03Z" finished-at="2018-07-26T12:46:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.HRM.testcases.LoginPageTest@13ad2d6]" name="verifyLoginPageTitleTest" duration-ms="20" started-at="2018-07-25T12:52:32Z" finished-at="2018-07-25T12:52:32Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.HRM.testcases.LoginPageTest@45f292]" name="verifyLoginPageTitleTest" duration-ms="21" started-at="2018-07-26T12:46:11Z" finished-at="2018-07-26T12:46:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@13ad2d6]" name="TearDown" is-config="true" duration-ms="2057" started-at="2018-07-25T12:52:32Z" finished-at="2018-07-25T12:52:34Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@45f292]" name="TearDown" is-config="true" duration-ms="206" started-at="2018-07-26T12:46:11Z" finished-at="2018-07-26T12:46:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@13ad2d6]" name="SetUp" is-config="true" duration-ms="40540" started-at="2018-07-25T12:56:41Z" finished-at="2018-07-25T12:57:22Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@45f292]" name="SetUp" is-config="true" duration-ms="13264" started-at="2018-07-26T12:48:56Z" finished-at="2018-07-26T12:49:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="verifyLoginPageLogoTest()[pri:2, instance:com.HRM.testcases.LoginPageTest@13ad2d6]" name="verifyLoginPageLogoTest" duration-ms="95" started-at="2018-07-25T12:57:22Z" finished-at="2018-07-25T12:57:22Z">
+        <test-method status="PASS" signature="verifyLoginPageLogoTest()[pri:2, instance:com.HRM.testcases.LoginPageTest@45f292]" name="verifyLoginPageLogoTest" duration-ms="84" started-at="2018-07-26T12:49:10Z" finished-at="2018-07-26T12:49:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageLogoTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@13ad2d6]" name="TearDown" is-config="true" duration-ms="2347" started-at="2018-07-25T12:57:22Z" finished-at="2018-07-25T12:57:24Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@45f292]" name="TearDown" is-config="true" duration-ms="219" started-at="2018-07-26T12:49:10Z" finished-at="2018-07-26T12:49:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@13ad2d6]" name="SetUp" is-config="true" duration-ms="35076" started-at="2018-07-25T13:01:40Z" finished-at="2018-07-25T13:02:15Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@45f292]" name="SetUp" is-config="true" duration-ms="7796" started-at="2018-07-26T12:51:13Z" finished-at="2018-07-26T12:51:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="verifyAdminCredintialsTest()[pri:3, instance:com.HRM.testcases.LoginPageTest@13ad2d6]" name="verifyAdminCredintialsTest" duration-ms="3668" started-at="2018-07-25T13:02:15Z" finished-at="2018-07-25T13:02:19Z">
+        <test-method status="PASS" signature="verifyAdminCredintialsTest()[pri:3, instance:com.HRM.testcases.LoginPageTest@45f292]" name="verifyAdminCredintialsTest" duration-ms="2926" started-at="2018-07-26T12:51:21Z" finished-at="2018-07-26T12:51:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminCredintialsTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@13ad2d6]" name="TearDown" is-config="true" duration-ms="2166" started-at="2018-07-25T13:02:19Z" finished-at="2018-07-25T13:02:21Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@45f292]" name="TearDown" is-config="true" duration-ms="128" started-at="2018-07-26T12:51:24Z" finished-at="2018-07-26T12:51:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@13ad2d6]" name="SetUp" is-config="true" duration-ms="6911" started-at="2018-07-25T13:06:07Z" finished-at="2018-07-25T13:06:14Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.HRM.testcases.LoginPageTest@45f292]" name="SetUp" is-config="true" duration-ms="7838" started-at="2018-07-26T12:53:28Z" finished-at="2018-07-26T12:53:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="verifyUserCredintialsTest()[pri:4, instance:com.HRM.testcases.LoginPageTest@13ad2d6]" name="verifyUserCredintialsTest" duration-ms="1321" started-at="2018-07-25T13:06:14Z" finished-at="2018-07-25T13:06:15Z">
+        <test-method status="PASS" signature="verifyUserCredintialsTest()[pri:4, instance:com.HRM.testcases.LoginPageTest@45f292]" name="verifyUserCredintialsTest" duration-ms="1578" started-at="2018-07-26T12:53:36Z" finished-at="2018-07-26T12:53:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserCredintialsTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@13ad2d6]" name="TearDown" is-config="true" duration-ms="257" started-at="2018-07-25T13:06:15Z" finished-at="2018-07-25T13:06:15Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.HRM.testcases.LoginPageTest@45f292]" name="TearDown" is-config="true" duration-ms="132" started-at="2018-07-26T12:53:38Z" finished-at="2018-07-26T12:53:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.HRM.testcases.LoginPageTest -->
       <class name="com.HRM.testcases.UsersPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.UsersPageTest@1cab519]" name="setUp" is-config="true" duration-ms="52665" started-at="2018-07-25T12:55:47Z" finished-at="2018-07-25T12:56:40Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.UsersPageTest@d818d1]" name="setUp" is-config="true" duration-ms="13141" started-at="2018-07-26T12:47:28Z" finished-at="2018-07-26T12:47:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAddRoleTest()[pri:1, instance:com.HRM.testcases.UsersPageTest@1cab519]" name="verifyAddRoleTest" duration-ms="1437" started-at="2018-07-25T12:56:40Z" finished-at="2018-07-25T12:56:41Z">
+        <test-method status="PASS" signature="verifyAddRoleTest()[pri:1, instance:com.HRM.testcases.UsersPageTest@d818d1]" name="verifyAddRoleTest" duration-ms="5926" started-at="2018-07-26T12:47:41Z" finished-at="2018-07-26T12:47:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddRoleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.UsersPageTest@1cab519]" name="tearDown" is-config="true" duration-ms="114" started-at="2018-07-25T12:56:41Z" finished-at="2018-07-25T12:56:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.UsersPageTest@d818d1]" name="tearDown" is-config="true" duration-ms="81" started-at="2018-07-26T12:47:47Z" finished-at="2018-07-26T12:47:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.UsersPageTest@1cab519]" name="setUp" is-config="true" duration-ms="41387" started-at="2018-07-25T13:00:58Z" finished-at="2018-07-25T13:01:40Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.UsersPageTest@d818d1]" name="setUp" is-config="true" duration-ms="15456" started-at="2018-07-26T12:50:14Z" finished-at="2018-07-26T12:50:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyDeleteRoleTest()[pri:2, instance:com.HRM.testcases.UsersPageTest@1cab519]" name="verifyDeleteRoleTest" duration-ms="281" started-at="2018-07-25T13:01:40Z" finished-at="2018-07-25T13:01:40Z">
+        <test-method status="PASS" signature="verifyDeleteRoleTest()[pri:2, instance:com.HRM.testcases.UsersPageTest@d818d1]" name="verifyDeleteRoleTest" duration-ms="213" started-at="2018-07-26T12:50:29Z" finished-at="2018-07-26T12:50:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDeleteRoleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.UsersPageTest@1cab519]" name="tearDown" is-config="true" duration-ms="115" started-at="2018-07-25T13:01:40Z" finished-at="2018-07-25T13:01:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.UsersPageTest@d818d1]" name="tearDown" is-config="true" duration-ms="242" started-at="2018-07-26T12:50:30Z" finished-at="2018-07-26T12:50:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.UsersPageTest@1cab519]" name="setUp" is-config="true" duration-ms="42248" started-at="2018-07-25T13:05:23Z" finished-at="2018-07-25T13:06:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.UsersPageTest@d818d1]" name="setUp" is-config="true" duration-ms="13208" started-at="2018-07-26T12:52:26Z" finished-at="2018-07-26T12:52:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserRoleDataTest()[pri:3, instance:com.HRM.testcases.UsersPageTest@1cab519]" name="verifyUserRoleDataTest" duration-ms="1105" started-at="2018-07-25T13:06:05Z" finished-at="2018-07-25T13:06:06Z">
+        <test-method status="PASS" signature="verifyUserRoleDataTest()[pri:3, instance:com.HRM.testcases.UsersPageTest@d818d1]" name="verifyUserRoleDataTest" duration-ms="500" started-at="2018-07-26T12:52:39Z" finished-at="2018-07-26T12:52:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserRoleDataTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.UsersPageTest@1cab519]" name="tearDown" is-config="true" duration-ms="305" started-at="2018-07-25T13:06:06Z" finished-at="2018-07-25T13:06:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.UsersPageTest@d818d1]" name="tearDown" is-config="true" duration-ms="173" started-at="2018-07-26T12:52:39Z" finished-at="2018-07-26T12:52:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.HRM.testcases.UsersPageTest -->
-      <class name="com.HRM.testcases.AdminHomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="47616" started-at="2018-07-25T12:52:34Z" finished-at="2018-07-25T12:53:22Z">
+      <class name="com.HRM.testcases.AdminModulePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="63308" started-at="2018-07-26T12:44:19Z" finished-at="2018-07-26T12:45:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyHomePageTitleTest" duration-ms="23" started-at="2018-07-25T12:53:22Z" finished-at="2018-07-25T12:53:22Z">
+        <test-method status="PASS" signature="verifyAdminPageHeaderTest()[pri:1, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyAdminPageHeaderTest" duration-ms="84" started-at="2018-07-26T12:45:22Z" finished-at="2018-07-26T12:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminPageHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="2067" started-at="2018-07-26T12:45:22Z" finished-at="2018-07-26T12:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="40570" started-at="2018-07-26T12:47:59Z" finished-at="2018-07-26T12:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyClickonUsersMenuTest()[pri:2, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyClickonUsersMenuTest" duration-ms="1959" started-at="2018-07-26T12:48:39Z" finished-at="2018-07-26T12:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickonUsersMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="236" started-at="2018-07-26T12:48:41Z" finished-at="2018-07-26T12:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="13039" started-at="2018-07-26T12:50:42Z" finished-at="2018-07-26T12:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyJobTitlesMenuTest()[pri:3, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyJobTitlesMenuTest" duration-ms="1524" started-at="2018-07-26T12:50:55Z" finished-at="2018-07-26T12:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJobTitlesMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="195" started-at="2018-07-26T12:50:56Z" finished-at="2018-07-26T12:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="14070" started-at="2018-07-26T12:52:55Z" finished-at="2018-07-26T12:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPayGradesMenuTest()[pri:4, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyPayGradesMenuTest" duration-ms="2404" started-at="2018-07-26T12:53:09Z" finished-at="2018-07-26T12:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayGradesMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="171" started-at="2018-07-26T12:53:11Z" finished-at="2018-07-26T12:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="15671" started-at="2018-07-26T12:54:43Z" finished-at="2018-07-26T12:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyEmploymentStatusMenuTest()[pri:5, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyEmploymentStatusMenuTest" duration-ms="1652" started-at="2018-07-26T12:54:59Z" finished-at="2018-07-26T12:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmploymentStatusMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="138" started-at="2018-07-26T12:55:01Z" finished-at="2018-07-26T12:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="15839" started-at="2018-07-26T12:55:01Z" finished-at="2018-07-26T12:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyJobCategoriesMenuTest()[pri:5, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyJobCategoriesMenuTest" duration-ms="2023" started-at="2018-07-26T12:55:17Z" finished-at="2018-07-26T12:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJobCategoriesMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="182" started-at="2018-07-26T12:55:19Z" finished-at="2018-07-26T12:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="18376" started-at="2018-07-26T12:55:19Z" finished-at="2018-07-26T12:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyWorkShiftsMenuTest()[pri:5, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyWorkShiftsMenuTest" duration-ms="2316" started-at="2018-07-26T12:55:37Z" finished-at="2018-07-26T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWorkShiftsMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="257" started-at="2018-07-26T12:55:40Z" finished-at="2018-07-26T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="12525" started-at="2018-07-26T12:56:41Z" finished-at="2018-07-26T12:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyGeneralInfoMenuTest()[pri:6, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyGeneralInfoMenuTest" duration-ms="1937" started-at="2018-07-26T12:56:54Z" finished-at="2018-07-26T12:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGeneralInfoMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="226" started-at="2018-07-26T12:56:56Z" finished-at="2018-07-26T12:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="12176" started-at="2018-07-26T12:57:52Z" finished-at="2018-07-26T12:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLocationsMenuTest()[pri:7, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyLocationsMenuTest" duration-ms="3574" started-at="2018-07-26T12:58:04Z" finished-at="2018-07-26T12:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLocationsMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="2360" started-at="2018-07-26T12:58:08Z" finished-at="2018-07-26T12:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="11588" started-at="2018-07-26T12:59:04Z" finished-at="2018-07-26T12:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyStructureMenuTest()[pri:8, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyStructureMenuTest" duration-ms="2094" started-at="2018-07-26T12:59:16Z" finished-at="2018-07-26T12:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStructureMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="2087" started-at="2018-07-26T12:59:18Z" finished-at="2018-07-26T12:59:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="11521" started-at="2018-07-26T13:00:44Z" finished-at="2018-07-26T13:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySkillsMenuTest()[pri:9, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifySkillsMenuTest" duration-ms="2610" started-at="2018-07-26T13:00:56Z" finished-at="2018-07-26T13:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySkillsMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="2080" started-at="2018-07-26T13:00:58Z" finished-at="2018-07-26T13:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="13263" started-at="2018-07-26T13:02:10Z" finished-at="2018-07-26T13:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyEducationMenuTest()[pri:10, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyEducationMenuTest" duration-ms="3394" started-at="2018-07-26T13:02:23Z" finished-at="2018-07-26T13:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEducationMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="2058" started-at="2018-07-26T13:02:26Z" finished-at="2018-07-26T13:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="16586" started-at="2018-07-26T13:03:31Z" finished-at="2018-07-26T13:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLicensesMenuTest()[pri:11, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyLicensesMenuTest" duration-ms="2513" started-at="2018-07-26T13:03:48Z" finished-at="2018-07-26T13:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLicensesMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="2085" started-at="2018-07-26T13:03:50Z" finished-at="2018-07-26T13:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="13984" started-at="2018-07-26T13:04:05Z" finished-at="2018-07-26T13:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLanguagesMenuTest()[pri:12, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyLanguagesMenuTest" duration-ms="2713" started-at="2018-07-26T13:04:19Z" finished-at="2018-07-26T13:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLanguagesMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="2110" started-at="2018-07-26T13:04:22Z" finished-at="2018-07-26T13:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="12642" started-at="2018-07-26T13:04:41Z" finished-at="2018-07-26T13:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMembershipsMenuTest()[pri:13, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyMembershipsMenuTest" duration-ms="3501" started-at="2018-07-26T13:04:53Z" finished-at="2018-07-26T13:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMembershipsMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="143" started-at="2018-07-26T13:04:57Z" finished-at="2018-07-26T13:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="11666" started-at="2018-07-26T13:05:14Z" finished-at="2018-07-26T13:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNationalitiesMenuTest()[pri:14, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyNationalitiesMenuTest" duration-ms="2913" started-at="2018-07-26T13:05:25Z" finished-at="2018-07-26T13:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNationalitiesMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="2359" started-at="2018-07-26T13:05:28Z" finished-at="2018-07-26T13:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="12942" started-at="2018-07-26T13:05:31Z" finished-at="2018-07-26T13:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyEmailConfigMenuTest()[pri:15, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyEmailConfigMenuTest" duration-ms="1966" started-at="2018-07-26T13:05:44Z" finished-at="2018-07-26T13:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailConfigMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="2100" started-at="2018-07-26T13:05:45Z" finished-at="2018-07-26T13:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="12594" started-at="2018-07-26T13:05:48Z" finished-at="2018-07-26T13:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyEmailNotifyMenuTest()[pri:16, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyEmailNotifyMenuTest" duration-ms="2687" started-at="2018-07-26T13:06:00Z" finished-at="2018-07-26T13:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailNotifyMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="230" started-at="2018-07-26T13:06:03Z" finished-at="2018-07-26T13:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="11998" started-at="2018-07-26T13:06:03Z" finished-at="2018-07-26T13:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLocalizationMenuTest()[pri:17, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyLocalizationMenuTest" duration-ms="1634" started-at="2018-07-26T13:06:15Z" finished-at="2018-07-26T13:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLocalizationMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="2131" started-at="2018-07-26T13:06:17Z" finished-at="2018-07-26T13:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="14784" started-at="2018-07-26T13:06:19Z" finished-at="2018-07-26T13:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyModulesMenuTest()[pri:18, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyModulesMenuTest" duration-ms="1999" started-at="2018-07-26T13:06:34Z" finished-at="2018-07-26T13:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyModulesMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="2078" started-at="2018-07-26T13:06:36Z" finished-at="2018-07-26T13:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="33622" started-at="2018-07-26T13:06:38Z" finished-at="2018-07-26T13:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySocialMediaMenuTest()[pri:19, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifySocialMediaMenuTest" duration-ms="3552" started-at="2018-07-26T13:07:11Z" finished-at="2018-07-26T13:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySocialMediaMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="2070" started-at="2018-07-26T13:07:15Z" finished-at="2018-07-26T13:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="setUp" is-config="true" duration-ms="33339" started-at="2018-07-26T13:07:17Z" finished-at="2018-07-26T13:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyOAuthClientMenuTest()[pri:20, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="verifyOAuthClientMenuTest" duration-ms="3163" started-at="2018-07-26T13:07:50Z" finished-at="2018-07-26T13:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOAuthClientMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@1a5c39e]" name="tearDown" is-config="true" duration-ms="2074" started-at="2018-07-26T13:07:53Z" finished-at="2018-07-26T13:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.HRM.testcases.AdminModulePageTest -->
+      <class name="com.HRM.testcases.AdminHomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="39388" started-at="2018-07-26T12:43:38Z" finished-at="2018-07-26T12:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyHomePageTitleTest" duration-ms="26" started-at="2018-07-26T12:44:17Z" finished-at="2018-07-26T12:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="473" started-at="2018-07-25T12:53:22Z" finished-at="2018-07-25T12:53:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="2048" started-at="2018-07-26T12:44:17Z" finished-at="2018-07-26T12:44:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="52989" started-at="2018-07-25T12:57:24Z" finished-at="2018-07-25T12:58:17Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="9756" started-at="2018-07-26T12:47:47Z" finished-at="2018-07-26T12:47:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomeLogoTest()[pri:2, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyHomeLogoTest" duration-ms="118" started-at="2018-07-25T12:58:17Z" finished-at="2018-07-25T12:58:17Z">
+        <test-method status="PASS" signature="verifyHomeLogoTest()[pri:2, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyHomeLogoTest" duration-ms="67" started-at="2018-07-26T12:47:57Z" finished-at="2018-07-26T12:47:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="161" started-at="2018-07-25T12:58:17Z" finished-at="2018-07-25T12:58:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="2038" started-at="2018-07-26T12:47:57Z" finished-at="2018-07-26T12:47:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="38759" started-at="2018-07-25T13:02:21Z" finished-at="2018-07-25T13:03:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="11493" started-at="2018-07-26T12:50:30Z" finished-at="2018-07-26T12:50:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAdminHomePageUserTest()[pri:3, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyAdminHomePageUserTest" duration-ms="61" started-at="2018-07-25T13:03:00Z" finished-at="2018-07-25T13:03:00Z">
+        <test-method status="PASS" signature="verifyAdminHomePageUserTest()[pri:3, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyAdminHomePageUserTest" duration-ms="55" started-at="2018-07-26T12:50:41Z" finished-at="2018-07-26T12:50:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminHomePageUserTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="172" started-at="2018-07-25T13:03:00Z" finished-at="2018-07-25T13:03:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="108" started-at="2018-07-26T12:50:41Z" finished-at="2018-07-26T12:50:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="9791" started-at="2018-07-25T13:06:15Z" finished-at="2018-07-25T13:06:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="12121" started-at="2018-07-26T12:52:40Z" finished-at="2018-07-26T12:52:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAdminAboutLinkTest()[pri:4, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyAdminAboutLinkTest" duration-ms="2511" started-at="2018-07-25T13:06:25Z" finished-at="2018-07-25T13:06:27Z">
+        <test-method status="PASS" signature="verifyAdminAboutLinkTest()[pri:4, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyAdminAboutLinkTest" duration-ms="2694" started-at="2018-07-26T12:52:52Z" finished-at="2018-07-26T12:52:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminAboutLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="136" started-at="2018-07-25T13:06:27Z" finished-at="2018-07-25T13:06:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="146" started-at="2018-07-26T12:52:54Z" finished-at="2018-07-26T12:52:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="9791" started-at="2018-07-25T13:07:19Z" finished-at="2018-07-25T13:07:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="12890" started-at="2018-07-26T12:54:28Z" finished-at="2018-07-26T12:54:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAdminChangePasswordLinkTest()[pri:5, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyAdminChangePasswordLinkTest" duration-ms="130" started-at="2018-07-25T13:07:29Z" finished-at="2018-07-25T13:07:29Z">
+        <test-method status="PASS" signature="verifyAdminChangePasswordLinkTest()[pri:5, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyAdminChangePasswordLinkTest" duration-ms="148" started-at="2018-07-26T12:54:41Z" finished-at="2018-07-26T12:54:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminChangePasswordLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="2042" started-at="2018-07-25T13:07:29Z" finished-at="2018-07-25T13:07:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="2052" started-at="2018-07-26T12:54:41Z" finished-at="2018-07-26T12:54:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="9378" started-at="2018-07-25T13:08:50Z" finished-at="2018-07-25T13:09:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="9240" started-at="2018-07-26T12:56:29Z" finished-at="2018-07-26T12:56:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyAdminLogoutLinkTest()[pri:6, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyAdminLogoutLinkTest" duration-ms="3315" started-at="2018-07-25T13:09:00Z" finished-at="2018-07-25T13:09:03Z">
+        <test-method status="FAIL" signature="verifyAdminLogoutLinkTest()[pri:6, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyAdminLogoutLinkTest" duration-ms="2873" started-at="2018-07-26T12:56:38Z" finished-at="2018-07-26T12:56:41Z">
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[element not visible
@@ -167,10 +433,10 @@
   (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'VEERANTI', ip: '192.168.0.9', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
+System info: host: 'VEERANTI', ip: '192.168.0.15', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir8596_20581}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 67c508562e67368956a34b488c229f94]]>
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir4204_21486}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 90483a3f35c9d1008069c214ea756a17]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
@@ -178,10 +444,10 @@ Session ID: 67c508562e67368956a34b488c229f94]]>
   (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'VEERANTI', ip: '192.168.0.9', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
+System info: host: 'VEERANTI', ip: '192.168.0.15', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir8596_20581}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 67c508562e67368956a34b488c229f94
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir4204_21486}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 90483a3f35c9d1008069c214ea756a17
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -208,7 +474,7 @@ Session ID: 67c508562e67368956a34b488c229f94
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at com.HRM.pages.AdminHomePage.clickOnLogoutLink(AdminHomePage.java:96)
-	at com.HRM.testcases.AdminHomePageTest.verifyAdminLogoutLinkTest(AdminHomePageTest.java:71)
+	at com.HRM.testcases.AdminHomePageTest.verifyAdminLogoutLinkTest(AdminHomePageTest.java:73)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -240,605 +506,537 @@ Session ID: 67c508562e67368956a34b488c229f94
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminLogoutLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="243" started-at="2018-07-25T13:09:03Z" finished-at="2018-07-25T13:09:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="143" started-at="2018-07-26T12:56:41Z" finished-at="2018-07-26T12:56:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="30622" started-at="2018-07-25T13:10:30Z" finished-at="2018-07-25T13:11:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="9392" started-at="2018-07-26T12:57:38Z" finished-at="2018-07-26T12:57:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAdminPageLinkTest()[pri:7, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyAdminPageLinkTest" duration-ms="2374" started-at="2018-07-25T13:11:01Z" finished-at="2018-07-25T13:11:03Z">
+        <test-method status="PASS" signature="verifyAdminPageLinkTest()[pri:7, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyAdminPageLinkTest" duration-ms="2758" started-at="2018-07-26T12:57:47Z" finished-at="2018-07-26T12:57:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminPageLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="156" started-at="2018-07-25T13:11:03Z" finished-at="2018-07-25T13:11:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="2067" started-at="2018-07-26T12:57:50Z" finished-at="2018-07-26T12:57:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="30158" started-at="2018-07-25T13:12:48Z" finished-at="2018-07-25T13:13:18Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="9481" started-at="2018-07-26T12:58:52Z" finished-at="2018-07-26T12:59:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyPIMPageLinkTest()[pri:8, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyPIMPageLinkTest" duration-ms="2985" started-at="2018-07-25T13:13:18Z" finished-at="2018-07-25T13:13:21Z">
+        <test-method status="PASS" signature="verifyPIMPageLinkTest()[pri:8, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyPIMPageLinkTest" duration-ms="2471" started-at="2018-07-26T12:59:01Z" finished-at="2018-07-26T12:59:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPIMPageLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="2079" started-at="2018-07-25T13:13:21Z" finished-at="2018-07-25T13:13:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="167" started-at="2018-07-26T12:59:04Z" finished-at="2018-07-26T12:59:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="37190" started-at="2018-07-25T13:15:21Z" finished-at="2018-07-25T13:15:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="10446" started-at="2018-07-26T13:00:31Z" finished-at="2018-07-26T13:00:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLeavePageLinkTest()[pri:9, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyLeavePageLinkTest" duration-ms="4384" started-at="2018-07-25T13:15:58Z" finished-at="2018-07-25T13:16:03Z">
+        <test-method status="PASS" signature="verifyLeavePageLinkTest()[pri:9, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyLeavePageLinkTest" duration-ms="2860" started-at="2018-07-26T13:00:41Z" finished-at="2018-07-26T13:00:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLeavePageLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="106" started-at="2018-07-25T13:16:03Z" finished-at="2018-07-25T13:16:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="94" started-at="2018-07-26T13:00:44Z" finished-at="2018-07-26T13:00:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="36261" started-at="2018-07-25T13:18:18Z" finished-at="2018-07-25T13:18:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="10367" started-at="2018-07-26T13:01:56Z" finished-at="2018-07-26T13:02:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTimePageLinkTest()[pri:10, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyTimePageLinkTest" duration-ms="2280" started-at="2018-07-25T13:18:55Z" finished-at="2018-07-25T13:18:57Z">
+        <test-method status="PASS" signature="verifyTimePageLinkTest()[pri:10, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyTimePageLinkTest" duration-ms="3538" started-at="2018-07-26T13:02:06Z" finished-at="2018-07-26T13:02:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTimePageLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="139" started-at="2018-07-25T13:18:57Z" finished-at="2018-07-25T13:18:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="90" started-at="2018-07-26T13:02:09Z" finished-at="2018-07-26T13:02:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="37033" started-at="2018-07-25T13:20:27Z" finished-at="2018-07-25T13:21:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="12838" started-at="2018-07-26T13:03:12Z" finished-at="2018-07-26T13:03:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyRecruitmentPageLinkTest()[pri:11, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyRecruitmentPageLinkTest" duration-ms="4326" started-at="2018-07-25T13:21:04Z" finished-at="2018-07-25T13:21:08Z">
+        <test-method status="PASS" signature="verifyRecruitmentPageLinkTest()[pri:11, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyRecruitmentPageLinkTest" duration-ms="3734" started-at="2018-07-26T13:03:25Z" finished-at="2018-07-26T13:03:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRecruitmentPageLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="2151" started-at="2018-07-25T13:21:08Z" finished-at="2018-07-25T13:21:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="2118" started-at="2018-07-26T13:03:29Z" finished-at="2018-07-26T13:03:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="36847" started-at="2018-07-25T13:21:54Z" finished-at="2018-07-25T13:22:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="10456" started-at="2018-07-26T13:03:52Z" finished-at="2018-07-26T13:04:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyPerformancePageLinkTest()[pri:12, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyPerformancePageLinkTest" duration-ms="207" started-at="2018-07-25T13:22:31Z" finished-at="2018-07-25T13:22:31Z">
+        <test-method status="PASS" signature="verifyPerformancePageLinkTest()[pri:12, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyPerformancePageLinkTest" duration-ms="134" started-at="2018-07-26T13:04:03Z" finished-at="2018-07-26T13:04:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPerformancePageLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="248" started-at="2018-07-25T13:22:31Z" finished-at="2018-07-25T13:22:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="2085" started-at="2018-07-26T13:04:03Z" finished-at="2018-07-26T13:04:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="38871" started-at="2018-07-25T13:23:17Z" finished-at="2018-07-25T13:23:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="11809" started-at="2018-07-26T13:04:24Z" finished-at="2018-07-26T13:04:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAdminDashboardLinkTest()[pri:13, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyAdminDashboardLinkTest" duration-ms="2955" started-at="2018-07-25T13:23:56Z" finished-at="2018-07-25T13:23:59Z">
+        <test-method status="PASS" signature="verifyAdminDashboardLinkTest()[pri:13, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyAdminDashboardLinkTest" duration-ms="3058" started-at="2018-07-26T13:04:36Z" finished-at="2018-07-26T13:04:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminDashboardLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="2127" started-at="2018-07-25T13:23:59Z" finished-at="2018-07-25T13:24:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="2095" started-at="2018-07-26T13:04:39Z" finished-at="2018-07-26T13:04:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="setUp" is-config="true" duration-ms="38754" started-at="2018-07-25T13:24:46Z" finished-at="2018-07-25T13:25:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="setUp" is-config="true" duration-ms="12337" started-at="2018-07-26T13:04:57Z" finished-at="2018-07-26T13:05:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyDirectoryPageLinkTest()[pri:14, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="verifyDirectoryPageLinkTest" duration-ms="5281" started-at="2018-07-25T13:25:25Z" finished-at="2018-07-25T13:25:30Z">
+        <test-method status="PASS" signature="verifyDirectoryPageLinkTest()[pri:14, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="verifyDirectoryPageLinkTest" duration-ms="4164" started-at="2018-07-26T13:05:09Z" finished-at="2018-07-26T13:05:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDirectoryPageLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@85bdee]" name="tearDown" is-config="true" duration-ms="141" started-at="2018-07-25T13:25:30Z" finished-at="2018-07-25T13:25:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminHomePageTest@12108b5]" name="tearDown" is-config="true" duration-ms="141" started-at="2018-07-26T13:05:13Z" finished-at="2018-07-26T13:05:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.HRM.testcases.AdminHomePageTest -->
-      <class name="com.HRM.testcases.AdminModulePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="50284" started-at="2018-07-25T12:53:22Z" finished-at="2018-07-25T12:54:12Z">
+      <class name="com.HRM.testcases.RecruitmentPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.RecruitmentPageTest@ac3a89]" name="setUp" is-config="true" duration-ms="17566" started-at="2018-07-26T12:46:48Z" finished-at="2018-07-26T12:47:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAdminPageHeaderTest()[pri:1, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyAdminPageHeaderTest" duration-ms="98" started-at="2018-07-25T12:54:12Z" finished-at="2018-07-25T12:54:13Z">
+        <test-method status="PASS" signature="verifyRecruitmentPageHeaderTest()[pri:1, instance:com.HRM.testcases.RecruitmentPageTest@ac3a89]" name="verifyRecruitmentPageHeaderTest" duration-ms="111" started-at="2018-07-26T12:47:06Z" finished-at="2018-07-26T12:47:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAdminPageHeaderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="2101" started-at="2018-07-25T12:54:13Z" finished-at="2018-07-25T12:54:15Z">
+        </test-method> <!-- verifyRecruitmentPageHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.RecruitmentPageTest@ac3a89]" name="tearDown" is-config="true" duration-ms="124" started-at="2018-07-26T12:47:06Z" finished-at="2018-07-26T12:47:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="41761" started-at="2018-07-25T12:58:17Z" finished-at="2018-07-25T12:58:59Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.RecruitmentPageTest@ac3a89]" name="setUp" is-config="true" duration-ms="16199" started-at="2018-07-26T12:49:39Z" finished-at="2018-07-26T12:49:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyClickonUsersMenuTest()[pri:2, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyClickonUsersMenuTest" duration-ms="1590" started-at="2018-07-25T12:58:59Z" finished-at="2018-07-25T12:59:01Z">
+        <test-method status="PASS" signature="verifyCandidatesMenuTest()[pri:2, instance:com.HRM.testcases.RecruitmentPageTest@ac3a89]" name="verifyCandidatesMenuTest" duration-ms="1733" started-at="2018-07-26T12:49:55Z" finished-at="2018-07-26T12:49:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyClickonUsersMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="2161" started-at="2018-07-25T12:59:01Z" finished-at="2018-07-25T12:59:03Z">
+        </test-method> <!-- verifyCandidatesMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.RecruitmentPageTest@ac3a89]" name="tearDown" is-config="true" duration-ms="123" started-at="2018-07-26T12:49:57Z" finished-at="2018-07-26T12:49:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="40557" started-at="2018-07-25T13:03:00Z" finished-at="2018-07-25T13:03:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.RecruitmentPageTest@ac3a89]" name="setUp" is-config="true" duration-ms="13018" started-at="2018-07-26T12:51:56Z" finished-at="2018-07-26T12:52:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyJobTitlesMenuTest()[pri:3, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyJobTitlesMenuTest" duration-ms="2133" started-at="2018-07-25T13:03:41Z" finished-at="2018-07-25T13:03:43Z">
+        <test-method status="PASS" signature="verifyVacanciesMenuTest()[pri:3, instance:com.HRM.testcases.RecruitmentPageTest@ac3a89]" name="verifyVacanciesMenuTest" duration-ms="1558" started-at="2018-07-26T12:52:09Z" finished-at="2018-07-26T12:52:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyJobTitlesMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="2111" started-at="2018-07-25T13:03:43Z" finished-at="2018-07-25T13:03:45Z">
+        </test-method> <!-- verifyVacanciesMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.RecruitmentPageTest@ac3a89]" name="tearDown" is-config="true" duration-ms="119" started-at="2018-07-26T12:52:11Z" finished-at="2018-07-26T12:52:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="12409" started-at="2018-07-25T13:06:28Z" finished-at="2018-07-25T13:06:40Z">
+      </class> <!-- com.HRM.testcases.RecruitmentPageTest -->
+      <class name="com.HRM.testcases.TimePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="setUp" is-config="true" duration-ms="21763" started-at="2018-07-26T12:47:06Z" finished-at="2018-07-26T12:47:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyPayGradesMenuTest()[pri:4, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyPayGradesMenuTest" duration-ms="2670" started-at="2018-07-25T13:06:40Z" finished-at="2018-07-25T13:06:43Z">
+        <test-method status="PASS" signature="verifyTimePageHeaderTest()[pri:1, instance:com.HRM.testcases.TimePageTest@10ab905]" name="verifyTimePageHeaderTest" duration-ms="101" started-at="2018-07-26T12:47:28Z" finished-at="2018-07-26T12:47:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPayGradesMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="2321" started-at="2018-07-25T13:06:43Z" finished-at="2018-07-25T13:06:45Z">
+        </test-method> <!-- verifyTimePageHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="tearDown" is-config="true" duration-ms="186" started-at="2018-07-26T12:47:28Z" finished-at="2018-07-26T12:47:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="12284" started-at="2018-07-25T13:07:31Z" finished-at="2018-07-25T13:07:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="setUp" is-config="true" duration-ms="13182" started-at="2018-07-26T12:49:57Z" finished-at="2018-07-26T12:50:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyEmploymentStatusMenuTest()[pri:5, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyEmploymentStatusMenuTest" duration-ms="1314" started-at="2018-07-25T13:07:43Z" finished-at="2018-07-25T13:07:45Z">
+        <test-method status="PASS" signature="verifyEmployeeTimeSheetsMenuTest()[pri:2, instance:com.HRM.testcases.TimePageTest@10ab905]" name="verifyEmployeeTimeSheetsMenuTest" duration-ms="1536" started-at="2018-07-26T12:50:10Z" finished-at="2018-07-26T12:50:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyEmploymentStatusMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="2334" started-at="2018-07-25T13:07:45Z" finished-at="2018-07-25T13:07:47Z">
+        </test-method> <!-- verifyEmployeeTimeSheetsMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="tearDown" is-config="true" duration-ms="2038" started-at="2018-07-26T12:50:12Z" finished-at="2018-07-26T12:50:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="12465" started-at="2018-07-25T13:07:47Z" finished-at="2018-07-25T13:07:59Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="setUp" is-config="true" duration-ms="12717" started-at="2018-07-26T12:52:11Z" finished-at="2018-07-26T12:52:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyJobCategoriesMenuTest()[pri:5, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyJobCategoriesMenuTest" duration-ms="1768" started-at="2018-07-25T13:07:59Z" finished-at="2018-07-25T13:08:01Z">
+        <test-method status="PASS" signature="verifyEmployeeRecordsMenuTest()[pri:3, instance:com.HRM.testcases.TimePageTest@10ab905]" name="verifyEmployeeRecordsMenuTest" duration-ms="2042" started-at="2018-07-26T12:52:23Z" finished-at="2018-07-26T12:52:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyJobCategoriesMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="122" started-at="2018-07-25T13:08:01Z" finished-at="2018-07-25T13:08:01Z">
+        </test-method> <!-- verifyEmployeeRecordsMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="tearDown" is-config="true" duration-ms="256" started-at="2018-07-26T12:52:25Z" finished-at="2018-07-26T12:52:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="13562" started-at="2018-07-25T13:08:01Z" finished-at="2018-07-25T13:08:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="setUp" is-config="true" duration-ms="15423" started-at="2018-07-26T12:54:09Z" finished-at="2018-07-26T12:54:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyWorkShiftsMenuTest()[pri:5, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyWorkShiftsMenuTest" duration-ms="1547" started-at="2018-07-25T13:08:15Z" finished-at="2018-07-25T13:08:16Z">
+        <test-method status="PASS" signature="verifyAttendenceConfigMenuTest()[pri:4, instance:com.HRM.testcases.TimePageTest@10ab905]" name="verifyAttendenceConfigMenuTest" duration-ms="1314" started-at="2018-07-26T12:54:25Z" finished-at="2018-07-26T12:54:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyWorkShiftsMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="2070" started-at="2018-07-25T13:08:16Z" finished-at="2018-07-25T13:08:19Z">
+        </test-method> <!-- verifyAttendenceConfigMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="tearDown" is-config="true" duration-ms="2058" started-at="2018-07-26T12:54:26Z" finished-at="2018-07-26T12:54:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="12131" started-at="2018-07-25T13:09:03Z" finished-at="2018-07-25T13:09:16Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="setUp" is-config="true" duration-ms="12482" started-at="2018-07-26T12:56:15Z" finished-at="2018-07-26T12:56:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyGeneralInfoMenuTest()[pri:6, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyGeneralInfoMenuTest" duration-ms="1921" started-at="2018-07-25T13:09:16Z" finished-at="2018-07-25T13:09:17Z">
+        <test-method status="PASS" signature="verifyProjectReportsMenuTest()[pri:5, instance:com.HRM.testcases.TimePageTest@10ab905]" name="verifyProjectReportsMenuTest" duration-ms="1770" started-at="2018-07-26T12:56:27Z" finished-at="2018-07-26T12:56:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyGeneralInfoMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="2068" started-at="2018-07-25T13:09:17Z" finished-at="2018-07-25T13:09:20Z">
+        </test-method> <!-- verifyProjectReportsMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="tearDown" is-config="true" duration-ms="54" started-at="2018-07-26T12:56:29Z" finished-at="2018-07-26T12:56:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="32991" started-at="2018-07-25T13:11:04Z" finished-at="2018-07-25T13:11:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="setUp" is-config="true" duration-ms="11196" started-at="2018-07-26T12:57:25Z" finished-at="2018-07-26T12:57:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLocationsMenuTest()[pri:7, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyLocationsMenuTest" duration-ms="1411" started-at="2018-07-25T13:11:37Z" finished-at="2018-07-25T13:11:38Z">
+        <test-method status="PASS" signature="verifyEmployeeReportsMenuTest()[pri:6, instance:com.HRM.testcases.TimePageTest@10ab905]" name="verifyEmployeeReportsMenuTest" duration-ms="1582" started-at="2018-07-26T12:57:36Z" finished-at="2018-07-26T12:57:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLocationsMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="2069" started-at="2018-07-25T13:11:38Z" finished-at="2018-07-25T13:11:40Z">
+        </test-method> <!-- verifyEmployeeReportsMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="tearDown" is-config="true" duration-ms="128" started-at="2018-07-26T12:57:37Z" finished-at="2018-07-26T12:57:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="33181" started-at="2018-07-25T13:13:24Z" finished-at="2018-07-25T13:13:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="setUp" is-config="true" duration-ms="11960" started-at="2018-07-26T12:58:38Z" finished-at="2018-07-26T12:58:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyStructureMenuTest()[pri:8, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyStructureMenuTest" duration-ms="1359" started-at="2018-07-25T13:13:57Z" finished-at="2018-07-25T13:13:58Z">
+        <test-method status="PASS" signature="verifyAttendanceSummaryMenuTest()[pri:7, instance:com.HRM.testcases.TimePageTest@10ab905]" name="verifyAttendanceSummaryMenuTest" duration-ms="1526" started-at="2018-07-26T12:58:50Z" finished-at="2018-07-26T12:58:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyStructureMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="114" started-at="2018-07-25T13:13:58Z" finished-at="2018-07-25T13:13:58Z">
+        </test-method> <!-- verifyAttendanceSummaryMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="tearDown" is-config="true" duration-ms="224" started-at="2018-07-26T12:58:52Z" finished-at="2018-07-26T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="41155" started-at="2018-07-25T13:16:03Z" finished-at="2018-07-25T13:16:44Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="setUp" is-config="true" duration-ms="11823" started-at="2018-07-26T13:00:16Z" finished-at="2018-07-26T13:00:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySkillsMenuTest()[pri:9, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifySkillsMenuTest" duration-ms="1534" started-at="2018-07-25T13:16:44Z" finished-at="2018-07-25T13:16:45Z">
+        <test-method status="PASS" signature="verifyCustomersMenuTest()[pri:8, instance:com.HRM.testcases.TimePageTest@10ab905]" name="verifyCustomersMenuTest" duration-ms="2242" started-at="2018-07-26T13:00:28Z" finished-at="2018-07-26T13:00:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySkillsMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="2066" started-at="2018-07-25T13:16:45Z" finished-at="2018-07-25T13:16:47Z">
+        </test-method> <!-- verifyCustomersMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="tearDown" is-config="true" duration-ms="253" started-at="2018-07-26T13:00:30Z" finished-at="2018-07-26T13:00:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="44037" started-at="2018-07-25T13:19:41Z" finished-at="2018-07-25T13:20:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="setUp" is-config="true" duration-ms="14117" started-at="2018-07-26T13:01:40Z" finished-at="2018-07-26T13:01:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyEducationMenuTest()[pri:10, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyEducationMenuTest" duration-ms="1591" started-at="2018-07-25T13:20:25Z" finished-at="2018-07-25T13:20:27Z">
+        <test-method status="PASS" signature="verifyProjectsMenuTest()[pri:9, instance:com.HRM.testcases.TimePageTest@10ab905]" name="verifyProjectsMenuTest" duration-ms="1425" started-at="2018-07-26T13:01:54Z" finished-at="2018-07-26T13:01:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyEducationMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="130" started-at="2018-07-25T13:20:27Z" finished-at="2018-07-25T13:20:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="42460" started-at="2018-07-25T13:21:10Z" finished-at="2018-07-25T13:21:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLicensesMenuTest()[pri:11, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyLicensesMenuTest" duration-ms="1274" started-at="2018-07-25T13:21:53Z" finished-at="2018-07-25T13:21:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLicensesMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="139" started-at="2018-07-25T13:21:54Z" finished-at="2018-07-25T13:21:54Z">
+        </test-method> <!-- verifyProjectsMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.TimePageTest@10ab905]" name="tearDown" is-config="true" duration-ms="252" started-at="2018-07-26T13:01:55Z" finished-at="2018-07-26T13:01:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="41914" started-at="2018-07-25T13:22:31Z" finished-at="2018-07-25T13:23:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLanguagesMenuTest()[pri:12, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyLanguagesMenuTest" duration-ms="1375" started-at="2018-07-25T13:23:13Z" finished-at="2018-07-25T13:23:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLanguagesMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="2100" started-at="2018-07-25T13:23:15Z" finished-at="2018-07-25T13:23:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="43337" started-at="2018-07-25T13:24:01Z" finished-at="2018-07-25T13:24:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyMembershipsMenuTest()[pri:13, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyMembershipsMenuTest" duration-ms="1548" started-at="2018-07-25T13:24:44Z" finished-at="2018-07-25T13:24:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMembershipsMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="158" started-at="2018-07-25T13:24:46Z" finished-at="2018-07-25T13:24:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="46779" started-at="2018-07-25T13:25:30Z" finished-at="2018-07-25T13:26:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyNationalitiesMenuTest()[pri:14, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyNationalitiesMenuTest" duration-ms="2596" started-at="2018-07-25T13:26:17Z" finished-at="2018-07-25T13:26:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyNationalitiesMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="90" started-at="2018-07-25T13:26:19Z" finished-at="2018-07-25T13:26:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="39880" started-at="2018-07-25T13:26:19Z" finished-at="2018-07-25T13:26:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyEmailConfigMenuTest()[pri:15, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyEmailConfigMenuTest" duration-ms="1353" started-at="2018-07-25T13:26:59Z" finished-at="2018-07-25T13:27:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEmailConfigMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="2049" started-at="2018-07-25T13:27:01Z" finished-at="2018-07-25T13:27:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="45232" started-at="2018-07-25T13:27:03Z" finished-at="2018-07-25T13:27:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyEmailNotifyMenuTest()[pri:16, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyEmailNotifyMenuTest" duration-ms="1428" started-at="2018-07-25T13:27:48Z" finished-at="2018-07-25T13:27:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEmailNotifyMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="120" started-at="2018-07-25T13:27:49Z" finished-at="2018-07-25T13:27:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="41609" started-at="2018-07-25T13:27:50Z" finished-at="2018-07-25T13:28:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLocalizationMenuTest()[pri:17, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyLocalizationMenuTest" duration-ms="1496" started-at="2018-07-25T13:28:31Z" finished-at="2018-07-25T13:28:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLocalizationMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="57" started-at="2018-07-25T13:28:33Z" finished-at="2018-07-25T13:28:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="47952" started-at="2018-07-25T13:28:33Z" finished-at="2018-07-25T13:29:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyModulesMenuTest()[pri:18, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyModulesMenuTest" duration-ms="1376" started-at="2018-07-25T13:29:21Z" finished-at="2018-07-25T13:29:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyModulesMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="145" started-at="2018-07-25T13:29:22Z" finished-at="2018-07-25T13:29:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="44708" started-at="2018-07-25T13:29:22Z" finished-at="2018-07-25T13:30:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySocialMediaMenuTest()[pri:19, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifySocialMediaMenuTest" duration-ms="1632" started-at="2018-07-25T13:30:07Z" finished-at="2018-07-25T13:30:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySocialMediaMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="2039" started-at="2018-07-25T13:30:09Z" finished-at="2018-07-25T13:30:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="setUp" is-config="true" duration-ms="45412" started-at="2018-07-25T13:30:11Z" finished-at="2018-07-25T13:30:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyOAuthClientMenuTest()[pri:20, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="verifyOAuthClientMenuTest" duration-ms="1634" started-at="2018-07-25T13:30:56Z" finished-at="2018-07-25T13:30:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyOAuthClientMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.AdminModulePageTest@e92674]" name="tearDown" is-config="true" duration-ms="231" started-at="2018-07-25T13:30:58Z" finished-at="2018-07-25T13:30:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.HRM.testcases.AdminModulePageTest -->
+      </class> <!-- com.HRM.testcases.TimePageTest -->
       <class name="com.HRM.testcases.LeavePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="setUp" is-config="true" duration-ms="42130" started-at="2018-07-25T12:55:03Z" finished-at="2018-07-25T12:55:45Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="setUp" is-config="true" duration-ms="36120" started-at="2018-07-26T12:45:25Z" finished-at="2018-07-26T12:46:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLeavePageHeaderTest()[pri:1, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="verifyLeavePageHeaderTest" duration-ms="91" started-at="2018-07-25T12:55:45Z" finished-at="2018-07-25T12:55:45Z">
+        <test-method status="PASS" signature="verifyLeavePageHeaderTest()[pri:1, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="verifyLeavePageHeaderTest" duration-ms="152" started-at="2018-07-26T12:46:01Z" finished-at="2018-07-26T12:46:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLeavePageHeaderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="tearDown" is-config="true" duration-ms="2052" started-at="2018-07-25T12:55:45Z" finished-at="2018-07-25T12:55:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="tearDown" is-config="true" duration-ms="2305" started-at="2018-07-26T12:46:01Z" finished-at="2018-07-26T12:46:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="setUp" is-config="true" duration-ms="46911" started-at="2018-07-25T13:00:10Z" finished-at="2018-07-25T13:00:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="setUp" is-config="true" duration-ms="12090" started-at="2018-07-26T12:48:42Z" finished-at="2018-07-26T12:48:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAddEntitlementsMenuTest()[pri:2, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="verifyAddEntitlementsMenuTest" duration-ms="1581" started-at="2018-07-25T13:00:57Z" finished-at="2018-07-25T13:00:58Z">
+        <test-method status="PASS" signature="verifyAddEntitlementsMenuTest()[pri:2, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="verifyAddEntitlementsMenuTest" duration-ms="2593" started-at="2018-07-26T12:48:54Z" finished-at="2018-07-26T12:48:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddEntitlementsMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="tearDown" is-config="true" duration-ms="77" started-at="2018-07-25T13:00:58Z" finished-at="2018-07-25T13:00:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="tearDown" is-config="true" duration-ms="119" started-at="2018-07-26T12:48:56Z" finished-at="2018-07-26T12:48:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="setUp" is-config="true" duration-ms="52304" started-at="2018-07-25T13:04:29Z" finished-at="2018-07-25T13:05:21Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="setUp" is-config="true" duration-ms="13944" started-at="2018-07-26T12:50:56Z" finished-at="2018-07-26T12:51:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyEmployeeEntitlementsMenuTest()[pri:3, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="verifyEmployeeEntitlementsMenuTest" duration-ms="1548" started-at="2018-07-25T13:05:21Z" finished-at="2018-07-25T13:05:23Z">
+        <test-method status="PASS" signature="verifyEmployeeEntitlementsMenuTest()[pri:3, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="verifyEmployeeEntitlementsMenuTest" duration-ms="2394" started-at="2018-07-26T12:51:10Z" finished-at="2018-07-26T12:51:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmployeeEntitlementsMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="tearDown" is-config="true" duration-ms="334" started-at="2018-07-25T13:05:23Z" finished-at="2018-07-25T13:05:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="tearDown" is-config="true" duration-ms="235" started-at="2018-07-26T12:51:13Z" finished-at="2018-07-26T12:51:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="setUp" is-config="true" duration-ms="14133" started-at="2018-07-25T13:07:01Z" finished-at="2018-07-25T13:07:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="setUp" is-config="true" duration-ms="15108" started-at="2018-07-26T12:53:11Z" finished-at="2018-07-26T12:53:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLeaveUsageReportMenuTest()[pri:4, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="verifyLeaveUsageReportMenuTest" duration-ms="1624" started-at="2018-07-25T13:07:15Z" finished-at="2018-07-25T13:07:17Z">
+        <test-method status="PASS" signature="verifyLeaveUsageReportMenuTest()[pri:4, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="verifyLeaveUsageReportMenuTest" duration-ms="1730" started-at="2018-07-26T12:53:26Z" finished-at="2018-07-26T12:53:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLeaveUsageReportMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="tearDown" is-config="true" duration-ms="2336" started-at="2018-07-25T13:07:17Z" finished-at="2018-07-25T13:07:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="tearDown" is-config="true" duration-ms="147" started-at="2018-07-26T12:53:28Z" finished-at="2018-07-26T12:53:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="setUp" is-config="true" duration-ms="13024" started-at="2018-07-25T13:08:34Z" finished-at="2018-07-25T13:08:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="setUp" is-config="true" duration-ms="17013" started-at="2018-07-26T12:55:40Z" finished-at="2018-07-26T12:55:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLeavePeriodMenuTest()[pri:5, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="verifyLeavePeriodMenuTest" duration-ms="1149" started-at="2018-07-25T13:08:47Z" finished-at="2018-07-25T13:08:48Z">
+        <test-method status="PASS" signature="verifyLeavePeriodMenuTest()[pri:5, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="verifyLeavePeriodMenuTest" duration-ms="1284" started-at="2018-07-26T12:55:57Z" finished-at="2018-07-26T12:55:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLeavePeriodMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="tearDown" is-config="true" duration-ms="2113" started-at="2018-07-25T13:08:48Z" finished-at="2018-07-25T13:08:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="tearDown" is-config="true" duration-ms="2068" started-at="2018-07-26T12:55:58Z" finished-at="2018-07-26T12:56:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="setUp" is-config="true" duration-ms="33525" started-at="2018-07-25T13:09:54Z" finished-at="2018-07-25T13:10:27Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="setUp" is-config="true" duration-ms="11832" started-at="2018-07-26T12:56:56Z" finished-at="2018-07-26T12:57:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLeaveTypesMenuTest()[pri:6, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="verifyLeaveTypesMenuTest" duration-ms="1099" started-at="2018-07-25T13:10:27Z" finished-at="2018-07-25T13:10:28Z">
+        <test-method status="PASS" signature="verifyLeaveTypesMenuTest()[pri:6, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="verifyLeaveTypesMenuTest" duration-ms="1306" started-at="2018-07-26T12:57:08Z" finished-at="2018-07-26T12:57:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLeaveTypesMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="tearDown" is-config="true" duration-ms="2064" started-at="2018-07-25T13:10:28Z" finished-at="2018-07-25T13:10:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="tearDown" is-config="true" duration-ms="239" started-at="2018-07-26T12:57:09Z" finished-at="2018-07-26T12:57:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="setUp" is-config="true" duration-ms="32757" started-at="2018-07-25T13:12:14Z" finished-at="2018-07-25T13:12:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="setUp" is-config="true" duration-ms="12218" started-at="2018-07-26T12:58:10Z" finished-at="2018-07-26T12:58:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyWorkWeekPageMenuTest()[pri:7, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="verifyWorkWeekPageMenuTest" duration-ms="1188" started-at="2018-07-25T13:12:47Z" finished-at="2018-07-25T13:12:48Z">
+        <test-method status="PASS" signature="verifyWorkWeekPageMenuTest()[pri:7, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="verifyWorkWeekPageMenuTest" duration-ms="1520" started-at="2018-07-26T12:58:22Z" finished-at="2018-07-26T12:58:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWorkWeekPageMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="tearDown" is-config="true" duration-ms="160" started-at="2018-07-25T13:12:48Z" finished-at="2018-07-25T13:12:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="tearDown" is-config="true" duration-ms="232" started-at="2018-07-26T12:58:24Z" finished-at="2018-07-26T12:58:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="setUp" is-config="true" duration-ms="43100" started-at="2018-07-25T13:14:35Z" finished-at="2018-07-25T13:15:18Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="setUp" is-config="true" duration-ms="14574" started-at="2018-07-26T12:59:20Z" finished-at="2018-07-26T12:59:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHolidaysMenuTest()[pri:8, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="verifyHolidaysMenuTest" duration-ms="1257" started-at="2018-07-25T13:15:18Z" finished-at="2018-07-25T13:15:19Z">
+        <test-method status="PASS" signature="verifyHolidaysMenuTest()[pri:8, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="verifyHolidaysMenuTest" duration-ms="12433" started-at="2018-07-26T12:59:34Z" finished-at="2018-07-26T12:59:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHolidaysMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="tearDown" is-config="true" duration-ms="2068" started-at="2018-07-25T13:15:19Z" finished-at="2018-07-25T13:15:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="tearDown" is-config="true" duration-ms="2357" started-at="2018-07-26T12:59:47Z" finished-at="2018-07-26T12:59:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="setUp" is-config="true" duration-ms="42690" started-at="2018-07-25T13:17:32Z" finished-at="2018-07-25T13:18:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="setUp" is-config="true" duration-ms="19343" started-at="2018-07-26T13:01:00Z" finished-at="2018-07-26T13:01:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLeaveLeaveListMenuTest()[pri:9, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="verifyLeaveLeaveListMenuTest" duration-ms="1513" started-at="2018-07-25T13:18:15Z" finished-at="2018-07-25T13:18:16Z">
+        <test-method status="PASS" signature="verifyLeaveLeaveListMenuTest()[pri:9, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="verifyLeaveLeaveListMenuTest" duration-ms="1229" started-at="2018-07-26T13:01:20Z" finished-at="2018-07-26T13:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLeaveLeaveListMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="tearDown" is-config="true" duration-ms="2073" started-at="2018-07-25T13:18:16Z" finished-at="2018-07-25T13:18:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="tearDown" is-config="true" duration-ms="114" started-at="2018-07-26T13:01:21Z" finished-at="2018-07-26T13:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="setUp" is-config="true" duration-ms="42296" started-at="2018-07-25T13:18:57Z" finished-at="2018-07-25T13:19:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="setUp" is-config="true" duration-ms="37149" started-at="2018-07-26T13:02:28Z" finished-at="2018-07-26T13:03:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAssignLeaveMenuTest()[pri:10, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="verifyAssignLeaveMenuTest" duration-ms="1514" started-at="2018-07-25T13:19:39Z" finished-at="2018-07-25T13:19:41Z">
+        <test-method status="PASS" signature="verifyAssignLeaveMenuTest()[pri:10, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="verifyAssignLeaveMenuTest" duration-ms="4851" started-at="2018-07-26T13:03:05Z" finished-at="2018-07-26T13:03:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAssignLeaveMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@fd02e5]" name="tearDown" is-config="true" duration-ms="122" started-at="2018-07-25T13:19:41Z" finished-at="2018-07-25T13:19:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.LeavePageTest@397ed7]" name="tearDown" is-config="true" duration-ms="2077" started-at="2018-07-26T13:03:10Z" finished-at="2018-07-26T13:03:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.HRM.testcases.LeavePageTest -->
-      <class name="com.HRM.testcases.PIMPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="setUp" is-config="true" duration-ms="45823" started-at="2018-07-25T12:54:15Z" finished-at="2018-07-25T12:55:00Z">
+      <class name="com.HRM.testcases.PerformancePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PerformancePageTest@1c20538]" name="setUp" is-config="true" duration-ms="13025" started-at="2018-07-26T12:46:31Z" finished-at="2018-07-26T12:46:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyPIMPageHeaderTest()[pri:1, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="verifyPIMPageHeaderTest" duration-ms="80" started-at="2018-07-25T12:55:00Z" finished-at="2018-07-25T12:55:01Z">
+        <test-method status="PASS" signature="verifyKPIsMenuTest()[pri:1, instance:com.HRM.testcases.PerformancePageTest@1c20538]" name="verifyKPIsMenuTest" duration-ms="4112" started-at="2018-07-26T12:46:44Z" finished-at="2018-07-26T12:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKPIsMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PerformancePageTest@1c20538]" name="tearDown" is-config="true" duration-ms="135" started-at="2018-07-26T12:46:48Z" finished-at="2018-07-26T12:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PerformancePageTest@1c20538]" name="setUp" is-config="true" duration-ms="11040" started-at="2018-07-26T12:49:25Z" finished-at="2018-07-26T12:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTrackersMenuTest()[pri:2, instance:com.HRM.testcases.PerformancePageTest@1c20538]" name="verifyTrackersMenuTest" duration-ms="2843" started-at="2018-07-26T12:49:36Z" finished-at="2018-07-26T12:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTrackersMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PerformancePageTest@1c20538]" name="tearDown" is-config="true" duration-ms="95" started-at="2018-07-26T12:49:39Z" finished-at="2018-07-26T12:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PerformancePageTest@1c20538]" name="setUp" is-config="true" duration-ms="12197" started-at="2018-07-26T12:51:41Z" finished-at="2018-07-26T12:51:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyManageReviewsMenuTest()[pri:3, instance:com.HRM.testcases.PerformancePageTest@1c20538]" name="verifyManageReviewsMenuTest" duration-ms="3161" started-at="2018-07-26T12:51:53Z" finished-at="2018-07-26T12:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManageReviewsMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PerformancePageTest@1c20538]" name="tearDown" is-config="true" duration-ms="147" started-at="2018-07-26T12:51:56Z" finished-at="2018-07-26T12:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PerformancePageTest@1c20538]" name="setUp" is-config="true" duration-ms="11999" started-at="2018-07-26T12:53:54Z" finished-at="2018-07-26T12:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyEmployeeTrackersMenuTest()[pri:4, instance:com.HRM.testcases.PerformancePageTest@1c20538]" name="verifyEmployeeTrackersMenuTest" duration-ms="3497" started-at="2018-07-26T12:54:06Z" finished-at="2018-07-26T12:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeTrackersMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PerformancePageTest@1c20538]" name="tearDown" is-config="true" duration-ms="127" started-at="2018-07-26T12:54:09Z" finished-at="2018-07-26T12:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.HRM.testcases.PerformancePageTest -->
+      <class name="com.HRM.testcases.PIMPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="setUp" is-config="true" duration-ms="17472" started-at="2018-07-26T12:46:11Z" finished-at="2018-07-26T12:46:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPIMPageHeaderTest()[pri:1, instance:com.HRM.testcases.PIMPageTest@149dace]" name="verifyPIMPageHeaderTest" duration-ms="68" started-at="2018-07-26T12:46:29Z" finished-at="2018-07-26T12:46:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPIMPageHeaderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="tearDown" is-config="true" duration-ms="2173" started-at="2018-07-25T12:55:01Z" finished-at="2018-07-25T12:55:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="tearDown" is-config="true" duration-ms="2062" started-at="2018-07-26T12:46:29Z" finished-at="2018-07-26T12:46:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="setUp" is-config="true" duration-ms="63090" started-at="2018-07-25T12:59:03Z" finished-at="2018-07-25T13:00:06Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="setUp" is-config="true" duration-ms="13023" started-at="2018-07-26T12:49:10Z" finished-at="2018-07-26T12:49:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyOptionalFieldsMenuTest()[pri:2, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="verifyOptionalFieldsMenuTest" duration-ms="2899" started-at="2018-07-25T13:00:06Z" finished-at="2018-07-25T13:00:09Z">
+        <test-method status="PASS" signature="verifyOptionalFieldsMenuTest()[pri:2, instance:com.HRM.testcases.PIMPageTest@149dace]" name="verifyOptionalFieldsMenuTest" duration-ms="1882" started-at="2018-07-26T12:49:23Z" finished-at="2018-07-26T12:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOptionalFieldsMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="tearDown" is-config="true" duration-ms="918" started-at="2018-07-25T13:00:09Z" finished-at="2018-07-25T13:00:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="tearDown" is-config="true" duration-ms="241" started-at="2018-07-26T12:49:25Z" finished-at="2018-07-26T12:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="setUp" is-config="true" duration-ms="42089" started-at="2018-07-25T13:03:45Z" finished-at="2018-07-25T13:04:27Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="setUp" is-config="true" duration-ms="14111" started-at="2018-07-26T12:51:24Z" finished-at="2018-07-26T12:51:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCustomFieldsMenuTest()[pri:3, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="verifyCustomFieldsMenuTest" duration-ms="1561" started-at="2018-07-25T13:04:27Z" finished-at="2018-07-25T13:04:29Z">
+        <test-method status="PASS" signature="verifyCustomFieldsMenuTest()[pri:3, instance:com.HRM.testcases.PIMPageTest@149dace]" name="verifyCustomFieldsMenuTest" duration-ms="2350" started-at="2018-07-26T12:51:38Z" finished-at="2018-07-26T12:51:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCustomFieldsMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="tearDown" is-config="true" duration-ms="220" started-at="2018-07-25T13:04:29Z" finished-at="2018-07-25T13:04:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="tearDown" is-config="true" duration-ms="298" started-at="2018-07-26T12:51:40Z" finished-at="2018-07-26T12:51:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="setUp" is-config="true" duration-ms="12729" started-at="2018-07-25T13:06:45Z" finished-at="2018-07-25T13:06:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="setUp" is-config="true" duration-ms="11914" started-at="2018-07-26T12:53:38Z" finished-at="2018-07-26T12:53:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyEmpDataImportMenuTest()[pri:4, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="verifyEmpDataImportMenuTest" duration-ms="1269" started-at="2018-07-25T13:06:58Z" finished-at="2018-07-25T13:06:59Z">
+        <test-method status="PASS" signature="verifyEmpDataImportMenuTest()[pri:4, instance:com.HRM.testcases.PIMPageTest@149dace]" name="verifyEmpDataImportMenuTest" duration-ms="1761" started-at="2018-07-26T12:53:50Z" finished-at="2018-07-26T12:53:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmpDataImportMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="tearDown" is-config="true" duration-ms="2040" started-at="2018-07-25T13:06:59Z" finished-at="2018-07-25T13:07:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="tearDown" is-config="true" duration-ms="2326" started-at="2018-07-26T12:53:51Z" finished-at="2018-07-26T12:53:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="setUp" is-config="true" duration-ms="12303" started-at="2018-07-25T13:08:19Z" finished-at="2018-07-25T13:08:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="setUp" is-config="true" duration-ms="12447" started-at="2018-07-26T12:56:00Z" finished-at="2018-07-26T12:56:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyReportingMethodsMenuTest()[pri:5, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="verifyReportingMethodsMenuTest" duration-ms="1093" started-at="2018-07-25T13:08:31Z" finished-at="2018-07-25T13:08:32Z">
+        <test-method status="PASS" signature="verifyReportingMethodsMenuTest()[pri:5, instance:com.HRM.testcases.PIMPageTest@149dace]" name="verifyReportingMethodsMenuTest" duration-ms="2166" started-at="2018-07-26T12:56:13Z" finished-at="2018-07-26T12:56:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyReportingMethodsMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="tearDown" is-config="true" duration-ms="2062" started-at="2018-07-25T13:08:32Z" finished-at="2018-07-25T13:08:34Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="tearDown" is-config="true" duration-ms="94" started-at="2018-07-26T12:56:15Z" finished-at="2018-07-26T12:56:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="setUp" is-config="true" duration-ms="32764" started-at="2018-07-25T13:09:20Z" finished-at="2018-07-25T13:09:52Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="setUp" is-config="true" duration-ms="12616" started-at="2018-07-26T12:57:09Z" finished-at="2018-07-26T12:57:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTerminationsReasonsMenuTest()[pri:6, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="verifyTerminationsReasonsMenuTest" duration-ms="1202" started-at="2018-07-25T13:09:52Z" finished-at="2018-07-25T13:09:54Z">
+        <test-method status="PASS" signature="verifyTerminationsReasonsMenuTest()[pri:6, instance:com.HRM.testcases.PIMPageTest@149dace]" name="verifyTerminationsReasonsMenuTest" duration-ms="2285" started-at="2018-07-26T12:57:22Z" finished-at="2018-07-26T12:57:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTerminationsReasonsMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="tearDown" is-config="true" duration-ms="177" started-at="2018-07-25T13:09:54Z" finished-at="2018-07-25T13:09:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="tearDown" is-config="true" duration-ms="302" started-at="2018-07-26T12:57:24Z" finished-at="2018-07-26T12:57:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="setUp" is-config="true" duration-ms="32716" started-at="2018-07-25T13:11:40Z" finished-at="2018-07-25T13:12:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="setUp" is-config="true" duration-ms="12761" started-at="2018-07-26T12:58:24Z" finished-at="2018-07-26T12:58:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyEmployeeListMenuTest()[pri:7, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="verifyEmployeeListMenuTest" duration-ms="1362" started-at="2018-07-25T13:12:13Z" finished-at="2018-07-25T13:12:14Z">
+        <test-method status="PASS" signature="verifyEmployeeListMenuTest()[pri:7, instance:com.HRM.testcases.PIMPageTest@149dace]" name="verifyEmployeeListMenuTest" duration-ms="1382" started-at="2018-07-26T12:58:37Z" finished-at="2018-07-26T12:58:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmployeeListMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-07-25T13:12:14Z" finished-at="2018-07-25T13:12:14Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="tearDown" is-config="true" duration-ms="190" started-at="2018-07-26T12:58:38Z" finished-at="2018-07-26T12:58:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="setUp" is-config="true" duration-ms="32961" started-at="2018-07-25T13:13:58Z" finished-at="2018-07-25T13:14:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="setUp" is-config="true" duration-ms="22936" started-at="2018-07-26T12:59:49Z" finished-at="2018-07-26T13:00:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAddEmployeeMenuTest()[pri:8, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="verifyAddEmployeeMenuTest" duration-ms="1431" started-at="2018-07-25T13:14:31Z" finished-at="2018-07-25T13:14:33Z">
+        <test-method status="PASS" signature="verifyAddEmployeeMenuTest()[pri:8, instance:com.HRM.testcases.PIMPageTest@149dace]" name="verifyAddEmployeeMenuTest" duration-ms="2110" started-at="2018-07-26T13:00:12Z" finished-at="2018-07-26T13:00:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddEmployeeMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="tearDown" is-config="true" duration-ms="2057" started-at="2018-07-25T13:14:33Z" finished-at="2018-07-25T13:14:35Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="tearDown" is-config="true" duration-ms="2041" started-at="2018-07-26T13:00:14Z" finished-at="2018-07-26T13:00:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="setUp" is-config="true" duration-ms="41228" started-at="2018-07-25T13:16:47Z" finished-at="2018-07-25T13:17:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="setUp" is-config="true" duration-ms="14898" started-at="2018-07-26T13:01:21Z" finished-at="2018-07-26T13:01:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyReportsMenuTest()[pri:9, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="verifyReportsMenuTest" duration-ms="1293" started-at="2018-07-25T13:17:29Z" finished-at="2018-07-25T13:17:30Z">
+        <test-method status="PASS" signature="verifyReportsMenuTest()[pri:9, instance:com.HRM.testcases.PIMPageTest@149dace]" name="verifyReportsMenuTest" duration-ms="1619" started-at="2018-07-26T13:01:36Z" finished-at="2018-07-26T13:01:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyReportsMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@100d6b1]" name="tearDown" is-config="true" duration-ms="2063" started-at="2018-07-25T13:17:30Z" finished-at="2018-07-25T13:17:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.PIMPageTest@149dace]" name="tearDown" is-config="true" duration-ms="2354" started-at="2018-07-26T13:01:37Z" finished-at="2018-07-26T13:01:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.HRM.testcases.PIMPageTest -->
-    </test> <!-- Free CRM App Test Cases -->
-  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+    </test> <!-- Orange HRM Test Cases -->
+  </suite> <!-- Orange HRM Test Suite -->
 </testng-results>

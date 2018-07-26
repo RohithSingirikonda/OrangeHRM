@@ -14,6 +14,8 @@ import org.testng.annotations.AfterMethod;
 
 public class AdminHomePageTest extends TestBase{
 		
+		public static String actual_header;
+	
 		AdminHomePage admin_HomePage;
 		LoginPage loginPage;
 	
@@ -115,13 +117,16 @@ public class AdminHomePageTest extends TestBase{
 		@Test(priority=13, enabled=true)
 		public void verifyAdminDashboardLinkTest(){
 			admin_HomePage.clickOnDashboardPageLink();
+			actual_header = driver.findElement(By.xpath("//*[@class='head']//h1")).getText();
+			Assert.assertEquals(actual_header, "Dashboard", "Page Header is not matched");
 			
 		}
 		
 		@Test(priority=14, enabled=true)
 		public void verifyDirectoryPageLinkTest(){
 			admin_HomePage.clickOnDirectoryPageLink();
-			
+			actual_header = driver.findElement(By.xpath("//*[@class='head']//h1")).getText();
+			Assert.assertEquals(actual_header, "Search Directory", "Page Header is not matched");			
 		}
 		
 			  
