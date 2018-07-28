@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Orange HRM Test Suite]">
-  <listeners>
-    <listener class-name="com.HRM.ExtentReportListener.ExtentReporterNG"/>
-  </listeners>
-  <test name="Orange HRM Test Cases(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.HRM.testcases.AdminHomePageTest">
+      <class name="com.HRM.testcases.AddJobTitlePageTest">
         <methods>
-          <include name="setUp"/>
+          <include name="VerifyInsertTitleDataTest" invocation-numbers="2"/>
           <include name="tearDown"/>
-          <include name="verifyAdminLogoutLinkTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.HRM.testcases.AdminHomePageTest -->
+      </class> <!-- com.HRM.testcases.AddJobTitlePageTest -->
     </classes>
-  </test> <!-- Orange HRM Test Cases(failed) -->
-</suite> <!-- Failed suite [Orange HRM Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
