@@ -1,5 +1,8 @@
 package com.HRM.pages;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -36,8 +39,19 @@ public class JobTitlesPage extends TestBase {
 	}
 	
 	
-	public void DeleteJobTitles(){
-				
+	public void DeleteJobTitles(String JobTitle){
+		
+		List<WebElement> Titles = driver.findElements(By.xpath("//td[@class='left']//a"));
+		
+		for (int i = 0; i < Titles.size(); i++) {
+			
+			String text = Titles.get(i).getText();
+			
+			if (text.equals(JobTitle)) {
+					driver.findElement(By.xpath("//a[contains(text(),'"+ text +"')]//parent::td[@class='left']//preceding-sibling::td//input")).click();
+					btn_delete.click();
+			}
+		}
 			
 	}
 	

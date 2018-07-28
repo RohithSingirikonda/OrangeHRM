@@ -4,13 +4,9 @@
 
 	<test name="Free CRM App Test Cases">
 		<classes>
-			<class name="com.HRM.testcases.LoginPageTest"></class>
-			<class name="com.HRM.testcases.AdminHomePageTest"></class>
-			<class name="com.HRM.testcases.AdminModulePageTest"></class>
-			<class name="com.HRM.testcases.PIMPageTest"></class>
-			<class name="com.HRM.testcases.LeavePageTest"></class>
-			<class name="com.HRM.testcases.UsersPageTest"></class>
-
-		</classes>
+			<class name="com.HRM.testcases.AddJobTitlePageTest"></class>
+			<class name="com.HRM.testcases.JobTitlesPageTest"></class>
+			
+			</classes>
 	</test>
 </suite>

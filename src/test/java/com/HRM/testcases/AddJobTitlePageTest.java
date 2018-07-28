@@ -1,6 +1,5 @@
 package com.HRM.testcases;
 
-import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -49,21 +48,21 @@ public class AddJobTitlePageTest extends TestBase{
 	}
 	
 	
-	@Test(priority=1, enabled=false)
+	@Test(priority=1, enabled=true)
 	public void VerifyPageLablesTest(){
 		String expected[] = {"Job Title *", "Job Description", "Job Specification", "Note"};
 		String actual[] = add_JobTitlePage.PageLables();
 			Assert.assertArrayEquals(expected, actual);
 	}
 	
-	@DataProvider(name = "InsertDataJobTitles")
+	@DataProvider(name = "InsertJobTitles")
 	public Object[][] getOrangeHRMTestData(){
 		Object data[][] = TestUtil.getTestData(AddJobTitles_sheet);
 		return data;
 	}
 	
 	
-	@Test(dataProvider="InsertDataJobTitles",priority=2, enabled=true)
+	@Test(dataProvider="InsertJobTitles",priority=2, enabled=true)
 	public void VerifyInsertTitleDataTest(String JobTitle, String JobDesc, String JobNote){
 
 		try {
@@ -84,7 +83,7 @@ public class AddJobTitlePageTest extends TestBase{
 	}
 	
 	
-	@Test(priority=3, enabled=false)
+	@Test(priority=3, enabled=true)
 	public void VerifyClickOnCancelTest(){
 		add_JobTitlePage.ClickOnCancelBtn();
 		actual_message = driver.findElement(By.xpath("//*[@id='search-results']/div[1]/h1")).getText();
