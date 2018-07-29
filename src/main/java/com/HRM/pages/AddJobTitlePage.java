@@ -49,7 +49,7 @@ public class AddJobTitlePage extends TestBase{
 	}
 	
 	
-	public String JobTitlesPageHeader(){
+	public String AddJobTitlesPageHeader(){
 		String header = page_header.getText();
 		return header;
 	}

@@ -18,6 +18,10 @@
 			<class name="com.HRM.testcases.TimePageTest"></class>
 			<class name="com.HRM.testcases.RecruitmentPageTest"></class>
 			<class name="com.HRM.testcases.PerformancePageTest"></class>
+			<class name="com.HRM.testcases.AddJobTitlePageTest"></class>
+			<class name="com.HRM.testcases.JobTitlesPageTest"></class>			
+			<class name="com.HRM.testcases.AddPayGradePageTest"></class>
+			<class name="com.HRM.testcases.PayGradesPageTest"></class>			
 			<class name="com.HRM.testcases.UsersPageTest"></class>
 		</classes>
 	</test>

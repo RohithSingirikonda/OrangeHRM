@@ -12,21 +12,23 @@ import com.HRM.pages.AdminHomePage;
 import com.HRM.pages.AdminModulePage;
 import com.HRM.pages.JobTitlesPage;
 import com.HRM.pages.LoginPage;
+import com.HRM.pages.PayGradesPage;
 import com.HRM.util.TestUtil;
 
-public class JobTitlesPageTest extends TestBase {
+public class PayGradesPageTest extends TestBase {
 
 	
 	public static String actual_message;
-	String DeleteJobTitles_sheet = "DeleteJobTitles";
+	String DeletePayGrade_sheet = "DeletePayGrade";
 	
 	
 	LoginPage loginPage;
 	AdminHomePage admin_HomePage;
 	AdminModulePage admin_ModulePage;
-	JobTitlesPage job_TitlesPage;
+	PayGradesPage payGradesPage;
 	
-	public JobTitlesPageTest(){
+	
+	public PayGradesPageTest(){
 		super();
 	}
 	
@@ -37,37 +39,37 @@ public class JobTitlesPageTest extends TestBase {
 		loginPage = new LoginPage();
 		admin_HomePage = new AdminHomePage();
 		admin_ModulePage = new AdminModulePage();
-		job_TitlesPage= new JobTitlesPage();
+		payGradesPage= new PayGradesPage();
 		admin_HomePage = loginPage.AdminLogin(prop.getProperty("admin_username"), prop.getProperty("admin_password"));
 		admin_ModulePage = admin_HomePage.clickOnAdminPageLink();
-		job_TitlesPage = admin_ModulePage.ClickonJobTitlesMenu();
+		payGradesPage = admin_ModulePage.ClickonPayGradesMenu();
 	}
 	
 	
 	@Test(priority=1, enabled=true)
 	public void VerifyJobTitlesPageHeaderTest(){
-		actual_message = job_TitlesPage.JobTitlesPageHeader();
-		Assert.assertEquals("Job Titles", actual_message);
+		actual_message = payGradesPage.PayGradesPageHeader();
+		Assert.assertEquals("Pay Grades", actual_message);
 	}
 	
 	
 	@Test(priority=2, enabled=true)
-	public void VerifyAddJobTitlesTest(){
-		job_TitlesPage.AddJobTitles();
-		actual_message = driver.findElement(By.id("saveHobTitleHeading")).getText();
-		Assert.assertEquals("Add Job Title",actual_message);
+	public void VerifyAddPayGradeTest(){
+		payGradesPage.AddPayGrade();
+		actual_message = driver.findElement(By.id("payGradeHeading")).getText();
+		Assert.assertEquals("Add Pay Grade",actual_message);
 	}
 	
 	
-	@DataProvider(name = "deleteJobTitles")
+	@DataProvider(name = "deletepayGrades")
 	public Object[][] getOrangeHRMTestData(){
-		Object data[][] = TestUtil.getTestData(DeleteJobTitles_sheet);
+		Object data[][] = TestUtil.getTestData(DeletePayGrade_sheet);
 		return data;
 	}
 	
-	@Test(dataProvider="deleteJobTitles", priority=3, enabled=true)
-	public void VerifyDeleteJobTitlesTest(String JobTitle, String Validation){
-		job_TitlesPage.DeleteJobTitles(JobTitle, Validation);
+	@Test(dataProvider="deletepayGrades", priority=3, enabled=true)
+	public void VerifyDeleteJobTitlesTest(String PayGrade, String Validation){
+		payGradesPage.DeletepayGrades(PayGrade, Validation);
 	}
 	
 	
@@ -75,5 +77,6 @@ public class JobTitlesPageTest extends TestBase {
 	public void tearDown() {
 		driver.close();
 	}
+	
 	
 }

@@ -1,6 +1,5 @@
 package com.HRM.testcases;
 
-
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterMethod;
@@ -10,27 +9,32 @@ import org.testng.annotations.Test;
 
 import com.HRM.base.TestBase;
 import com.HRM.pages.AddJobTitlePage;
+import com.HRM.pages.AddPayGradePage;
 import com.HRM.pages.AdminHomePage;
 import com.HRM.pages.AdminModulePage;
 import com.HRM.pages.JobTitlesPage;
 import com.HRM.pages.LoginPage;
+import com.HRM.pages.PayGradesPage;
 import com.HRM.util.TestUtil;
 
-public class AddJobTitlePageTest extends TestBase{
+public class AddPayGradePageTest extends TestBase {
 
+	
 	public static String actual_message;
-	String AddJobTitles_sheet = "AddJobTitles";
+	String AddpayGrades_sheet = "AddpayGrades";
 	
 	LoginPage loginPage;
 	AdminHomePage admin_HomePage;
 	AdminModulePage admin_ModulePage;
-	JobTitlesPage job_TitlesPage;
-	AddJobTitlePage add_JobTitlePage;
+	PayGradesPage pay_GradesPage;
+	AddPayGradePage add_PayGradePage;
 	TestUtil testUtil;
 	
-	public AddJobTitlePageTest(){
+	public AddPayGradePageTest(){
 		super();
 	}
+	
+	
 	
 	@BeforeMethod
 	public void setUp() {
@@ -38,42 +42,43 @@ public class AddJobTitlePageTest extends TestBase{
 		loginPage = new LoginPage();
 		admin_HomePage = new AdminHomePage();
 		admin_ModulePage = new AdminModulePage();
-		job_TitlesPage= new JobTitlesPage();
-		add_JobTitlePage = new AddJobTitlePage();
+		pay_GradesPage= new PayGradesPage();
+		add_PayGradePage = new AddPayGradePage();
 		testUtil = new TestUtil();
 		admin_HomePage = loginPage.AdminLogin(prop.getProperty("admin_username"), prop.getProperty("admin_password"));
 		admin_ModulePage = admin_HomePage.clickOnAdminPageLink();
-		job_TitlesPage = admin_ModulePage.ClickonJobTitlesMenu();
-		add_JobTitlePage = job_TitlesPage.AddJobTitles();
+		pay_GradesPage = admin_ModulePage.ClickonPayGradesMenu();
+		add_PayGradePage = pay_GradesPage.AddPayGrade();
 	}
-	
 	
 	
 	@Test(priority=1, enabled=true)
-	public void VerifyAddJobTitlePageHeaderTest(){
-		actual_message = add_JobTitlePage.AddJobTitlesPageHeader();
-			Assert.assertEquals("Add Job Title", actual_message);;
+	public void VerifyAddPayGradePageHeaderTest(){
+		actual_message = add_PayGradePage.AddPayGradePageHeader();
+		Assert.assertEquals("Add Pay Grade", actual_message);
 	}
+	
 	
 	@Test(priority=2, enabled=true)
 	public void VerifyPageLablesTest(){
-		String expected[] = {"Job Title *", "Job Description", "Job Specification", "Note"};
-		String actual[] = add_JobTitlePage.PageLables();
+		String expected[] = {"Name *"};
+		String actual[] = add_PayGradePage.PageLables();
 			Assert.assertArrayEquals(expected, actual);
 	}
 	
-	@DataProvider(name = "InsertJobTitles")
+	
+	@DataProvider(name = "InsertpayGrades")
 	public Object[][] getOrangeHRMTestData(){
-		Object data[][] = TestUtil.getTestData(AddJobTitles_sheet);
+		Object data[][] = TestUtil.getTestData(AddpayGrades_sheet);
 		return data;
 	}
 	
 	
-	@Test(dataProvider="InsertJobTitles",priority=3, enabled=true)
-	public void VerifyInsertTitleDataTest(String JobTitle, String JobDesc, String JobNote){
+	@Test(dataProvider="InsertpayGrades",priority=3, enabled=true)
+	public void VerifyInsertGradeDataTest(String payGrade){
 
 		try {
-			actual_message = add_JobTitlePage.InsertTitleData(JobTitle, JobDesc, JobNote);
+			actual_message = add_PayGradePage.InsertGradeData(payGrade);
 			
 			if (!actual_message.equals(null) || !actual_message.equals("")) {
 				 Assert.assertEquals(actual_message, "Required");
@@ -83,18 +88,19 @@ public class AddJobTitlePageTest extends TestBase{
 			}
 
 		} catch (NullPointerException e) {
-			actual_message = driver.findElement(By.xpath("//*[@id='search-results']/div[1]/h1")).getText();
-		 	Assert.assertEquals(actual_message, "Job Titles");
+			actual_message = driver.findElement(By.xpath("//*[@id='payGradeHeading']")).getText();
+		 	Assert.assertEquals(actual_message, "Edit Pay Grade");
 			
 		}
 	}
 	
 	
+	
 	@Test(priority=4, enabled=true)
 	public void VerifyClickOnCancelTest(){
-		add_JobTitlePage.ClickOnCancelBtn();
+		add_PayGradePage.ClickOnCancelBtn();
 		actual_message = driver.findElement(By.xpath("//*[@id='search-results']/div[1]/h1")).getText();
-		Assert.assertEquals(actual_message, "Job Titles");
+		Assert.assertEquals(actual_message, "Pay Grades");
 	}
 	
 	
@@ -103,5 +109,11 @@ public class AddJobTitlePageTest extends TestBase{
 	public void tearDown() {
 		driver.close();
 	}
+	
+	
+	
+	
+	
+	
 	
 }

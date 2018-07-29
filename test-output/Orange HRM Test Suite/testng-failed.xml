@@ -13,6 +13,13 @@
           <include name="verifyAdminLogoutLinkTest"/>
         </methods>
       </class> <!-- com.HRM.testcases.AdminHomePageTest -->
+      <class name="com.HRM.testcases.JobTitlesPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="VerifyDeleteJobTitlesTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.HRM.testcases.JobTitlesPageTest -->
     </classes>
   </test> <!-- Orange HRM Test Cases(failed) -->
 </suite> <!-- Failed suite [Orange HRM Test Suite] -->

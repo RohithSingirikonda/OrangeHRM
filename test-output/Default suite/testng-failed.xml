@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.HRM.testcases.JobTitlesPageTest">
+      <class name="com.HRM.testcases.PayGradesPageTest">
         <methods>
           <include name="tearDown"/>
+          <include name="VerifyAddPayGradeTest"/>
           <include name="setUp"/>
-          <include name="VerifyDeleteJobTitlesTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.HRM.testcases.JobTitlesPageTest -->
+      </class> <!-- com.HRM.testcases.PayGradesPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

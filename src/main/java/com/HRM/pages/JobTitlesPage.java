@@ -2,6 +2,7 @@ package com.HRM.pages;
 
 import java.util.List;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -39,7 +40,7 @@ public class JobTitlesPage extends TestBase {
 	}
 	
 	
-	public void DeleteJobTitles(String JobTitle){
+	public void DeleteJobTitles(String JobTitle, String validation){
 		
 		List<WebElement> Titles = driver.findElements(By.xpath("//td[@class='left']//a"));
 		
@@ -50,6 +51,12 @@ public class JobTitlesPage extends TestBase {
 			if (text.equals(JobTitle)) {
 					driver.findElement(By.xpath("//a[contains(text(),'"+ text +"')]//parent::td[@class='left']//preceding-sibling::td//input")).click();
 					btn_delete.click();
+					if (validation.equals("TRUE")) {
+						driver.findElement(By.xpath("//*[@id='deleteConfModal']//*[@class='modal-footer']//input[@value='Ok']")).click();
+					} else {
+						driver.findElement(By.xpath("//*[@id='deleteConfModal']//*[@class='modal-footer']//input[@value='Cancel']")).click();
+
+					}
 			}
 		}
 			
