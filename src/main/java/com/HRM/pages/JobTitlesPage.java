@@ -40,8 +40,9 @@ public class JobTitlesPage extends TestBase {
 	}
 	
 	
-	public void DeleteJobTitles(String JobTitle, String validation){
+	public String DeleteJobTitles(String JobTitle, String validation){
 		
+		String message = null;
 		List<WebElement> Titles = driver.findElements(By.xpath("//td[@class='left']//a"));
 		
 		for (int i = 0; i < Titles.size(); i++) {
@@ -53,12 +54,14 @@ public class JobTitlesPage extends TestBase {
 					btn_delete.click();
 					if (validation.equals("TRUE")) {
 						driver.findElement(By.xpath("//*[@id='deleteConfModal']//*[@class='modal-footer']//input[@value='Ok']")).click();
+						message = driver.findElement(By.xpath("//div[@class='message success fadable']")).getText();	
 					} else {
 						driver.findElement(By.xpath("//*[@id='deleteConfModal']//*[@class='modal-footer']//input[@value='Cancel']")).click();
 
 					}
 			}
 		}
+		return message;
 			
 	}
 	
