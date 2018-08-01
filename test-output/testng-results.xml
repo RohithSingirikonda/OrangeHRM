@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="2" ignored="1" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47679" started-at="2018-07-31T07:11:49Z" finished-at="2018-07-31T07:12:37Z">
+  <suite name="Default suite" duration-ms="46377" started-at="2018-08-01T05:33:24Z" finished-at="2018-08-01T05:34:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47679" started-at="2018-07-31T07:11:49Z" finished-at="2018-07-31T07:12:37Z">
+    <test name="Default test" duration-ms="46377" started-at="2018-08-01T05:33:24Z" finished-at="2018-08-01T05:34:10Z">
       <class name="com.HRM.testcases.GeneralInformationPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.GeneralInformationPageTest@1ec2012]" name="setUp" is-config="true" duration-ms="19511" started-at="2018-07-31T12:41:50Z" finished-at="2018-07-31T12:42:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.GeneralInformationPageTest@1ec2012]" name="setUp" is-config="true" duration-ms="17355" started-at="2018-08-01T11:03:25Z" finished-at="2018-08-01T11:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="VerifyGenInfoPageValidationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.HRM.testcases.GeneralInformationPageTest@1ec2012]" name="VerifyGenInfoPageValidationTest" duration-ms="2938" started-at="2018-07-31T12:42:10Z" data-provider="GenInfoDetails" finished-at="2018-07-31T12:42:12Z">
+        <test-method status="FAIL" signature="VerifyGenInfoPageValidationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.HRM.testcases.GeneralInformationPageTest@1ec2012]" name="VerifyGenInfoPageValidationTest" duration-ms="3061" started-at="2018-08-01T11:03:42Z" data-provider="GenInfoDetails" finished-at="2018-08-01T11:03:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[OrangeHRM]]>
               </value>
             </param>
             <param index="1">
@@ -87,10 +87,10 @@
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'VEERANTI', ip: '192.168.43.185', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
+System info: host: 'VEERANTI', ip: '192.168.0.14', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir10144_23311}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 506c70a34fe120789f5911248a504464
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir1908_21913}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0d554461fadf1a4d071f9fe887501f00
 *** Element info: {Using=xpath, value=//*[@id='frmGenInfo']//span[@for='organization_name']}]]>
             </message>
             <full-stacktrace>
@@ -100,10 +100,10 @@ Session ID: 506c70a34fe120789f5911248a504464
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'VEERANTI', ip: '192.168.43.185', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
+System info: host: 'VEERANTI', ip: '192.168.0.14', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir10144_23311}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 506c70a34fe120789f5911248a504464
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir1908_21913}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0d554461fadf1a4d071f9fe887501f00
 *** Element info: {Using=xpath, value=//*[@id='frmGenInfo']//span[@for='organization_name']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -160,15 +160,15 @@ Session ID: 506c70a34fe120789f5911248a504464
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyGenInfoPageValidationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.GeneralInformationPageTest@1ec2012]" name="tearDown" is-config="true" duration-ms="2318" started-at="2018-07-31T12:42:12Z" finished-at="2018-07-31T12:42:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.GeneralInformationPageTest@1ec2012]" name="tearDown" is-config="true" duration-ms="2059" started-at="2018-08-01T11:03:45Z" finished-at="2018-08-01T11:03:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.GeneralInformationPageTest@1ec2012]" name="setUp" is-config="true" duration-ms="16674" started-at="2018-07-31T12:42:15Z" finished-at="2018-07-31T12:42:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.GeneralInformationPageTest@1ec2012]" name="setUp" is-config="true" duration-ms="17886" started-at="2018-08-01T11:03:47Z" finished-at="2018-08-01T11:04:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="VerifyGenInfoPageValidationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.HRM.testcases.GeneralInformationPageTest@1ec2012]" name="VerifyGenInfoPageValidationTest" duration-ms="3090" started-at="2018-07-31T12:42:31Z" data-provider="GenInfoDetails" finished-at="2018-07-31T12:42:35Z">
+        <test-method status="FAIL" signature="VerifyGenInfoPageValidationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.HRM.testcases.GeneralInformationPageTest@1ec2012]" name="VerifyGenInfoPageValidationTest" duration-ms="2833" started-at="2018-08-01T11:04:05Z" data-provider="GenInfoDetails" finished-at="2018-08-01T11:04:08Z">
           <params>
             <param index="0">
               <value>
@@ -244,10 +244,10 @@ Session ID: 506c70a34fe120789f5911248a504464
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'VEERANTI', ip: '192.168.43.185', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
+System info: host: 'VEERANTI', ip: '192.168.0.14', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir5976_31574}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f60846817b86d4a0669e6e000ca228c8
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir5104_19389}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 463559a8eb64f39dea7973a9de83237c
 *** Element info: {Using=xpath, value=//*[@id='frmGenInfo']//span[@for='organization_name']}]]>
             </message>
             <full-stacktrace>
@@ -257,10 +257,10 @@ Session ID: f60846817b86d4a0669e6e000ca228c8
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'VEERANTI', ip: '192.168.43.185', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
+System info: host: 'VEERANTI', ip: '192.168.0.14', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_71'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir5976_31574}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f60846817b86d4a0669e6e000ca228c8
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ramya\AppData\Local\Temp\scoped_dir5104_19389}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 463559a8eb64f39dea7973a9de83237c
 *** Element info: {Using=xpath, value=//*[@id='frmGenInfo']//span[@for='organization_name']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -317,7 +317,7 @@ Session ID: f60846817b86d4a0669e6e000ca228c8
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyGenInfoPageValidationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.GeneralInformationPageTest@1ec2012]" name="tearDown" is-config="true" duration-ms="2037" started-at="2018-07-31T12:42:35Z" finished-at="2018-07-31T12:42:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.GeneralInformationPageTest@1ec2012]" name="tearDown" is-config="true" duration-ms="2083" started-at="2018-08-01T11:04:08Z" finished-at="2018-08-01T11:04:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

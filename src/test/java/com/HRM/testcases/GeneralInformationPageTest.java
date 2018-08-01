@@ -45,7 +45,7 @@ public class GeneralInformationPageTest extends TestBase {
 	}
 	
 	
-	@Test(priority=1, enabled=false)
+	@Test(priority=1, enabled=true)
 	public void VerifyGenInfoPageHeaderTest(){
 		actual_message = generalInformationPage.GenInfoPageHeader();
 		Assert.assertEquals("General Information", actual_message);

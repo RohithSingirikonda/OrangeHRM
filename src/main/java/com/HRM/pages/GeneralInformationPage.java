@@ -35,6 +35,7 @@ public class GeneralInformationPage extends TestBase {
 		
 			saveBtn.click();
 			
+			
 			org_name.clear();
 			org_name.sendKeys(OrgName);
 			driver.findElement(By.id("organization_taxId")).sendKeys(TaxId);
