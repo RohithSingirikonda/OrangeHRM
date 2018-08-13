@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.HRM.base.TestBase;
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 
 public class AddJobTitlePage extends TestBase{
 

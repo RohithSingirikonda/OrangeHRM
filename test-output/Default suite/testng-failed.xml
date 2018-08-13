@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.HRM.testcases.GeneralInformationPageTest">
+      <class name="com.HRM.testcases.LocationsPageTest">
         <methods>
-          <include name="VerifyGenInfoPageValidationTest" invocation-numbers="0 1"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="VerifyDeleteJobTitlesTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.HRM.testcases.GeneralInformationPageTest -->
+      </class> <!-- com.HRM.testcases.LocationsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

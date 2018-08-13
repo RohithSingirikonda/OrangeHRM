@@ -2,7 +2,6 @@ package com.HRM.pages;
 
 import java.util.List;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -47,17 +46,20 @@ public class JobTitlesPage extends TestBase {
 		
 		for (int i = 0; i < Titles.size(); i++) {
 			
-			String text = Titles.get(i).getText();
+			message = Titles.get(i).getText();
 			
-			if (text.equals(JobTitle)) {
-					driver.findElement(By.xpath("//a[contains(text(),'"+ text +"')]//parent::td[@class='left']//preceding-sibling::td//input")).click();
+			if (message.equals(JobTitle)) {
+					driver.findElement(By.xpath("//a[contains(text(),'"+ JobTitle +"')]//parent::td[@class='left']//preceding-sibling::td//input")).click();
 					btn_delete.click();
+					
 					if (validation.equals("TRUE")) {
 						driver.findElement(By.xpath("//*[@id='deleteConfModal']//*[@class='modal-footer']//input[@value='Ok']")).click();
 						message = driver.findElement(By.xpath("//div[@class='message success fadable']")).getText();	
+						break;
+						
 					} else {
 						driver.findElement(By.xpath("//*[@id='deleteConfModal']//*[@class='modal-footer']//input[@value='Cancel']")).click();
-
+						break;
 					}
 			}
 		}
