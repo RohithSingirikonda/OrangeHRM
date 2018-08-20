@@ -13,6 +13,7 @@
 			<class name="com.HRM.testcases.LoginPageTest"></class>
 			<class name="com.HRM.testcases.AdminHomePageTest"></class>
 			<class name="com.HRM.testcases.AdminModulePageTest"></class>
+			<class name="com.HRM.testcases.UsersPageTest"></class>
 			<class name="com.HRM.testcases.PIMPageTest"></class>
 			<class name="com.HRM.testcases.LeavePageTest"></class>
 			<class name="com.HRM.testcases.TimePageTest"></class>
@@ -22,7 +23,12 @@
 			<class name="com.HRM.testcases.JobTitlesPageTest"></class>			
 			<class name="com.HRM.testcases.AddPayGradePageTest"></class>
 			<class name="com.HRM.testcases.PayGradesPageTest"></class>			
-			<class name="com.HRM.testcases.UsersPageTest"></class>
+			<class name="com.HRM.testcases.EmploymentStatusPageTest"></class>			
+			<class name="com.HRM.testcases.JobCategoriesPageTest"></class>			
+			<class name="com.HRM.testcases.GeneralInformationPageTest"></class>			
+			<class name="com.HRM.testcases.LocationsPageTest"></class>
+			<class name="com.HRM.testcases.AddLocationPageTest"></class>			
+			
 		</classes>
 	</test>
 </suite>
