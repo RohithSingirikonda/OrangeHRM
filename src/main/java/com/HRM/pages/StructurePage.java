@@ -32,7 +32,7 @@ public class StructurePage extends TestBase{
 		return message;
 	}
 	
-	public String ModifyOrgStructure(){
+	public String AddorModifyOrgStructure(){
 		
 		String message=null;
 		
@@ -69,5 +69,5 @@ public class StructurePage extends TestBase{
 		
 		return message;
 	}
-	
+		
 }

@@ -47,7 +47,7 @@ public class StructurePageTest extends TestBase{
 	
 	@Test(priority=2, enabled=true)
 	public void VerifyModifyOrgStructureTest(){
-		actual_message = structurePage.ModifyOrgStructure();
+		actual_message = structurePage.AddorModifyOrgStructure();
 		assertTrue(actual_message.contains("Successfully Saved"));
 	}
 	
