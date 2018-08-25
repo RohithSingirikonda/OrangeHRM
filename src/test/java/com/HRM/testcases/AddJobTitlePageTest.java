@@ -49,7 +49,7 @@ public class AddJobTitlePageTest extends TestBase{
 	
 	
 	
-	@Test(priority=1, enabled=true)
+	@Test(priority=1, enabled=false)
 	public void VerifyAddJobTitlePageHeaderTest(){
 		actual_message = add_JobTitlePage.AddJobTitlesPageHeader();
 			Assert.assertEquals("Add Job Title", actual_message);;

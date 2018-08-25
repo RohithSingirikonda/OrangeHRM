@@ -16,7 +16,7 @@ public class DatabaseTesting extends TestBase{
 		
 		Connection conn;
 		String dbUrl = "jdbc:mysql://rohithsingirikonda.tk:3306/rohiths_orangehrm_mysql";
-		Class.forName("com.mysql.jdbc.Driver");
+		//Class.forName("com.mysql.jdbc.Driver");
 		conn = DriverManager.getConnection(dbUrl, "rohiths_temp", "Admin@123");
 		
 		Statement st = conn.createStatement();

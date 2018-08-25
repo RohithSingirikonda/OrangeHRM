@@ -23,17 +23,22 @@ public class TestUtil extends TestBase{
 		public static int PageLoad_Timeout=30;
 		
 	
-		public static String TESTDATA_SHEET_PATH = System.getProperty("user.dir")+"/src/main/java/com/HRM/testdata/"
+		public static String ADMIN_TESTDATA_SHEET_PATH = System.getProperty("user.dir")+"/src/main/java/com/HRM/testdata/"
 				+ "Admin_Datasheet.xlsx";
+		//public static String QUALIFICATIONS_TESTDATA_SHEET_PATH = System.getProperty("user.dir")+"/src/main/java/com/HRM/testdata/"
+			//	+ "Qualifications_Menu.xlsx";
+		
 		
 		static Workbook book;
 		static Sheet sheet;
 		
 		
+		
 		public static Object[][] getTestData(String sheetName) {
 			FileInputStream file = null;
 			try {
-				file = new FileInputStream(TESTDATA_SHEET_PATH);
+				file = new FileInputStream(ADMIN_TESTDATA_SHEET_PATH);
+				//file = new FileInputStream(QUALIFICATIONS_TESTDATA_SHEET_PATH);
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
 			}
