@@ -10,8 +10,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 import com.HRM.base.TestBase;
-import com.HRM.util.JavaScriptUtil;
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 
 public class SkillsPage extends TestBase {
 	
@@ -100,8 +98,34 @@ public class SkillsPage extends TestBase {
 	}
 	
 	
-	
-	
+	public String EditSkill(String existingskill, String newskill){
+		
+		List<WebElement> tempList = driver.findElements(By.xpath("//*[@id='recordsListTable']//tbody//tr//td[2]"));
+		
+		for (WebElement ele : tempList) {
+			String temp = ele.getText();
+			
+		if (temp.contains(existingskill)) {
+				WebElement skill_selected = driver.findElement(By.xpath("//*[@id='recordsListTable']//tbody//td[2]//a[text()='"+existingskill+"']"));
+				skill_selected.click();
+				driver.findElement(By.className("box")).isEnabled();
+				skill_name.clear();
+				skill_name.sendKeys(newskill);
+				savebtn.click();
+				
+				if (!newskill.isEmpty()){
+					message = driver.findElement(By.xpath("//div[contains(@class, 'message success fadable')]")).getText();
+					break;
+				}
+				else {
+					message = validation_error.getText();
+					break;
+				}
+			}
+		}
+			
+		return message;
+	}
 	
 
 }

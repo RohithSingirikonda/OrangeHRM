@@ -6,8 +6,8 @@
       <class name="com.HRM.testcases.SkillsPageTest">
         <methods>
           <include name="tearDown"/>
+          <include name="VerifyEditSkillTest"/>
           <include name="setUp"/>
-          <include name="VerifyDeleteSkillTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.HRM.testcases.SkillsPageTest -->
     </classes>

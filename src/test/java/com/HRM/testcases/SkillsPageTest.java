@@ -37,7 +37,7 @@ public class SkillsPageTest extends TestBase {
 		adminModulePage.ClickonSkillsMenu();
 	}
 	
-	@Test(priority=1, enabled=true)
+	@Test(priority=1, enabled=false)
 	public void VerifySkillsPageHeaderTest(){
 		actual_message = skillsPage.SkillsPageHeader();
 		Assert.assertEquals(actual_message, "Skills");
@@ -50,7 +50,7 @@ public class SkillsPageTest extends TestBase {
 	}
 	
 	
-	@Test(dataProvider="AddSkillSet", priority=2, enabled=true)
+	@Test(dataProvider="AddSkillSet", priority=2, enabled=false)
 	public void VerifyAddSkillTest(String skill, String desc){
 		actual_message = skillsPage.AddSkill(skill, desc);
 		//Assert.assertEquals(actual_message, "Skills");
@@ -65,13 +65,27 @@ public class SkillsPageTest extends TestBase {
 	}
 	
 	
-	@Test(dataProvider="DeleteSkillSet", priority=2, enabled=true)
+	@Test(dataProvider="DeleteSkillSet", priority=2, enabled=false)
 	public void VerifyDeleteSkillTest(String skill){
 		actual_message = skillsPage.DeleteSkill(skill);
 		//Assert.assertEquals(actual_message, "Skills");
 		System.out.println(actual_message);
 	}
 	
+	
+	@DataProvider(name = "EditSkillSet")
+	public Object[][] getOrangeHRMTestData2(){
+		Object data[][] = TestUtil.getTestData("EditSkills");
+		return data;
+	}
+	
+	
+	@Test(dataProvider="EditSkillSet", priority=2, enabled=true)
+	public void VerifyEditSkillTest(String existingskill, String newskill){
+		actual_message = skillsPage.EditSkill(existingskill, newskill);
+		//Assert.assertEquals(actual_message, "Skills");
+		System.out.println(actual_message);
+	}
 	
 	
 	
