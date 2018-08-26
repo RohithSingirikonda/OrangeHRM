@@ -10,11 +10,11 @@ import org.testng.annotations.Test;
 
 import com.HRM.base.TestBase;
 import com.HRM.pages.AdminModulePage;
+import com.HRM.pages.EducationPage;
 import com.HRM.pages.LoginPage;
-import com.HRM.pages.SkillsPage;
 import com.HRM.util.TestUtil;
 
-public class SkillsPageTest extends TestBase {
+public class EducationPageTest extends TestBase{
 
 	
 	public String actual_message;
@@ -22,83 +22,82 @@ public class SkillsPageTest extends TestBase {
 	
 	LoginPage loginPage;
 	AdminModulePage adminModulePage;
-	SkillsPage skillsPage;
+	EducationPage educationPage;
 	
-	public SkillsPageTest(){
+	public EducationPageTest(){
 		super();
 	}
-	
 	
 	@BeforeMethod
 	public void setUp(){
 		init();
 		loginPage = new LoginPage();
 		adminModulePage  = new AdminModulePage();
-		skillsPage = new SkillsPage();
+		educationPage = new EducationPage();
 		loginPage.AdminLogin(prop.getProperty("admin_username"), prop.getProperty("admin_password"));
-		adminModulePage.ClickonSkillsMenu();
+		adminModulePage.ClickonEducationMenu();
 	}
 	
 	@Test(priority=1, enabled=true)
-	public void VerifySkillsPageHeaderTest(){
-		actual_message = skillsPage.SkillsPageHeader();
-		Assert.assertEquals(actual_message, "Skills");
+	public void VerifyEducationPageHeaderTest(){
+		actual_message = educationPage.EducationPageHeader();
+		Assert.assertEquals(actual_message, "Education");
 	}
 	
 	@Test(priority=2, enabled=true)
-	public void VerifyAddSkillsPageHeaderTest(){
-		actual_message = skillsPage.AddSkillsPageHeader();
-		Assert.assertEquals(actual_message, "Add Skills");
+	public void VerifyAddEducationPageHeaderTest(){
+		actual_message = educationPage.AddEducationPageHeader();
+		Assert.assertEquals(actual_message, "Add Education");
 	}
 	
-	@DataProvider(name = "AddSkillSet")
+	
+	@DataProvider(name = "AddEducation")
 	public Object[][] getOrangeHRMTestData(){
-		Object data[][] = TestUtil.getTestData("AddSkills");
+		Object data[][] = TestUtil.getTestData("AddEducation");
 		return data;
 	}
 	
 	
-	@Test(dataProvider="AddSkillSet", priority=3, enabled=true)
-	public void VerifyAddSkillTest(String skill, String desc){
-		actual_message = skillsPage.AddSkill(skill, desc);
+	@Test(dataProvider="AddEducation", priority=3, enabled=true)
+	public void VerifyAddEducationTest(String education){
+		actual_message = educationPage.AddEducation(education);
 
 		if (actual_message.contains("Required")) {
 			assertTrue(actual_message.contains("Required"));
 		} 
-		else if(actual_message.contains("exists")) {
-			assertTrue(actual_message.contains("Already exists"));
+		else if(actual_message.contains("Exists")) {
+			assertTrue(actual_message.contains("Level Already Exists"));
 		}else {
 			assertTrue(actual_message.contains("Successfully Saved"));
 		}
-		
 	}
 	
 	
-	@DataProvider(name = "DeleteSkillSet")
+	@DataProvider(name = "DeleteEducation")
 	public Object[][] getOrangeHRMTestData1(){
-		Object data[][] = TestUtil.getTestData("DeleteSkills");
+		Object data[][] = TestUtil.getTestData("DeleteEducation");
 		return data;
 	}
 	
 	
-	@Test(dataProvider="DeleteSkillSet", priority=4, enabled=true)
-	public void VerifyDeleteSkillTest(String skill){
-		actual_message = skillsPage.DeleteSkill(skill);
+	@Test(dataProvider="DeleteEducation", priority=4, enabled=true)
+	public void VerifyDeleteSkillTest(String education){
+		actual_message = educationPage.DeleteEducation(education);
 		if (actual_message.contains("Success"))
 		assertTrue(actual_message.contains("Successfully Deleted"));
 	}
 	
 	
-	@DataProvider(name = "EditSkillSet")
+	@DataProvider(name = "EditEducation")
 	public Object[][] getOrangeHRMTestData2(){
-		Object data[][] = TestUtil.getTestData("EditSkills");
+		Object data[][] = TestUtil.getTestData("EditEducation");
 		return data;
 	}
 	
 	
-	@Test(dataProvider="EditSkillSet", priority=5, enabled=true)
-	public void VerifyEditSkillTest(String existingskill, String newskill){
-		actual_message = skillsPage.EditSkill(existingskill, newskill);
+	@Test(dataProvider="EditEducation", priority=5, enabled=true)
+	public void VerifyEditEducationTest(String existing_Education, String updated_Education){
+		actual_message = educationPage.EditEducation(existing_Education, updated_Education);
 		if (actual_message.contains("Required")) {
 			assertTrue(actual_message.contains("Required"));
 		} else {
@@ -106,11 +105,10 @@ public class SkillsPageTest extends TestBase {
 		}
 	}
 	
-	
-	
+
 	@AfterMethod
 	public void tearDown(){
 		driver.close();
 	}
-	
+
 }

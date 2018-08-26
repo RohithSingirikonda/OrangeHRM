@@ -6,13 +6,13 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.HRM.base.TestBase;
 
@@ -21,6 +21,7 @@ public class TestUtil extends TestBase{
 		
 		public static int Implicit_wait = 20;
 		public static int PageLoad_Timeout=30;
+
 		
 	
 		public static String ADMIN_TESTDATA_SHEET_PATH = System.getProperty("user.dir")+"/src/main/java/com/HRM/testdata/"
