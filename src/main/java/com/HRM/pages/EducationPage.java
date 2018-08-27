@@ -19,7 +19,7 @@ import com.HRM.util.TestUtil;
 public class EducationPage extends TestBase{
 
 	public static String message;
-
+	//List<WebElement> totalList = driver.findElements(By.xpath("//*[@id='recordsListTable']//tbody//tr//td[2]//a"));
 	
 	@FindBy(xpath="//div[@id='recordsListDiv']//h1")
 	WebElement page_header;
@@ -61,36 +61,29 @@ public class EducationPage extends TestBase{
 	
 	
 	public String AddEducation(String education){
+
+		List<WebElement> totalList = driver.findElements(By.xpath("//*[@id='recordsListTable']//tbody//tr//td[2]//a")); 
+		List<String> iterator_list = new ArrayList<>();
+		 
+		 for(int i=0; i<totalList.size(); i++){
+			 iterator_list.add(totalList.get(i).getText());
+		    }
 		
+
 		addbtn.click();
 		edu_name.sendKeys(education);
 		savebtn.click();
 		
-		try {
-
 			if (education.isEmpty()) {
-					message = validation_error.getText();
-			}else {
-				
-				List<WebElement> totalList = driver.findElements(By.xpath("//*[@id='recordsListTable']//tbody//tr//td[2]")); 
-				List<String> temp_data = new ArrayList<>();
-				 
-				 for(int i=0; i<totalList.size(); i++){
-				        temp_data.add(totalList.get(i).getText());
-				    }
-
-					if(temp_data.contains(education)){
-						WebDriverWait wait = new WebDriverWait(driver, 5);
-						WebElement warning = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class, 'message warning fadable')]")));
-						message = warning.getText();
-					}
-					else
-						throw new NoSuchElementException();
+				message = validation_error.getText();
+			}
+			else if(iterator_list.contains(education)){
+				message = driver.findElement(By.xpath("//div[contains(@class, 'message warning fadable')]")).getText();
+			}
+			else {
+				message = driver.findElement(By.xpath("//div[contains(@class, 'message success fadable')]")).getText();
 			}
 			
-		} catch (NoSuchElementException e) {
-			message = driver.findElement(By.xpath("//div[contains(@class, 'message success fadable')]")).getText();
-		}
 		
 		return message;
 	}
@@ -98,14 +91,14 @@ public class EducationPage extends TestBase{
 	
 	public String DeleteEducation(String education){
 		
-		List<WebElement> totalList = driver.findElements(By.xpath("//*[@id='recordsListTable']//tbody//tr//td[2]")); 
-		List<String> temp_data = new ArrayList<>();
+		List<WebElement> totalList = driver.findElements(By.xpath("//*[@id='recordsListTable']//tbody//tr//td[2]//a"));
+		List<String> iterator_list = new ArrayList<>();
 		 
 		 for(int i=0; i<totalList.size(); i++){
-		        temp_data.add(totalList.get(i).getText());
+			 iterator_list.add(totalList.get(i).getText());
 		    }
 		
-			if (temp_data.contains(education)) {
+			if (iterator_list.contains(education)) {
 				WebElement education_selected = driver.findElement(By.xpath("//*[@id='recordsListTable']//tbody//td[2]//a[text()='"+education+"']//parent::td//preceding-sibling::td"));
 				education_selected.click();
 				delbtn.click();
@@ -121,14 +114,15 @@ public class EducationPage extends TestBase{
 	
 	public String EditEducation(String existing_Education, String updated_Education){
 		
-		List<WebElement> totalList = driver.findElements(By.xpath("//*[@id='recordsListTable']//tbody//tr//td[2]")); 
-		List<String> temp_data = new ArrayList<>();
+		List<WebElement> totalList = driver.findElements(By.xpath("//*[@id='recordsListTable']//tbody//tr//td[2]//a")); 
+		List<String> iterator_list = new ArrayList<>();
 		 
 		 for(int i=0; i<totalList.size(); i++){
-		        temp_data.add(totalList.get(i).getText());
+			 iterator_list.add(totalList.get(i).getText());
 		    }
+		
 		 
-		if (temp_data.contains(existing_Education)) {
+		if (iterator_list.contains(existing_Education)) {
 				WebElement skill_selected = driver.findElement(By.xpath("//*[@id='recordsListTable']//tbody//td[2]//a[text()='"+existing_Education+"']"));
 				skill_selected.click();
 				edu_name.clear();

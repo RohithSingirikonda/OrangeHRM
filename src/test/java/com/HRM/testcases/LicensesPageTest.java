@@ -10,20 +10,19 @@ import org.testng.annotations.Test;
 
 import com.HRM.base.TestBase;
 import com.HRM.pages.AdminModulePage;
-import com.HRM.pages.EducationPage;
+import com.HRM.pages.LicensesPage;
 import com.HRM.pages.LoginPage;
 import com.HRM.util.TestUtil;
 
-public class EducationPageTest extends TestBase{
+public class LicensesPageTest extends TestBase{
 
-	
-	public String actual_message;
+public String actual_message;
 	
 	LoginPage loginPage;
 	AdminModulePage adminModulePage;
-	EducationPage educationPage;
+	LicensesPage licensesPage;
 	
-	public EducationPageTest(){
+	public LicensesPageTest(){
 		super();
 	}
 	
@@ -32,71 +31,71 @@ public class EducationPageTest extends TestBase{
 		init();
 		loginPage = new LoginPage();
 		adminModulePage  = new AdminModulePage();
-		educationPage = new EducationPage();
+		licensesPage =  new LicensesPage();
 		loginPage.AdminLogin(prop.getProperty("admin_username"), prop.getProperty("admin_password"));
-		educationPage = adminModulePage.ClickonEducationMenu();
+		licensesPage = adminModulePage.ClickonLicensesMenu();
 	}
 	
 	@Test(priority=1, enabled=true)
-	public void VerifyEducationPageHeaderTest(){
-		actual_message = educationPage.EducationPageHeader();
-		Assert.assertEquals(actual_message, "Education");
+	public void VerifylicensesPageHeaderTest(){
+		actual_message = licensesPage.LicensesPageHeader();
+		Assert.assertEquals(actual_message, "Licenses");
 	}
 	
 	@Test(priority=2, enabled=true)
-	public void VerifyAddEducationPageHeaderTest(){
-		actual_message = educationPage.AddEducationPageHeader();
-		Assert.assertEquals(actual_message, "Add Education");
+	public void VerifyAddlicensesPageHeaderTest(){
+		actual_message = licensesPage.AddLicensesPageHeader();
+		Assert.assertEquals(actual_message, "Add License");
 	}
 	
 	
-	@DataProvider(name = "AddEducation")
+	@DataProvider(name = "AddLicense")
 	public Object[][] getOrangeHRMTestData(){
-		Object data[][] = TestUtil.getTestData("AddEducation");
+		Object data[][] = TestUtil.getTestData("AddLicense");
 		return data;
 	}
 	
 	
-	@Test(dataProvider="AddEducation", priority=3, enabled=true)
-	public void VerifyAddEducationTest(String education){
-		actual_message = educationPage.AddEducation(education);
+	@Test(dataProvider="AddLicense", priority=3, enabled=true)
+	public void VerifyAddLicenseTest(String License){
+		actual_message = licensesPage.AddLicense(License);
 
 		if (actual_message.contains("Required")) {
 			assertTrue(actual_message.contains("Required"));
 		} 
 		else if(actual_message.contains("Exists")) {
-			assertTrue(actual_message.contains("Level Already Exists"));
+			assertTrue(actual_message.contains("Name Already Exists"));
 		}else {
 			assertTrue(actual_message.contains("Successfully Saved"));
 		}
 	}
 	
 	
-	@DataProvider(name = "DeleteEducation")
+	@DataProvider(name = "DeleteLicense")
 	public Object[][] getOrangeHRMTestData1(){
-		Object data[][] = TestUtil.getTestData("DeleteEducation");
+		Object data[][] = TestUtil.getTestData("DeleteLicense");
 		return data;
 	}
 	
 	
-	@Test(dataProvider="DeleteEducation", priority=4, enabled=true)
-	public void VerifyDeleteSkillTest(String education){
-		actual_message = educationPage.DeleteEducation(education);
+	@Test(dataProvider="DeleteLicense", priority=4, enabled=true)
+	public void VerifyDeleteSkillTest(String License){
+		actual_message = licensesPage.DeleteLicense(License);
 		if (actual_message.contains("Success"))
 		assertTrue(actual_message.contains("Successfully Deleted"));
 	}
 	
 	
-	@DataProvider(name = "EditEducation")
+	@DataProvider(name = "EditLicense")
 	public Object[][] getOrangeHRMTestData2(){
-		Object data[][] = TestUtil.getTestData("EditEducation");
+		Object data[][] = TestUtil.getTestData("EditLicense");
 		return data;
 	}
 	
 	
-	@Test(dataProvider="EditEducation", priority=5, enabled=true)
-	public void VerifyEditEducationTest(String existing_Education, String updated_Education){
-		actual_message = educationPage.EditEducation(existing_Education, updated_Education);
+	@Test(dataProvider="EditLicense", priority=5, enabled=true)
+	public void VerifyEditLicenseTest(String existing_License, String updated_License){
+		actual_message = licensesPage.EditLicense(existing_License, updated_License);
 		if (actual_message.contains("Required")) {
 			assertTrue(actual_message.contains("Required"));
 		} else {
@@ -110,4 +109,6 @@ public class EducationPageTest extends TestBase{
 		driver.close();
 	}
 
+	
+	
 }

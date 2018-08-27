@@ -25,10 +25,13 @@
 			<class name="com.HRM.testcases.PayGradesPageTest"></class>			
 			<class name="com.HRM.testcases.EmploymentStatusPageTest"></class>			
 			<class name="com.HRM.testcases.JobCategoriesPageTest"></class>			
-			<class name="com.HRM.testcases.GeneralInformationPageTest"></class>			
+			<class name="com.HRM.testcases.GeneralInformationPageTest"></class>						
+			<class name="com.HRM.testcases.AddLocationPageTest"></class>
 			<class name="com.HRM.testcases.LocationsPageTest"></class>
-			<class name="com.HRM.testcases.AddLocationPageTest"></class>			
-			
+			<class name="com.HRM.testcases.StructurePageTest"></class>
+			<class name="com.HRM.testcases.SkillsPageTest"></class>			
+			<class name="com.HRM.testcases.EducationPageTest"></class>			
+			<class name="com.HRM.testcases.LicensesPageTest"></class>			
 		</classes>
 	</test>
 </suite>
