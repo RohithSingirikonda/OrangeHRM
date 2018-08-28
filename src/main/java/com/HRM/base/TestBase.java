@@ -22,7 +22,6 @@ public class TestBase {
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
 	
-	
 	public TestBase(){
 		
 		try {
