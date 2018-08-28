@@ -104,7 +104,7 @@ public class LicensesPage extends TestBase{
 	}
 	
 	
-public String EditLicense(String existing_license, String updated_license){
+	public String EditLicense(String existing_license, String updated_license){
 		
 		List<WebElement> totalList = driver.findElements(By.xpath("//*[@id='recordsListTable']//tbody//tr//td[2]//a")); 
 		List<String> iterator_list = new ArrayList<>();
@@ -130,7 +130,4 @@ public String EditLicense(String existing_license, String updated_license){
 		return message;
 	}
 	
-	
-	
-
 }

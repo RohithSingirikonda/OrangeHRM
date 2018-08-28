@@ -10,19 +10,19 @@ import org.testng.annotations.Test;
 
 import com.HRM.base.TestBase;
 import com.HRM.pages.AdminModulePage;
-import com.HRM.pages.LicensesPage;
+import com.HRM.pages.LanguagePage;
 import com.HRM.pages.LoginPage;
 import com.HRM.util.TestUtil;
 
-public class LicensesPageTest extends TestBase{
+public class LanguagePageTest extends TestBase{
 
 	public String actual_message;
 	
 	LoginPage loginPage;
 	AdminModulePage adminModulePage;
-	LicensesPage licensesPage;
+	LanguagePage languagePage;
 	
-	public LicensesPageTest(){
+	public LanguagePageTest(){
 		super();
 	}
 	
@@ -30,35 +30,36 @@ public class LicensesPageTest extends TestBase{
 	public void setUp(){
 		init();
 		loginPage = new LoginPage();
-		adminModulePage  = new AdminModulePage();
-		licensesPage =  new LicensesPage();
+		adminModulePage = new AdminModulePage();
+		languagePage = new LanguagePage();
 		loginPage.AdminLogin(prop.getProperty("admin_username"), prop.getProperty("admin_password"));
-		licensesPage = adminModulePage.ClickonLicensesMenu();
+		languagePage = adminModulePage.ClickonlanguagesMenu();
 	}
+
 	
 	@Test(priority=1, enabled=true)
-	public void VerifylicensesPageHeaderTest(){
-		actual_message = licensesPage.LicensesPageHeader();
-		Assert.assertEquals(actual_message, "Licenses");
+	public void VerifylanguagePageHeaderTest(){
+		actual_message = languagePage.LanguagePageHeader();
+		Assert.assertEquals(actual_message, "Languages");
 	}
 	
 	@Test(priority=2, enabled=true)
-	public void VerifyAddlicensesPageHeaderTest(){
-		actual_message = licensesPage.AddLicensesPageHeader();
-		Assert.assertEquals(actual_message, "Add License");
+	public void VerifyAddlanguagePageHeaderTest(){
+		actual_message = languagePage.AddLanguagePageHeader();
+		Assert.assertEquals(actual_message, "Add Language");
 	}
 	
 	
-	@DataProvider(name = "AddLicense")
+	
+	@DataProvider(name = "AddLanguage")
 	public Object[][] getOrangeHRMTestData(){
-		Object data[][] = TestUtil.getTestData("AddLicense");
+		Object data[][] = TestUtil.getTestData("AddLanguage");
 		return data;
 	}
-	
-	
-	@Test(dataProvider="AddLicense", priority=3, enabled=true)
-	public void VerifyAddLicenseTest(String License){
-		actual_message = licensesPage.AddLicense(License);
+
+	@Test(dataProvider="AddLanguage", priority=3, enabled=true)
+	public void VerifyAddLanguageTest(String language){
+		actual_message = languagePage.AddLanguage(language);
 
 		if (actual_message.contains("Required")) {
 			assertTrue(actual_message.contains("Required"));
@@ -71,31 +72,33 @@ public class LicensesPageTest extends TestBase{
 	}
 	
 	
-	@DataProvider(name = "DeleteLicense")
+	
+	
+	@DataProvider(name = "DeleteLanguage")
 	public Object[][] getOrangeHRMTestData1(){
-		Object data[][] = TestUtil.getTestData("DeleteLicense");
+		Object data[][] = TestUtil.getTestData("DeleteLanguage");
 		return data;
 	}
 	
-	
-	@Test(dataProvider="DeleteLicense", priority=4, enabled=true)
-	public void VerifyDeleteSkillTest(String License){
-		actual_message = licensesPage.DeleteLicense(License);
+	@Test(dataProvider="DeleteLanguage", priority=4, enabled=true)
+	public void VerifyDeleteLanguageTest(String language){
+		actual_message = languagePage.DeleteLanguage(language);
 		if (actual_message.contains("Success"))
 		assertTrue(actual_message.contains("Successfully Deleted"));
 	}
 	
 	
-	@DataProvider(name = "EditLicense")
+	
+	
+	@DataProvider(name = "EditLanguage")
 	public Object[][] getOrangeHRMTestData2(){
-		Object data[][] = TestUtil.getTestData("EditLicense");
+		Object data[][] = TestUtil.getTestData("EditLanguage");
 		return data;
 	}
 	
-	
-	@Test(dataProvider="EditLicense", priority=5, enabled=true)
-	public void VerifyEditLicenseTest(String existing_License, String updated_License){
-		actual_message = licensesPage.EditLicense(existing_License, updated_License);
+	@Test(dataProvider="EditLanguage", priority=5, enabled=true)
+	public void VerifyEditLanguageTest(String existing_Language, String updated_Language){
+		actual_message = languagePage.EditLanguage(existing_Language, updated_Language);
 		if (actual_message.contains("Required")) {
 			assertTrue(actual_message.contains("Required"));
 		} else {
@@ -104,11 +107,10 @@ public class LicensesPageTest extends TestBase{
 	}
 	
 
+	
 	@AfterMethod
 	public void tearDown(){
 		driver.quit();
 	}
-
-	
 	
 }

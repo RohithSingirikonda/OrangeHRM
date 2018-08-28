@@ -156,11 +156,11 @@ public class AdminModulePage extends TestBase{
 	}
 	
 	
-	public StructurePage ClickonMembershipsMenu(){
+	public MembershipsPage ClickonMembershipsMenu(){
 		action.moveToElement(AdminBtn).
 		moveToElement(qualifications_Option).
 		moveToElement(driver.findElement(By.id("menu_admin_membership"))).click().build().perform();
-		return new StructurePage();
+		return new MembershipsPage();
 	}
 	
 	
