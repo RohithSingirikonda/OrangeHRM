@@ -10,7 +10,8 @@
 
   <name>OrangeHRM_Project</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>http://maven.apache.org</url>
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,7 +33,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
 
 
   <dependencies>
@@ -122,7 +122,7 @@
 			<artifactId>extentreports</artifactId>
 			<version>2.41.2</version>
 		</dependency>
-		
+				
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-htmlunit-driver -->
 		<dependency>
     		<groupId>org.seleniumhq.selenium</groupId>
