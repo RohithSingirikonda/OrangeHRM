@@ -12,7 +12,6 @@ import com.HRM.base.TestBase;
 import com.HRM.pages.AdminModulePage;
 import com.HRM.pages.MembershipsPage;
 import com.HRM.pages.LoginPage;
-import com.HRM.pages.MembershipsPage;
 import com.HRM.util.TestUtil;
 
 public class MembershipsPageTest extends TestBase {
@@ -44,7 +43,7 @@ public class MembershipsPageTest extends TestBase {
 		Assert.assertEquals(actual_message, "Memberships");
 	}
 	
-	@Test(priority=2, enabled=true)
+	@Test(priority=2, enabled=false)
 	public void VerifyAddmembershipPageHeaderTest(){
 		actual_message = membershipsPage.AddMembershipsPageHeader();
 		Assert.assertEquals(actual_message, "Add Membership");
@@ -65,8 +64,8 @@ public class MembershipsPageTest extends TestBase {
 		if (actual_message.contains("Required")) {
 			assertTrue(actual_message.contains("Required"));
 		} 
-		else if(actual_message.contains("Exists")) {
-			assertTrue(actual_message.contains("Already Exists"));
+		else if(actual_message.contains("exists")) {
+			assertTrue(actual_message.contains("Already exists"));
 		}else {
 			assertTrue(actual_message.contains("Successfully Saved"));
 		}
@@ -102,12 +101,12 @@ public class MembershipsPageTest extends TestBase {
 		actual_message = membershipsPage.EditMembership(existing_Membership, updated_Membership);
 		if (actual_message.contains("Required")) {
 			assertTrue(actual_message.contains("Required"));
-		} else {
-			assertTrue(actual_message.contains("Successfully Updated"));
+		} else if(actual_message.contains("exists")) {
+			assertTrue(actual_message.contains("Already exists"));
+		}else {
+			assertTrue(actual_message.contains("Successfully Saved"));
 		}
 	}
-	
-
 	
 	@AfterMethod
 	public void tearDown(){

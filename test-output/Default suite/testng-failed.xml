@@ -6,8 +6,6 @@
       <class name="com.HRM.testcases.MembershipsPageTest">
         <methods>
           <include name="VerifyEditMembershipsTest" invocation-numbers="0 1 2"/>
-          <include name="VerifyDeleteMembershipsTest" invocation-numbers="0 1 2"/>
-          <include name="VerifyAddMembershipsTest" invocation-numbers="3"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
