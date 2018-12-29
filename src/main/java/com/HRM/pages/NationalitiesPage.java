@@ -101,7 +101,7 @@ public class NationalitiesPage extends TestBase {
 				education_selected.click();
 				delbtn.click();
 				
-				if (flag.contains("true") || flag.contains("TRUE")) {
+				if (flag.contains("true") || flag.contains("TRUE"))  {
 					assertTrue(driver.findElement(By.id("deleteConfModal")).isDisplayed());
 					assertTrue(driver.findElement(By.xpath("//div[@id='deleteConfModal']//div[@class='modal-header']//h3")).isDisplayed());
 					assertTrue(driver.findElement(By.xpath("//div[@id='deleteConfModal']//div[@class='modal-body']//p")).isDisplayed());
