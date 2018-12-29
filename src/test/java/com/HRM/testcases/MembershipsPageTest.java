@@ -43,7 +43,7 @@ public class MembershipsPageTest extends TestBase {
 		Assert.assertEquals(actual_message, "Memberships");
 	}
 	
-	@Test(priority=2, enabled=false)
+	@Test(priority=2, enabled=true)
 	public void VerifyAddmembershipPageHeaderTest(){
 		actual_message = membershipsPage.AddMembershipsPageHeader();
 		Assert.assertEquals(actual_message, "Add Membership");

@@ -32,7 +32,8 @@
 			<class name="com.HRM.testcases.SkillsPageTest"></class>			
 			<class name="com.HRM.testcases.EducationPageTest"></class>			
 			<class name="com.HRM.testcases.LicensesPageTest"></class>
-			<class name="com.HRM.testcases.LanguagePageTest"></class>				
+			<class name="com.HRM.testcases.LanguagePageTest"></class>	
+			<class name="com.HRM.testcases.NationalitiesPageTest"></class>			
 		</classes>
 	</test>
 </suite>

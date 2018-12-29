@@ -1,69 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44957" started-at="2018-09-01T05:54:19Z" finished-at="2018-09-01T05:55:04Z">
+  <suite name="Default suite" duration-ms="580974" started-at="2018-09-03T05:02:25Z" finished-at="2018-09-03T05:12:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44957" started-at="2018-09-01T05:54:19Z" finished-at="2018-09-01T05:55:04Z">
-      <class name="com.HRM.testcases.MembershipsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.MembershipsPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="12235" started-at="2018-09-01T11:24:20Z" finished-at="2018-09-01T11:24:32Z">
+    <test name="Default test" duration-ms="580974" started-at="2018-09-03T05:02:25Z" finished-at="2018-09-03T05:12:06Z">
+      <class name="com.HRM.testcases.NationalitiesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="42637" started-at="2018-09-03T10:32:25Z" finished-at="2018-09-03T10:33:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyEditMembershipsTest(java.lang.String, java.lang.String)[pri:5, instance:com.HRM.testcases.MembershipsPageTest@1686d1f]" name="VerifyEditMembershipsTest" duration-ms="2608" started-at="2018-09-01T11:24:32Z" data-provider="EditMembership" finished-at="2018-09-01T11:24:35Z">
+        <test-method status="PASS" signature="VerifyNationalityPageHeaderTest()[pri:1, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="VerifyNationalityPageHeaderTest" duration-ms="147" started-at="2018-09-03T10:33:07Z" finished-at="2018-09-03T10:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNationalityPageHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="1495" started-at="2018-09-03T10:33:08Z" finished-at="2018-09-03T10:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="42362" started-at="2018-09-03T10:33:09Z" finished-at="2018-09-03T10:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyAddNationalityPageHeaderTest()[pri:2, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="VerifyAddNationalityPageHeaderTest" duration-ms="650" started-at="2018-09-03T10:33:52Z" finished-at="2018-09-03T10:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddNationalityPageHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="1248" started-at="2018-09-03T10:33:52Z" finished-at="2018-09-03T10:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="40162" started-at="2018-09-03T10:33:56Z" finished-at="2018-09-03T10:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyAddNationalityTest(java.lang.String)[pri:3, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="VerifyAddNationalityTest" duration-ms="16119" started-at="2018-09-03T10:34:36Z" data-provider="AddNationality" finished-at="2018-09-03T10:34:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[CSI]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[CSI_NEW]]>
+                <![CDATA[Pakistan]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyEditMembershipsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.MembershipsPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="832" started-at="2018-09-01T11:24:35Z" finished-at="2018-09-01T11:24:36Z">
+        </test-method> <!-- VerifyAddNationalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="4539" started-at="2018-09-03T10:34:52Z" finished-at="2018-09-03T10:34:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.MembershipsPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="12174" started-at="2018-09-01T11:24:36Z" finished-at="2018-09-01T11:24:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="38088" started-at="2018-09-03T10:34:57Z" finished-at="2018-09-03T10:35:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyEditMembershipsTest(java.lang.String, java.lang.String)[pri:5, instance:com.HRM.testcases.MembershipsPageTest@1686d1f]" name="VerifyEditMembershipsTest" duration-ms="2311" started-at="2018-09-01T11:24:48Z" data-provider="EditMembership" finished-at="2018-09-01T11:24:50Z">
+        <test-method status="PASS" signature="VerifyAddNationalityTest(java.lang.String)[pri:3, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="VerifyAddNationalityTest" duration-ms="10940" started-at="2018-09-03T10:35:35Z" data-provider="AddNationality" finished-at="2018-09-03T10:35:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[CSI_NEW]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[CSI]]>
+                <![CDATA[Indani]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyEditMembershipsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.MembershipsPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="849" started-at="2018-09-01T11:24:50Z" finished-at="2018-09-01T11:24:51Z">
+        </test-method> <!-- VerifyAddNationalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2313" started-at="2018-09-03T10:35:46Z" finished-at="2018-09-03T10:35:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.MembershipsPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="10949" started-at="2018-09-01T11:24:51Z" finished-at="2018-09-01T11:25:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="59520" started-at="2018-09-03T10:35:48Z" finished-at="2018-09-03T10:36:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyEditMembershipsTest(java.lang.String, java.lang.String)[pri:5, instance:com.HRM.testcases.MembershipsPageTest@1686d1f]" name="VerifyEditMembershipsTest" duration-ms="1041" started-at="2018-09-01T11:25:02Z" data-provider="EditMembership" finished-at="2018-09-01T11:25:03Z">
+        <test-method status="PASS" signature="VerifyAddNationalityTest(java.lang.String)[pri:3, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="VerifyAddNationalityTest" duration-ms="11253" started-at="2018-09-03T10:36:48Z" data-provider="AddNationality" finished-at="2018-09-03T10:36:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[CSI]]>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddNationalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="1060" started-at="2018-09-03T10:36:59Z" finished-at="2018-09-03T10:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="34315" started-at="2018-09-03T10:37:00Z" finished-at="2018-09-03T10:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyAddNationalityTest(java.lang.String)[pri:3, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="VerifyAddNationalityTest" duration-ms="6549" started-at="2018-09-03T10:37:34Z" data-provider="AddNationality" finished-at="2018-09-03T10:37:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nigerian]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddNationalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="797" started-at="2018-09-03T10:37:41Z" finished-at="2018-09-03T10:37:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="33641" started-at="2018-09-03T10:37:42Z" finished-at="2018-09-03T10:38:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyDeleteNationalityTest(java.lang.String, java.lang.String)[pri:4, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="VerifyDeleteNationalityTest" duration-ms="8859" started-at="2018-09-03T10:38:16Z" data-provider="DeleteNationality" finished-at="2018-09-03T10:38:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pakistan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteNationalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="826" started-at="2018-09-03T10:38:24Z" finished-at="2018-09-03T10:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="32694" started-at="2018-09-03T10:38:25Z" finished-at="2018-09-03T10:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyDeleteNationalityTest(java.lang.String, java.lang.String)[pri:4, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="VerifyDeleteNationalityTest" duration-ms="8583" started-at="2018-09-03T10:38:58Z" data-provider="DeleteNationality" finished-at="2018-09-03T10:39:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Indani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteNationalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="2437" started-at="2018-09-03T10:39:07Z" finished-at="2018-09-03T10:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="34854" started-at="2018-09-03T10:39:09Z" finished-at="2018-09-03T10:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyDeleteNationalityTest(java.lang.String, java.lang.String)[pri:4, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="VerifyDeleteNationalityTest" duration-ms="6878" started-at="2018-09-03T10:39:44Z" data-provider="DeleteNationality" finished-at="2018-09-03T10:39:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nigerian]]>
               </value>
             </param>
             <param index="1">
@@ -74,12 +174,84 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyEditMembershipsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.MembershipsPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="795" started-at="2018-09-01T11:25:03Z" finished-at="2018-09-01T11:25:04Z">
+        </test-method> <!-- VerifyDeleteNationalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="961" started-at="2018-09-03T10:39:51Z" finished-at="2018-09-03T10:39:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.HRM.testcases.MembershipsPageTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="33573" started-at="2018-09-03T10:39:52Z" finished-at="2018-09-03T10:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyEditNationalityTest(java.lang.String, java.lang.String)[pri:5, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="VerifyEditNationalityTest" duration-ms="10973" started-at="2018-09-03T10:40:25Z" data-provider="EditNationality" finished-at="2018-09-03T10:40:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Afghan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Afghan_NEW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditNationalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="808" started-at="2018-09-03T10:40:36Z" finished-at="2018-09-03T10:40:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="35691" started-at="2018-09-03T10:40:37Z" finished-at="2018-09-03T10:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyEditNationalityTest(java.lang.String, java.lang.String)[pri:5, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="VerifyEditNationalityTest" duration-ms="9968" started-at="2018-09-03T10:41:13Z" data-provider="EditNationality" finished-at="2018-09-03T10:41:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Afghan_NEW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Afghan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditNationalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="823" started-at="2018-09-03T10:41:23Z" finished-at="2018-09-03T10:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="setUp" is-config="true" duration-ms="34149" started-at="2018-09-03T10:41:24Z" finished-at="2018-09-03T10:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyEditNationalityTest(java.lang.String, java.lang.String)[pri:5, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="VerifyEditNationalityTest" duration-ms="6950" started-at="2018-09-03T10:41:58Z" data-provider="EditNationality" finished-at="2018-09-03T10:42:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Afghan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditNationalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.NationalitiesPageTest@1686d1f]" name="tearDown" is-config="true" duration-ms="790" started-at="2018-09-03T10:42:05Z" finished-at="2018-09-03T10:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.HRM.testcases.NationalitiesPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
